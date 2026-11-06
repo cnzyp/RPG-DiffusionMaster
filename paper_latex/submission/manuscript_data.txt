@@ -1,0 +1,29 @@
+TITLE
+The Injection Site Determines What Identity Survives in Training-Free Multi-Concept Personalization
+
+
+ABSTRACT   (251 words)
+Generating one image of several specific concepts, each given by a reference photograph, requires a training-free method to impose a spatial constraint somewhere in the diffusion process. Published methods differ in where, but also in backbone, adapter, layout source and sampler, so the site has never been isolated. Holding all of those fixed and varying only the site, we find the construction most training-free work uses—masking the adapter inside cross-attention—recovers 1.7% of the identity the same adapter delivers from the sampling loop, indistinguishable from zero at any injection strength, while fusing per-region forward passes at the noise level recovers 68% and a per-region sub-canvas all of it. We build the last into a method: each planned region is denoised in its own sub-canvas by the unmodified adapter, and the partition is released at a switch point located by intervention. On Mixed-Eval-v1, 150 two- and three-region samples released here, it reaches the highest DINO-ID (0.720), leakage margin (+0.488) and per-region face identity (0.266) of all methods evaluated—ahead on all three (p < 0.001) of a model trained on a subject-annotated corpus, at 0.83× its cost and 0.004 behind on text alignment. This needs instruments the literature lacks, contributed here: a reference-swap test, pinned at zero by a reference-free baseline, under which an attention-gated adapter does not move toward its new reference (p = 0.79); and the finding that identity scores are read through framing (r = 0.949 between face area and DINO-ID), for which we give a framing-independent measure. Nothing is fine-tuned.
+
+
+KEYWORDS   (6, separate with semicolons)
+personalized image generation; multi-concept composition; diffusion models; training-free adaptation; regional control; identity preservation
+
+
+AUTHORS   (in this order)
+1. Yaping Zhang   zypcsuysy@163.com   ORCID 0009-0002-6084-3598
+   corresponding author
+2. Mengqin Sun    918132108@qq.com
+   corresponding author
+3. Kaicheng Shi   568587800@qq.com
+4. Shaoying Yang  270423966@qq.com
+
+Affiliation for all four:
+School of Computer Science and Artificial Intelligence (Industrial Software),
+Guangdong University of Science and Technology,
+No. 2 Dongyuan Avenue, Shipai Town, Dongguan, 523000, Guangdong, China
+
+
+FUNDING INFORMATION
+None.  This research received no specific grant from any funding agency in
+the public, commercial, or not-for-profit sectors.

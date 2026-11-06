@@ -111,9 +111,15 @@ Thank you for your consideration.
 Yours sincerely,
 
 Yaping Zhang, Mengqin Sun, Kaicheng Shi, Shaoying Yang
+
 School of Computer Science and Artificial Intelligence (Industrial Software)
 Guangdong University of Science and Technology
 No. 2 Dongyuan Avenue, Shipai Town, Dongguan 523000, Guangdong, China
+(Yaping Zhang, Mengqin Sun, Kaicheng Shi)
+
+Financial Technology Department
+Shenzhen Securities Communication Co., Ltd., Shenzhen, China
+(Shaoying Yang)
 
 Corresponding authors:
   Yaping Zhang   zypcsuysy@163.com

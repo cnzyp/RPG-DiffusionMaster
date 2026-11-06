@@ -210,7 +210,7 @@ BYLINE = r"""
 \author[inst1]{Kaicheng Shi}
 \ead{568587800@qq.com}
 
-\author[inst1]{Shaoying Yang}
+\author[inst2]{Shaoying Yang}
 \ead{270423966@qq.com}
 
 \cortext[cor1]{Corresponding authors}
@@ -223,6 +223,12 @@ BYLINE = r"""
   city={Dongguan},
   postcode={523000},
   state={Guangdong},
+  country={China}}
+
+\affiliation[inst2]{%
+  organization={Financial Technology Department, Shenzhen Securities
+                Communication Co., Ltd.},
+  city={Shenzhen},
   country={China}}
 """
 
@@ -394,18 +400,18 @@ original draft, Writing -- review \& editing.
 \textbf{Shaoying Yang:} Investigation, Writing -- review \& editing.
 """
 
-DATA_NAMED = r"""The Mixed-Eval-v1 benchmark, the evaluation harness and the code required to
-reproduce every number in this paper are available at
-\url{https://github.com/cnzyp/RPG-DiffusionMaster}.  Reference images are
-redistributed from their original public sources under the terms of those
-sources."""
+DATA_NAMED = r"""The Mixed-Eval-v1 and Scaling-Bench benchmarks, the evaluation harness and
+the code required to reproduce every number in this paper are available at
+\url{https://github.com/cnzyp/RPG-DiffusionMaster}.  The benchmark manifests
+name each reference photograph and the public source it comes from; the
+photographs themselves are not redistributed."""
 
 DATA_BLIND = r"""The Mixed-Eval-v1 benchmark, the evaluation harness and the code required to
 reproduce every number in this paper are released in a public repository.  The
 link identifies the authors and is therefore withheld from this anonymised
 copy; it is given in the submission system and will appear here on acceptance.
-Reference images are redistributed from their original public sources under
-the terms of those sources."""
+The benchmark manifests name each reference photograph and the public source
+it comes from; the photographs themselves are not redistributed."""
 
 
 def declarations(anonymous):
