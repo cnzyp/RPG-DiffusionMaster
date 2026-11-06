@@ -1,0 +1,3160 @@
+{
+  "name": "DreamBench-2",
+  "description": "2-concept evaluation subset built from DreamBench++ (Yuan et al., ICLR 2025). 30 concept pairs × 5 prompts = 150 samples. Pair types: human+human, human+animal, human+object, animal+object.",
+  "source": "yuangpeng/dreambench_plus",
+  "n_pairs": 30,
+  "n_prompts_per_pair": 5,
+  "n_samples": 150,
+  "samples": [
+    {
+      "sample_id": "db2_HH_000",
+      "full_prompt": "A photograph of a man and a girl sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photo of a girl blowing dandelions in a sunny field",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\13.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "girl"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "13",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_001",
+      "full_prompt": "A photo of a man next to a girl on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photo of a girl blowing dandelions in a sunny field",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\13.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "girl"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "13",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_002",
+      "full_prompt": "A scene showing a man and a girl together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photo of a girl blowing dandelions in a sunny field",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\13.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "girl"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "13",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_003",
+      "full_prompt": "A photograph of a man and a girl resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photo of a girl blowing dandelions in a sunny field",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\13.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "girl"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "13",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_004",
+      "full_prompt": "A photo of a man alongside a girl on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photo of a girl blowing dandelions in a sunny field",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\13.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "girl"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "13",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_005",
+      "full_prompt": "A photograph of a man and a basketball player sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photo of a basketball player shooting a basket during a sunset game",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\11.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "basketball player"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "11",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_006",
+      "full_prompt": "A photo of a man next to a basketball player on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photo of a basketball player shooting a basket during a sunset game",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\11.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "basketball player"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "11",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_007",
+      "full_prompt": "A scene showing a man and a basketball player together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photo of a basketball player shooting a basket during a sunset game",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\11.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "basketball player"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "11",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_008",
+      "full_prompt": "A photograph of a man and a basketball player resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photo of a basketball player shooting a basket during a sunset game",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\11.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "basketball player"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "11",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_009",
+      "full_prompt": "A photo of a man alongside a basketball player on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photo of a basketball player shooting a basket during a sunset game",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\11.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "basketball player"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "11",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_010",
+      "full_prompt": "A photograph of a man and a woman sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photograph of a woman strolling through a vibrant street market",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\16.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "woman"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "16",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_011",
+      "full_prompt": "A photo of a man next to a woman on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photograph of a woman strolling through a vibrant street market",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\16.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "woman"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "16",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_012",
+      "full_prompt": "A scene showing a man and a woman together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photograph of a woman strolling through a vibrant street market",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\16.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "woman"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "16",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_013",
+      "full_prompt": "A photograph of a man and a woman resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photograph of a woman strolling through a vibrant street market",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\16.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "woman"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "16",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_014",
+      "full_prompt": "A photo of a man alongside a woman on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photograph of a woman strolling through a vibrant street market",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\16.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "woman"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "16",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_015",
+      "full_prompt": "A photograph of a man and a space ranger sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photo of a space ranger navigating through a rocky alien terrain",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\00.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "space ranger"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "00",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_016",
+      "full_prompt": "A photo of a man next to a space ranger on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photo of a space ranger navigating through a rocky alien terrain",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\00.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "space ranger"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "00",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_017",
+      "full_prompt": "A scene showing a man and a space ranger together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photo of a space ranger navigating through a rocky alien terrain",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\00.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "space ranger"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "00",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_018",
+      "full_prompt": "A photograph of a man and a space ranger resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photo of a space ranger navigating through a rocky alien terrain",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\00.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "space ranger"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "00",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_019",
+      "full_prompt": "A photo of a man alongside a space ranger on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photo of a space ranger navigating through a rocky alien terrain",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\00.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "space ranger"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "00",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_020",
+      "full_prompt": "A photograph of a man and a man sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photograph of a man strolling through a vibrant autumn park",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\17.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "man"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "17",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_021",
+      "full_prompt": "A photo of a man next to a man on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photograph of a man strolling through a vibrant autumn park",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\17.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "man"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "17",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_022",
+      "full_prompt": "A scene showing a man and a man together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photograph of a man strolling through a vibrant autumn park",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\17.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "man"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "17",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_023",
+      "full_prompt": "A photograph of a man and a man resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photograph of a man strolling through a vibrant autumn park",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\17.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "man"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "17",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_024",
+      "full_prompt": "A photo of a man alongside a man on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photograph of a man strolling through a vibrant autumn park",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\17.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "man"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "17",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_025",
+      "full_prompt": "A photograph of a man and a girl sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photograph of a girl strolling through a vibrant marketplace",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\04.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "girl"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "04",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_026",
+      "full_prompt": "A photo of a man next to a girl on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photograph of a girl strolling through a vibrant marketplace",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\04.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "girl"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "04",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_027",
+      "full_prompt": "A scene showing a man and a girl together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photograph of a girl strolling through a vibrant marketplace",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\04.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "girl"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "04",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_028",
+      "full_prompt": "A photograph of a man and a girl resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photograph of a girl strolling through a vibrant marketplace",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\04.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "girl"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "04",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_029",
+      "full_prompt": "A photo of a man alongside a girl on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photograph of a girl strolling through a vibrant marketplace",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\04.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "girl"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "04",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_030",
+      "full_prompt": "A photograph of a man and a Spider-Man sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photograph of Spider-Man swinging between skyscrapers at sunset",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\14.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "Spider-Man"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "14",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_031",
+      "full_prompt": "A photo of a man next to a Spider-Man on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photograph of Spider-Man swinging between skyscrapers at sunset",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\14.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "Spider-Man"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "14",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_032",
+      "full_prompt": "A scene showing a man and a Spider-Man together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photograph of Spider-Man swinging between skyscrapers at sunset",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\14.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "Spider-Man"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "14",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_033",
+      "full_prompt": "A photograph of a man and a Spider-Man resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photograph of Spider-Man swinging between skyscrapers at sunset",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\14.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "Spider-Man"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "14",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_034",
+      "full_prompt": "A photo of a man alongside a Spider-Man on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photograph of Spider-Man swinging between skyscrapers at sunset",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\14.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "Spider-Man"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "14",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_035",
+      "full_prompt": "A photograph of a man and a man sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photograph of a man reading a newspaper on a park bench",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\07.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "man"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "07",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_036",
+      "full_prompt": "A photo of a man next to a man on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photograph of a man reading a newspaper on a park bench",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\07.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "man"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "07",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_037",
+      "full_prompt": "A scene showing a man and a man together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photograph of a man reading a newspaper on a park bench",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\07.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "man"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "07",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_038",
+      "full_prompt": "A photograph of a man and a man resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photograph of a man reading a newspaper on a park bench",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\07.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "man"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "07",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_039",
+      "full_prompt": "A photo of a man alongside a man on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man reading a newspaper on a park bench BREAK A photograph of a man reading a newspaper on a park bench",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\07.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "man"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "07",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_000",
+      "full_prompt": "A photograph of a basketball player and a lion sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of a lion lounging under the shade of an acacia tree in the savannah",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\23.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "lion"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "23",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_001",
+      "full_prompt": "A photo of a basketball player next to a lion on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of a lion lounging under the shade of an acacia tree in the savannah",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\23.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "lion"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "23",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_002",
+      "full_prompt": "A scene showing a basketball player and a lion together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of a lion lounging under the shade of an acacia tree in the savannah",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\23.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "lion"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "23",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_003",
+      "full_prompt": "A photograph of a basketball player and a lion resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of a lion lounging under the shade of an acacia tree in the savannah",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\23.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "lion"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "23",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_004",
+      "full_prompt": "A photo of a basketball player alongside a lion on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of a lion lounging under the shade of an acacia tree in the savannah",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\23.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "lion"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "23",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_005",
+      "full_prompt": "A photograph of a basketball player and a eagle sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of an eagle soaring high above a mountain range",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\14.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "eagle"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "14",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_006",
+      "full_prompt": "A photo of a basketball player next to a eagle on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of an eagle soaring high above a mountain range",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\14.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "eagle"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "14",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_007",
+      "full_prompt": "A scene showing a basketball player and a eagle together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of an eagle soaring high above a mountain range",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\14.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "eagle"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "14",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_008",
+      "full_prompt": "A photograph of a basketball player and a eagle resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of an eagle soaring high above a mountain range",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\14.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "eagle"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "14",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_009",
+      "full_prompt": "A photo of a basketball player alongside a eagle on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of an eagle soaring high above a mountain range",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\14.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "eagle"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "14",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_010",
+      "full_prompt": "A photograph of a basketball player and a horse sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of a horse galloping across a misty field at dawn",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\03.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "horse"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "03",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_011",
+      "full_prompt": "A photo of a basketball player next to a horse on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of a horse galloping across a misty field at dawn",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\03.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "horse"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "03",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_012",
+      "full_prompt": "A scene showing a basketball player and a horse together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of a horse galloping across a misty field at dawn",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\03.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "horse"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "03",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_013",
+      "full_prompt": "A photograph of a basketball player and a horse resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of a horse galloping across a misty field at dawn",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\03.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "horse"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "03",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_014",
+      "full_prompt": "A photo of a basketball player alongside a horse on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of a horse galloping across a misty field at dawn",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\03.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "horse"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "03",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_015",
+      "full_prompt": "A photograph of a basketball player and a heron sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photo of a heron standing stoically in a serene pond at sunrise",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\11.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "heron"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "11",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_016",
+      "full_prompt": "A photo of a basketball player next to a heron on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photo of a heron standing stoically in a serene pond at sunrise",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\11.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "heron"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "11",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_017",
+      "full_prompt": "A scene showing a basketball player and a heron together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photo of a heron standing stoically in a serene pond at sunrise",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\11.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "heron"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "11",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_018",
+      "full_prompt": "A photograph of a basketball player and a heron resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photo of a heron standing stoically in a serene pond at sunrise",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\11.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "heron"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "11",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_019",
+      "full_prompt": "A photo of a basketball player alongside a heron on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photo of a heron standing stoically in a serene pond at sunrise",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\11.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "heron"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "11",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_020",
+      "full_prompt": "A photograph of a basketball player and a crab sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of a crab scuttling across a sandy beach",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\04.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "crab"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "04",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_021",
+      "full_prompt": "A photo of a basketball player next to a crab on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of a crab scuttling across a sandy beach",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\04.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "crab"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "04",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_022",
+      "full_prompt": "A scene showing a basketball player and a crab together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of a crab scuttling across a sandy beach",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\04.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "crab"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "04",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_023",
+      "full_prompt": "A photograph of a basketball player and a crab resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of a crab scuttling across a sandy beach",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\04.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "crab"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "04",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_024",
+      "full_prompt": "A photo of a basketball player alongside a crab on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of a crab scuttling across a sandy beach",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\04.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "crab"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "04",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_025",
+      "full_prompt": "A photograph of a basketball player and a cat sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of a cat lounging in a sunny window",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\44.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "cat"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "44",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_026",
+      "full_prompt": "A photo of a basketball player next to a cat on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of a cat lounging in a sunny window",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\44.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "cat"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "44",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_027",
+      "full_prompt": "A scene showing a basketball player and a cat together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of a cat lounging in a sunny window",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\44.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "cat"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "44",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_028",
+      "full_prompt": "A photograph of a basketball player and a cat resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of a cat lounging in a sunny window",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\44.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "cat"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "44",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_029",
+      "full_prompt": "A photo of a basketball player alongside a cat on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of a cat lounging in a sunny window",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\44.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "cat"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "44",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_030",
+      "full_prompt": "A photograph of a basketball player and a llama sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of a llama grazing peacefully in a vast, sunny meadow",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\24.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "llama"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "24",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_031",
+      "full_prompt": "A photo of a basketball player next to a llama on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of a llama grazing peacefully in a vast, sunny meadow",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\24.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "llama"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "24",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_032",
+      "full_prompt": "A scene showing a basketball player and a llama together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of a llama grazing peacefully in a vast, sunny meadow",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\24.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "llama"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "24",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_033",
+      "full_prompt": "A photograph of a basketball player and a llama resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of a llama grazing peacefully in a vast, sunny meadow",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\24.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "llama"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "24",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_034",
+      "full_prompt": "A photo of a basketball player alongside a llama on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photograph of a llama grazing peacefully in a vast, sunny meadow",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\24.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "llama"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "24",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_035",
+      "full_prompt": "A photograph of a basketball player and a lizard sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photo of a lizard basking on a sunlit rock",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\36.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "lizard"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "36",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_036",
+      "full_prompt": "A photo of a basketball player next to a lizard on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photo of a lizard basking on a sunlit rock",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\36.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "lizard"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "36",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_037",
+      "full_prompt": "A scene showing a basketball player and a lizard together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photo of a lizard basking on a sunlit rock",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\36.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "lizard"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "36",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_038",
+      "full_prompt": "A photograph of a basketball player and a lizard resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photo of a lizard basking on a sunlit rock",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\36.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "lizard"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "36",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_039",
+      "full_prompt": "A photo of a basketball player alongside a lizard on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player shooting a hoop during a sunset game BREAK A photo of a lizard basking on a sunlit rock",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\36.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "lizard"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "36",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_000",
+      "full_prompt": "A photograph of a girl and a guitar sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a guitar leaning against a wooden stool in a cozy, dimly lit room",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\39.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "guitar"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "39",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_001",
+      "full_prompt": "A photo of a girl next to a guitar on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a guitar leaning against a wooden stool in a cozy, dimly lit room",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\39.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "guitar"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "39",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_002",
+      "full_prompt": "A scene showing a girl and a guitar together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a guitar leaning against a wooden stool in a cozy, dimly lit room",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\39.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "guitar"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "39",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_003",
+      "full_prompt": "A photograph of a girl and a guitar resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a guitar leaning against a wooden stool in a cozy, dimly lit room",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\39.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "guitar"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "39",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_004",
+      "full_prompt": "A photo of a girl alongside a guitar on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a guitar leaning against a wooden stool in a cozy, dimly lit room",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\39.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "guitar"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "39",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_005",
+      "full_prompt": "A photograph of a girl and a robot sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a robot assembling a car in a factory",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\18.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "robot"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "18",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_006",
+      "full_prompt": "A photo of a girl next to a robot on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a robot assembling a car in a factory",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\18.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "robot"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "18",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_007",
+      "full_prompt": "A scene showing a girl and a robot together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a robot assembling a car in a factory",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\18.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "robot"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "18",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_008",
+      "full_prompt": "A photograph of a girl and a robot resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a robot assembling a car in a factory",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\18.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "robot"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "18",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_009",
+      "full_prompt": "A photo of a girl alongside a robot on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a robot assembling a car in a factory",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\18.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "robot"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "18",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_010",
+      "full_prompt": "A photograph of a girl and a ring sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a ring nestled on a soft, red rose petal",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\16.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "ring"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "16",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_011",
+      "full_prompt": "A photo of a girl next to a ring on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a ring nestled on a soft, red rose petal",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\16.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "ring"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "16",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_012",
+      "full_prompt": "A scene showing a girl and a ring together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a ring nestled on a soft, red rose petal",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\16.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "ring"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "16",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_013",
+      "full_prompt": "A photograph of a girl and a ring resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a ring nestled on a soft, red rose petal",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\16.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "ring"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "16",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_014",
+      "full_prompt": "A photo of a girl alongside a ring on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a ring nestled on a soft, red rose petal",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\16.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "ring"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "16",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_015",
+      "full_prompt": "A photograph of a girl and a stop sign sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a stop sign covered in snow with a blurred snowy landscape in the background",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\51.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "stop sign"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "51",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_016",
+      "full_prompt": "A photo of a girl next to a stop sign on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a stop sign covered in snow with a blurred snowy landscape in the background",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\51.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "stop sign"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "51",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_017",
+      "full_prompt": "A scene showing a girl and a stop sign together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a stop sign covered in snow with a blurred snowy landscape in the background",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\51.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "stop sign"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "51",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_018",
+      "full_prompt": "A photograph of a girl and a stop sign resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a stop sign covered in snow with a blurred snowy landscape in the background",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\51.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "stop sign"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "51",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_019",
+      "full_prompt": "A photo of a girl alongside a stop sign on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a stop sign covered in snow with a blurred snowy landscape in the background",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\51.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "stop sign"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "51",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_020",
+      "full_prompt": "A photograph of a girl and a cap sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a cap left on a bench in a busy city park",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\32.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "cap"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "32",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_021",
+      "full_prompt": "A photo of a girl next to a cap on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a cap left on a bench in a busy city park",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\32.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "cap"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "32",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_022",
+      "full_prompt": "A scene showing a girl and a cap together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a cap left on a bench in a busy city park",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\32.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "cap"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "32",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_023",
+      "full_prompt": "A photograph of a girl and a cap resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a cap left on a bench in a busy city park",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\32.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "cap"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "32",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_024",
+      "full_prompt": "A photo of a girl alongside a cap on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a cap left on a bench in a busy city park",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\32.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "cap"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "32",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_025",
+      "full_prompt": "A photograph of a girl and a vintage television sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photo of a vintage television on a classic wooden stand in a cozy living room",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\49.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "vintage television"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "49",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_026",
+      "full_prompt": "A photo of a girl next to a vintage television on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photo of a vintage television on a classic wooden stand in a cozy living room",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\49.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "vintage television"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "49",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_027",
+      "full_prompt": "A scene showing a girl and a vintage television together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photo of a vintage television on a classic wooden stand in a cozy living room",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\49.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "vintage television"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "49",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_028",
+      "full_prompt": "A photograph of a girl and a vintage television resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photo of a vintage television on a classic wooden stand in a cozy living room",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\49.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "vintage television"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "49",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_029",
+      "full_prompt": "A photo of a girl alongside a vintage television on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photo of a vintage television on a classic wooden stand in a cozy living room",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\49.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "vintage television"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "49",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_030",
+      "full_prompt": "A photograph of a girl and a armchair sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a plush armchair by a roaring fireplace in a cozy room",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\11.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "armchair"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "11",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_031",
+      "full_prompt": "A photo of a girl next to a armchair on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a plush armchair by a roaring fireplace in a cozy room",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\11.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "armchair"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "11",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_032",
+      "full_prompt": "A scene showing a girl and a armchair together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a plush armchair by a roaring fireplace in a cozy room",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\11.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "armchair"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "11",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_033",
+      "full_prompt": "A photograph of a girl and a armchair resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a plush armchair by a roaring fireplace in a cozy room",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\11.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "armchair"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "11",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_034",
+      "full_prompt": "A photo of a girl alongside a armchair on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a plush armchair by a roaring fireplace in a cozy room",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\11.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "armchair"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "11",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_035",
+      "full_prompt": "A photograph of a girl and a Magic Cube sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a Magic Cube partially solved on a wooden desk",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\20.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "Magic Cube"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "20",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_036",
+      "full_prompt": "A photo of a girl next to a Magic Cube on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a Magic Cube partially solved on a wooden desk",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\20.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "Magic Cube"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "20",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_037",
+      "full_prompt": "A scene showing a girl and a Magic Cube together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a Magic Cube partially solved on a wooden desk",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\20.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "Magic Cube"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "20",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_038",
+      "full_prompt": "A photograph of a girl and a Magic Cube resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a Magic Cube partially solved on a wooden desk",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\20.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "Magic Cube"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "20",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_039",
+      "full_prompt": "A photo of a girl alongside a Magic Cube on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl blowing bubbles in a sunny park BREAK A photograph of a Magic Cube partially solved on a wooden desk",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\20.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "Magic Cube"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "20",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_000",
+      "full_prompt": "A photograph of a flamingo and a bouquet of flowers sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photograph of a bouquet of flowers placed on a rustic wooden table in soft morning light",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\33.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "bouquet of flowers"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "33",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_001",
+      "full_prompt": "A photo of a flamingo next to a bouquet of flowers on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photograph of a bouquet of flowers placed on a rustic wooden table in soft morning light",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\33.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "bouquet of flowers"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "33",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_002",
+      "full_prompt": "A scene showing a flamingo and a bouquet of flowers together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photograph of a bouquet of flowers placed on a rustic wooden table in soft morning light",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\33.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "bouquet of flowers"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "33",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_003",
+      "full_prompt": "A photograph of a flamingo and a bouquet of flowers resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photograph of a bouquet of flowers placed on a rustic wooden table in soft morning light",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\33.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "bouquet of flowers"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "33",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_004",
+      "full_prompt": "A photo of a flamingo alongside a bouquet of flowers on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photograph of a bouquet of flowers placed on a rustic wooden table in soft morning light",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\33.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "bouquet of flowers"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "33",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_005",
+      "full_prompt": "A photograph of a flamingo and a cherry blossoms sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photo of cherry blossoms gently falling on a serene lake surface",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\03.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "cherry blossoms"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "03",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_006",
+      "full_prompt": "A photo of a flamingo next to a cherry blossoms on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photo of cherry blossoms gently falling on a serene lake surface",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\03.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "cherry blossoms"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "03",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_007",
+      "full_prompt": "A scene showing a flamingo and a cherry blossoms together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photo of cherry blossoms gently falling on a serene lake surface",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\03.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "cherry blossoms"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "03",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_008",
+      "full_prompt": "A photograph of a flamingo and a cherry blossoms resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photo of cherry blossoms gently falling on a serene lake surface",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\03.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "cherry blossoms"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "03",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_009",
+      "full_prompt": "A photo of a flamingo alongside a cherry blossoms on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photo of cherry blossoms gently falling on a serene lake surface",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\03.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "cherry blossoms"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "03",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_010",
+      "full_prompt": "A photograph of a flamingo and a basketball shoe sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photograph of a basketball shoe left on a wooden gym floor",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\07.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "basketball shoe"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "07",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_011",
+      "full_prompt": "A photo of a flamingo next to a basketball shoe on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photograph of a basketball shoe left on a wooden gym floor",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\07.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "basketball shoe"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "07",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_012",
+      "full_prompt": "A scene showing a flamingo and a basketball shoe together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photograph of a basketball shoe left on a wooden gym floor",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\07.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "basketball shoe"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "07",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_013",
+      "full_prompt": "A photograph of a flamingo and a basketball shoe resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photograph of a basketball shoe left on a wooden gym floor",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\07.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "basketball shoe"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "07",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_014",
+      "full_prompt": "A photo of a flamingo alongside a basketball shoe on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photograph of a basketball shoe left on a wooden gym floor",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\07.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "basketball shoe"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "07",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_015",
+      "full_prompt": "A photograph of a flamingo and a headphones sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photograph of headphones lying on a wooden desk next to an open laptop",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\55.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "headphones"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "55",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_016",
+      "full_prompt": "A photo of a flamingo next to a headphones on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photograph of headphones lying on a wooden desk next to an open laptop",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\55.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "headphones"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "55",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_017",
+      "full_prompt": "A scene showing a flamingo and a headphones together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photograph of headphones lying on a wooden desk next to an open laptop",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\55.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "headphones"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "55",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_018",
+      "full_prompt": "A photograph of a flamingo and a headphones resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photograph of headphones lying on a wooden desk next to an open laptop",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\55.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "headphones"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "55",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_019",
+      "full_prompt": "A photo of a flamingo alongside a headphones on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photograph of headphones lying on a wooden desk next to an open laptop",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\55.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "headphones"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "55",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_020",
+      "full_prompt": "A photograph of a flamingo and a teapot sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photograph of a teapot steaming on a cozy kitchen table",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\52.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "teapot"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "52",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_021",
+      "full_prompt": "A photo of a flamingo next to a teapot on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photograph of a teapot steaming on a cozy kitchen table",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\52.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "teapot"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "52",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_022",
+      "full_prompt": "A scene showing a flamingo and a teapot together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photograph of a teapot steaming on a cozy kitchen table",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\52.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "teapot"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "52",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_023",
+      "full_prompt": "A photograph of a flamingo and a teapot resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photograph of a teapot steaming on a cozy kitchen table",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\52.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "teapot"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "52",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_024",
+      "full_prompt": "A photo of a flamingo alongside a teapot on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photograph of a teapot steaming on a cozy kitchen table",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\52.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "teapot"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "52",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_025",
+      "full_prompt": "A photograph of a flamingo and a guitar sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photograph of a guitar leaning against a wooden stool in a cozy, dimly lit room",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\39.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "guitar"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "39",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_026",
+      "full_prompt": "A photo of a flamingo next to a guitar on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photograph of a guitar leaning against a wooden stool in a cozy, dimly lit room",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\39.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "guitar"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "39",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_027",
+      "full_prompt": "A scene showing a flamingo and a guitar together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photograph of a guitar leaning against a wooden stool in a cozy, dimly lit room",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\39.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "guitar"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "39",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_028",
+      "full_prompt": "A photograph of a flamingo and a guitar resting in a cozy living room",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photograph of a guitar leaning against a wooden stool in a cozy, dimly lit room",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\39.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "guitar"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "39",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_029",
+      "full_prompt": "A photo of a flamingo alongside a guitar on a sandy beach at sunset",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo wading in a shimmering lagoon at dawn BREAK A photograph of a guitar leaning against a wooden stool in a cozy, dimly lit room",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\39.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "guitar"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "39",
+        "source": "dreambench_plus"
+      }
+    }
+  ]
+}

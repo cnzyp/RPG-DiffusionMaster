@@ -1,0 +1,912 @@
+{
+  "00": {
+    "prompts": [
+      "pencil sketch",
+      "A photo of a quiet forest path, in pencil sketch style",
+      "A photograph of an old wooden bridge over a stream, in pencil sketch style",
+      "A painting of a bustling street market, captured in pencil sketch style",
+      "A detailed drawing of an antique clock, in pencil sketch style",
+      "A pair of worn leather boots, rendered in pencil sketch style",
+      "A serene landscape with rolling hills and a lone tree, in pencil sketch style",
+      "An expressive portrait of an elderly man with deep wrinkles, in pencil sketch style",
+      "A mythical unicorn resting under an ancient oak tree, in pencil sketch style",
+      "A scene of tiny humans living inside a giant's watch, in pencil sketch style"
+    ]
+  },
+  "01": {
+    "prompts": [
+      "pixel art",
+      "A photo of a bustling cityscape, rendered in pixel art",
+      "A photograph of a quaint cottage surrounded by flowers, in pixel art style",
+      "A painting of a serene lake at dusk, depicted in pixel art",
+      "A simple street scene with pedestrians, captured in pixel art",
+      "A vintage car parked on a cobblestone street, in pixel art style",
+      "A collection of arcade video game machines, in pixel art style",
+      "A playful puppy chasing a ball, illustrated in pixel art",
+      "A tiny dragon perched on a pixel art cloud",
+      "A magical portal opening in a pixel art enchanted forest"
+    ]
+  },
+  "02": {
+    "prompts": [
+      "sunset",
+      "A photo of a serene beach during sunset, capturing the golden horizon",
+      "A photograph of a bustling city skyline illuminated by the fading sunset glow",
+      "A painting of a tranquil lake reflecting the vibrant colors of sunset",
+      "A quiet countryside road basking in the soft light of sunset",
+      "A couple walking hand-in-hand along a shoreline at sunset",
+      "A lone tree silhouetted against a fiery sunset sky",
+      "A sunset view from a mountain peak, bathing the landscape in orange hues",
+      "A fantastical city floating amongst clouds, bathed in eternal sunset",
+      "A giant phoenix soaring across the sky, its feathers echoing the colors of the sunset"
+    ]
+  },
+  "03": {
+    "prompts": [
+      "cyberpunk neon",
+      "A photo of a bustling city street at night illuminated by neon lights, in a cyberpunk neon style",
+      "A photograph of a rainy urban alley with glowing neon signs, in a cyberpunk neon style",
+      "A painting of a futuristic motorcycle with bright neon accents, in a cyberpunk neon style",
+      "A vivid neon-lit skyline of a high-tech city, in a cyberpunk neon style",
+      "An underground subway station bathed in neon light, cyberpunk neon style",
+      "A hacker's den with multiple screens and neon blue lighting, in a cyberpunk neon style",
+      "A neon-lit bar with eclectic patrons, in a cyberpunk neon style",
+      "A cybernetic owl with glowing neon eyes perched in a neon-lit tree, in a cyberpunk neon style",
+      "A floating market with neon signs hovering above boats, in a cyberpunk neon style"
+    ]
+  },
+  "04": {
+    "prompts": [
+      "Impressionist swirls",
+      "A photo of a quiet garden with blooming flowers, brushed in Impressionist swirls",
+      "A painting of a bustling city street, captured in dynamic Impressionist swirls",
+      "A photograph of an old wooden bridge over a tranquil pond, rendered in Impressionist swirls",
+      "A serene lakeside at sunset, depicted with vibrant Impressionist swirls",
+      "A tree-lined pathway, shaded and mysterious, in the style of Impressionist swirls",
+      "A cozy cafe corner with patrons chatting, illustrated in Impressionist swirls",
+      "An old man reading a newspaper on a park bench, enveloped in Impressionist swirls",
+      "A mystical forest where trees have leaves of shimmering gold, envisioned in Impressionist swirls",
+      "A night sky where stars dance in patterns of bright, swirling colors, depicted in Impressionist swirls"
+    ]
+  },
+  "05": {
+    "prompts": [
+      "minimalist line art",
+      "A sketch of a single tree with sparse leaves in minimalist line art",
+      "A photo of a slender vase containing a single flower, rendered in minimalist line art",
+      "A simple drawing of a cat sitting still, in minimalist line art",
+      "A portrait of a woman with her hair in a bun, illustrated in minimalist line art",
+      "A minimalist line art representation of a bicycle leaning against a wall",
+      "A set of geometric shapes, like circles and triangles, composed in minimalist line art",
+      "A minimalist line art drawing of a coffee cup on a saucer",
+      "A minimalist line art depiction of a city floating among clouds",
+      "A creature from a fantasy world where plants and animals merge, illustrated in minimalist line art"
+    ]
+  },
+  "06": {
+    "prompts": [
+      "volcanic landscape",
+      "A photograph of a smoldering volcano with streams of molten lava, in a volcanic landscape",
+      "A painting of a rugged terrain with ash-covered rocks, in the style of a volcanic landscape",
+      "A photo of a sunset casting an eerie glow over a volcanic crater, in a volcanic landscape",
+      "A close-up photograph of igneous rock formations, characteristic of a volcanic landscape",
+      "A serene lake formed in an ancient volcanic caldera, in the style of a volcanic landscape",
+      "A forest recovering after a volcanic eruption, with new growth sprouting through ash, in the style of a volcanic landscape",
+      "A night-time scene of a starlit sky above a silhouette of a volcanic mountain, in a volcanic landscape",
+      "A fantastical city built around the rim of an active volcano, glowing with lava, in the style of a volcanic landscape",
+      "A giant phoenix rising from volcanic ashes under a molten sky, in a volcanic landscape"
+    ]
+  },
+  "07": {
+    "prompts": [
+      "Impressionist pointillism",
+      "A painting of a garden with blooming flowers, in Impressionist pointillism",
+      "A photo of a bustling street market, captured in Impressionist pointillism",
+      "A photograph of a serene lakeside at dusk, rendered in Impressionist pointillism",
+      "A painting of a busy café terrace at night, in the style of Impressionist pointillism",
+      "A child playing with a colorful kite, Impressionist pointillism style",
+      "A woman reading under a tree, depicted in Impressionist pointillism",
+      "A streetscape with old-fashioned lampposts, in Impressionist pointillism style",
+      "A mythical phoenix soaring above a misty forest, in Impressionist pointillism",
+      "A scene of tiny, illuminated fairies dancing around a moonlit pond, in Impressionist pointillism"
+    ]
+  },
+  "08": {
+    "prompts": [
+      "desert moonscape",
+      "A photograph of a barren desert under the soft glow of the moon, showcasing a desert moonscape",
+      "A picture of sand dunes illuminated by moonlight, captured in a desert moonscape style",
+      "An image of a lone cactus silhouetted against a nocturnal desert backdrop, in the style of a desert moonscape",
+      "A painting of a weathered rock formation under a starry sky, depicted in a desert moonscape",
+      "A desert fox prowling silently, bathed in moonlight, in desert moonscape style",
+      "An oasis reflecting the moon's image, surrounded by the quiet desert, in a desert moonscape style",
+      "A caravan of camels trekking through a moonlit desert landscape, captured in desert moonscape style",
+      "An ancient temple rising from the desert sands, bathed in otherworldly moonlight, in a desert moonscape style",
+      "A surreal scene of floating desert islands under a gigantic moon, depicted in desert moonscape style"
+    ]
+  },
+  "09": {
+    "prompts": [
+      "low-poly geometric",
+      "A photograph of a mountain landscape in a low-poly geometric style",
+      "A painting of a bustling city skyline, rendered in low-poly geometric shapes",
+      "A photo of a serene lake, depicted with crisp low-poly geometric contours",
+      "A digital illustration of a cat, composed of low-poly geometric patterns",
+      "A pine tree depicted with angular, low-poly geometric shapes",
+      "A fox crafted from sharp, low-poly geometric lines",
+      "A portrait of a woman, stylized with low-poly geometric facets",
+      "A mythical phoenix reborn in flames, designed in vibrant low-poly geometric style",
+      "An alien landscape with floating islands, visualized in low-poly geometric form"
+    ]
+  },
+  "10": {
+    "prompts": [
+      "Ukiyo-e",
+      "A painting of Mount Fuji with delicate Ukiyo-e brush strokes",
+      "A photograph of a cherry blossom tree, rendered in the Ukiyo-e style",
+      "A serene river landscape, captured in the traditional Ukiyo-e art form",
+      "A woodblock print of a bustling Edo period marketplace, in Ukiyo-e style",
+      "A geisha in a colorful kimono, depicted in Ukiyo-e style",
+      "A samurai in battle garb, illustrated in the Ukiyo-e technique",
+      "A traditional tea ceremony, portrayed with Ukiyo-e aesthetics",
+      "A mythical dragon coiling around Mount Fuji, depicted in Ukiyo-e style",
+      "A scene of moon jellyfish floating in the sky, imagined in Ukiyo-e brushwork"
+    ]
+  },
+  "11": {
+    "prompts": [
+      "Impressionist",
+      "A photo of a blossoming garden in the Impressionist style",
+      "A painting of a bustling street cafe in the Impressionist style",
+      "A photograph of a serene lakeside at dusk, captured in the Impressionist style",
+      "A vibrant market scene depicted in the Impressionist style",
+      "A woman holding a parasol, painted in the Impressionist style",
+      "A small boat floating on a gentle river, in the Impressionist style",
+      "A child playing in a sunlit field, captured in the Impressionist style",
+      "A mythical forest with trees that glow in the Impressionist style",
+      "A dreamlike cityscape where the buildings softly blur into the sky, in the Impressionist style"
+    ]
+  },
+  "12": {
+    "prompts": [
+      "pixel art",
+      "A photo of a bustling cityscape at night, rendered in pixel art",
+      "A painting of a serene mountain landscape, depicted in pixel art",
+      "A photograph of a colorful coral reef, stylized in pixel art",
+      "An image of a quaint village street, visualized in pixel art",
+      "A vintage car parked on an urban street, in pixel art style",
+      "A cup of steaming coffee on a saucer, pixel art representation",
+      "A houseplant with lush green leaves, illustrated in pixel art",
+      "A scene of tiny astronauts exploring a cheese moon, in pixel art",
+      "An enchanted forest with trees casting spells, visualized in pixel art"
+    ]
+  },
+  "13": {
+    "prompts": [
+      "cosmic nebula",
+      "A photo of a serene galaxy with swirling cosmic nebula colors",
+      "A painting of a star being born within a vibrant cosmic nebula",
+      "A photograph of an interstellar cloud in the style of cosmic nebula",
+      "An illustration of a distant universe filled with cosmic nebula patterns",
+      "A telescope view capturing the intricate movement of a cosmic nebula",
+      "A star cluster surrounded by a luminous cosmic nebula",
+      "A cosmic nebula enveloping a newly forming solar system",
+      "A mythical phoenix rising from a cosmic nebula",
+      "A grand castle floating amidst a colorful cosmic nebula"
+    ]
+  },
+  "14": {
+    "prompts": [
+      "serene desert",
+      "A photograph of a tranquil desert landscape at dawn, serene desert style",
+      "A painting of a lone cactus under a vast, clear sky, serene desert style",
+      "A photo of sand dunes softly lit by the setting sun, in a serene desert style",
+      "An image of a desert fox quietly navigating through sparse vegetation, serene desert style",
+      "A serene desert scene featuring an old wooden cart partially buried in sand",
+      "A moonlit desert with gentle winds stirring the sand, serene desert style",
+      "A quiet desert oasis surrounded by palm trees, in a serene desert style",
+      "A mirage of an ancient city appearing over the dunes in a serene desert",
+      "A photo of a floating desert island in the sky, serene desert style"
+    ]
+  },
+  "15": {
+    "prompts": [
+      "monochromatic ink sketch",
+      "A photo of a serene lake bordered by willow trees, depicted in a monochromatic ink sketch style",
+      "A drawing of a bustling city street, with pedestrians and cars, rendered in monochromatic ink sketch",
+      "A painting of an old stone bridge over a quiet stream, in a monochromatic ink sketch style",
+      "An illustration of a quaint cottage surrounded by a flower garden, in monochromatic ink sketch",
+      "A cat perched on a windowsill, monochromatic ink sketch style",
+      "A teapot steaming gently on an old wooden table, in a monochromatic ink sketch style",
+      "A pair of worn leather boots, illustrated in a monochromatic ink sketch style",
+      "A mythical forest with trees that whisper secrets, visualized in a monochromatic ink sketch style",
+      "A city floating in the clouds, depicted as a monochromatic ink sketch"
+    ]
+  },
+  "16": {
+    "prompts": [
+      "watercolor sketch",
+      "A cottage surrounded by blooming flowers, depicted in watercolor sketch",
+      "A serene riverside scene with fishermen in boats, painted in watercolor sketch",
+      "A bustling city street with pedestrians and vintage cars, illustrated in watercolor sketch",
+      "A peaceful meadow under a clear blue sky, rendered in watercolor sketch",
+      "A cat napping by a sunny window, in watercolor sketch style",
+      "A row of old books on a wooden shelf, depicted in watercolor sketch style",
+      "A woman reading under a tree, illustrated in watercolor sketch style",
+      "An ancient tree with glowing leaves in a watercolor sketch style",
+      "A city floating on clouds, illustrated in watercolor sketch style"
+    ]
+  },
+  "17": {
+    "prompts": [
+      "cosmic nebula",
+      "A photograph of a distant galaxy swirling in hues of blue and pink, in a cosmic nebula style",
+      "A photo of a star cluster emitting radiant light, rendered in cosmic nebula aesthetics",
+      "A painting of a newly forming star within a cloud of cosmic dust, in cosmic nebula style",
+      "An image of the aurora borealis with vibrant cosmic nebula colors",
+      "A telescope pointed towards a starry sky, painted in a cosmic nebula style",
+      "A night sky filled with constellations, depicted in cosmic nebula aesthetics",
+      "An astronaut floating in space surrounded by nebula-like colors, in a cosmic nebula style",
+      "A mythical phoenix reborn from cosmic nebula dust",
+      "A ancient sailboat navigating through a sea of stars and nebulae in cosmic nebula style"
+    ]
+  },
+  "18": {
+    "prompts": [
+      "pastel",
+      "A photograph of a serene beach at dusk, rendered in soft pastel tones",
+      "A painting of a tranquil garden with blooming flowers in a pastel palette",
+      "A photo of a gentle sunrise over a calm lake, captured in pastel colors",
+      "A pastoral landscape with rolling hills and a clear sky, depicted in pastel hues",
+      "A kitten sleeping in a sunny window, bathed in light pastel colors",
+      "A cup of tea on a pastel tablecloth, inviting a moment of relaxation",
+      "A close-up of a pastel-colored macaron, delicate and sweet",
+      "A whimsical forest where the trees have pastel-colored leaves",
+      "A dreamy pastel planet with rings made of stardust and light"
+    ]
+  },
+  "19": {
+    "prompts": [
+      "traditional Chinese painting",
+      "A mountain landscape shrouded in mist, in traditional Chinese painting style",
+      "A delicate bamboo grove with slender leaves, depicted in traditional Chinese painting",
+      "A serene koi pond reflecting the sky, captured in the style of traditional Chinese painting",
+      "A scholar sitting under a willow tree, in traditional Chinese painting style",
+      "An ancient pagoda amidst rolling hills, in the style of traditional Chinese painting",
+      "A pair of cranes standing in a marshy reed bed, rendered in traditional Chinese painting style",
+      "A bustling ancient market scene with vendors and shoppers, traditional Chinese painting style",
+      "A dragon coiling around a moonlit pagoda, envisioned in traditional Chinese painting style",
+      "A mythical phoenix soaring above a blooming cherry orchard, in traditional Chinese painting style"
+    ]
+  },
+  "20": {
+    "prompts": [
+      "Magic Cube",
+      "A photograph of a Magic Cube partially solved on a wooden desk",
+      "A photo of a Magic Cube held in a child's hands under bright daylight",
+      "A detailed photo of a Magic Cube with reflective stickers beside a window with raindrops",
+      "A Magic Cube sitting on an old, dusty bookshelf in natural light",
+      "A cartoon of a Magic Cube with animated, expressive eyes trying to solve itself",
+      "A watercolor painting of a Magic Cube floating above a colorful abstract landscape",
+      "An anime-style drawing of a character intensely focusing on solving a glowing Magic Cube",
+      "A Magic Cube morphing into different geometric shapes, each block displaying a different scene from nature",
+      "A giant Magic Cube floating in space, each turn altering the color of distant stars"
+    ]
+  },
+  "21": {
+    "prompts": [
+      "vintage van",
+      "A photograph of a vintage van parked by a serene lakeside, reflecting the sunset",
+      "A photo of a vintage van on a bustling city street decorated with festival lights",
+      "A photograph of a vintage van traveling through a colorful autumn forest",
+      "A photo of a vintage van parked in a deserted, sun-baked desert landscape",
+      "A minimalist sketch of a vintage van surrounded by a field of wildflowers",
+      "A watercolor painting of a vintage van under the starry night sky",
+      "A retro-style illustration of a vintage van at a classic drive-in movie theater",
+      "A vintage van transformed into a tiny mobile home, floating gently above a quaint old town",
+      "A magical vintage van, its wheels turning into giant sunflowers as it travels through enchanted woods"
+    ]
+  },
+  "22": {
+    "prompts": [
+      "sneaker",
+      "A photo of a sneaker left on a basketball court as the sun sets",
+      "A photograph of a sneaker hanging by its laces from a power line",
+      "A detailed photograph of a sneaker splashing through a puddle on a rainy street",
+      "A sneaker positioned neatly beside a school backpack in a hallway",
+      "A cartoon drawing of a sneaker with wings flying across the sky",
+      "A stylized digital illustration of a sneaker glowing neon in a dark room",
+      "An abstract painting of a sneaker bursting with vibrant, psychedelic colors",
+      "A sneaker growing tiny legs and embarking on a mountain hiking adventure",
+      "A sneaker expanding and transforming into a futuristic vehicle zooming through a sci-fi cityscape"
+    ]
+  },
+  "23": {
+    "prompts": [
+      "vintage camera",
+      "A photograph of a vintage camera on a rustic wooden table surrounded by old books",
+      "A photo of a vintage camera hanging from a leather strap against a backdrop of cobblestone streets",
+      "A detailed photograph of a vintage camera positioned on a rock by a mountain stream",
+      "A photo of a vintage camera set beside a window with morning light streaming in",
+      "A watercolor painting of a vintage camera, palette softened to pastel shades, placed on a lace tablecloth",
+      "A digital illustration in retro style featuring a vintage camera with a backdrop of 1950s diner",
+      "An anime-style drawing of a vintage camera with exaggerated shiny lens and colorful straps",
+      "A vintage camera with butterfly wings floating through a surreal, dreamy forest",
+      "A vintage camera transforming into a small, quaint house in an enchanted village"
+    ]
+  },
+  "24": {
+    "prompts": [
+      "vintage camera",
+      "A photograph of a vintage camera placed on an old wooden desk surrounded by scattered photographs",
+      "A photo of a vintage camera hanging from a worn leather strap against a rustic brick wall",
+      "A detailed photograph of a vintage camera with a cracked lens, set against a backdrop of faded curtains",
+      "A vintage camera resting on a stack of antique books in a dimly lit study",
+      "A minimalist sketch of a vintage camera with elegant, clean lines, emphasizing its classic design",
+      "An anime-style drawing of a vintage camera with exaggerated, colorful features, floating amidst clouds",
+      "A watercolor painting of a vintage camera surrounded by blooming wildflowers in a serene meadow",
+      "A vintage camera with a lens that projects cosmic scenes, capturing stars and galaxies instead of ordinary photos",
+      "A vintage camera transforming into a small, mechanical bird capable of flying and taking aerial photographs"
+    ]
+  },
+  "25": {
+    "prompts": [
+      "classical bust",
+      "A photo of a classical bust displayed in a dimly lit museum corner",
+      "A photograph of a classical bust covered in ivy, standing in an overgrown garden",
+      "A detailed photo of a classical bust with a faint smile, set against an old stone wall",
+      "A photorealistic image of a classical bust gazing out of a large library window",
+      "A watercolor painting of a classical bust surrounded by abstract shapes and vibrant colors",
+      "A digital illustration of a classical bust in a cyberpunk environment",
+      "A charcoal drawing of a classical bust, focusing on dramatic shadows and light",
+      "A classical bust slowly transforming into a cascade of colorful butterflies",
+      "A classical bust orbiting Earth as a surreal satellite, against a backdrop of a starry sky"
+    ]
+  },
+  "26": {
+    "prompts": [
+      "hair dryer",
+      "A photograph of a hair dryer on a minimalist vanity with a mirror reflecting a bright bathroom",
+      "A photo of a hair dryer being used by a professional stylist in a bustling salon",
+      "A photograph of a vintage hair dryer displayed in an antique shop window",
+      "A photo of a hair dryer lying on a fluffy towel in a luxury hotel room",
+      "An anime-style illustration of a hair dryer with colorful, exaggerated steam effects",
+      "A watercolor painting of a hair dryer surrounded by various hair styling tools and products",
+      "A digital drawing of a hair dryer in a retro-futuristic design, with sleek metallic finishes",
+      "A hair dryer transforming into a small, powerful jet engine, propelling a paper airplane through a cloud-filled skyline",
+      "A magical hair dryer floating in space, emitting cosmic particles that shape into stars and galaxies"
+    ]
+  },
+  "27": {
+    "prompts": [
+      "mug",
+      "A photograph of a mug steaming on a rainy window sill",
+      "A photo of a mug filled with hot chocolate, topped with whipped cream",
+      "A detailed photograph of a mug on an old wooden desk surrounded by books",
+      "A photo of a mug held by hands wrapped in a cozy knitted sweater",
+      "A watercolor painting of a mug sitting beside a blooming cactus",
+      "An anime-style drawing of a mug with a cute, smiling face",
+      "A retro-style illustration of a mug on a patterned tablecloth in a 1950s kitchen",
+      "A mug transforming into a portal to a miniature fantasy world inside it",
+      "A mug orbiting around a planet in space, filled with swirling galaxy colors"
+    ]
+  },
+  "28": {
+    "prompts": [
+      "backpack",
+      "A photograph of a backpack left on a rocky trail in the mountains",
+      "A photo of a backpack hanging on a fence beside a rural barn",
+      "A photograph of a backpack sitting on a park bench in an urban setting",
+      "A photo of a backpack on a sandy beach at sunrise",
+      "A watercolor painting of a colorful backpack surrounded by autumn leaves",
+      "An anime-style illustration of a magical backpack glowing with mysterious powers",
+      "A minimalist sketch of a backpack draped over a classroom chair",
+      "A backpack floating gently in a bubble above a bustling cityscape",
+      "A sentient backpack leading a group of hikers through a mystical forest"
+    ]
+  },
+  "29": {
+    "prompts": [
+      "maple leaf",
+      "A photograph of a maple leaf floating on a quiet forest pond",
+      "A close-up photo of a dew-covered maple leaf at dawn",
+      "A photograph of a maple leaf caught in a spider's web, glistening with morning dew",
+      "A photo of a maple leaf changing colors amidst a pile of autumn leaves",
+      "A watercolor painting of a maple leaf gently falling through a misty air",
+      "An anime-style illustration of a maple leaf transforming into a magical creature",
+      "A minimalist sketch of a maple leaf with intricate vein patterns",
+      "A maple leaf serving as a tiny, vibrant sail on a paper boat navigating a puddle",
+      "A maple leaf growing from a fantastical tree whose branches stretch into the clouds"
+    ]
+  },
+  "30": {
+    "prompts": [
+      "vase",
+      "A photograph of a vase sitting on a rustic wooden table in morning sunlight",
+      "A photo of a vase filled with wildflowers on a windowsill overlooking a garden",
+      "A detailed photograph of an antique vase displayed in a dimly lit museum",
+      "A photorealistic image of a cracked ceramic vase on an artist’s workbench",
+      "A digital painting of a vase in a futuristic style, glowing with neon lights",
+      "A watercolor of a vase surrounded by scattered petals and soft pastel hues",
+      "A minimalist sketch of a vase, captured in bold, black lines against a white background",
+      "A vase slowly melting into a puddle of vibrant, swirling colors on a gallery floor",
+      "A vase transforming into a tree, with branches growing upwards and blossoms sprouting where flowers once were"
+    ]
+  },
+  "31": {
+    "prompts": [
+      "piggy bank",
+      "A photograph of a piggy bank on a child’s desk, surrounded by scattered coins and colorful stationery",
+      "A photo of a piggy bank sitting on a sunny windowsill next to a potted plant",
+      "A detailed photograph of a piggy bank on a kitchen counter with grocery receipts and keys around it",
+      "A photo of a piggy bank on an old wooden shelf, partly in shadows, in an attic",
+      "A watercolor painting of a piggy bank in a whimsical style, surrounded by magical floating coins",
+      "An ink sketch of a piggy bank, cracked and repaired, symbolizing resilience",
+      "A retro-style illustration of a piggy bank on a vintage radio, evoking mid-20th-century vibes",
+      "A piggy bank floating in space, with planets and stars reflected in its glossy surface",
+      "A piggy bank transforming into a real pig, coins falling out as it shakes itself joyfully in a meadow"
+    ]
+  },
+  "32": {
+    "prompts": [
+      "cap",
+      "A photograph of a cap left on a bench in a busy city park",
+      "A photo of a cap hanging on a hook beside a rustic wooden door",
+      "A detailed photograph of a worn cap on the dashboard of an old truck",
+      "A photo of a cap floating gently on a calm lake",
+      "An anime-style illustration of a brightly colored cap flying in the wind",
+      "A minimalist sketch of a cap placed on a stack of old books",
+      "A retro-style rendering of a cap from the 1920s on a vintage hat stand",
+      "A cap transforming into a bird, its fabric feathers fluttering against a sunset sky",
+      "A cap as a tiny boat, sailing through the canals of Venice with a mouse as its captain"
+    ]
+  },
+  "33": {
+    "prompts": [
+      "bouquet of flowers",
+      "A photograph of a bouquet of flowers placed on a rustic wooden table in soft morning light",
+      "A photo of a bouquet of flowers being held by a bride on her wedding day",
+      "A detailed photograph of a vibrant bouquet of flowers resting beside an open window",
+      "A photo capturing a bouquet of flowers on a bench in a lush garden setting",
+      "An anime-style illustration of a magical bouquet of flowers glowing under moonlight",
+      "A watercolor painting of a delicate bouquet of flowers in a vintage vase",
+      "A minimalist sketch of a bouquet of flowers, using soft, flowing lines and pastel shades",
+      "A bouquet of flowers slowly turning into a flock of colorful butterflies",
+      "A bouquet of flowers as planets orbiting in a miniature solar system, each flower a different glowing planet"
+    ]
+  },
+  "34": {
+    "prompts": [
+      "tree-like character",
+      "A photo of a tree-like character standing tall in a misty forest, branches stretching towards the sky",
+      "A photograph of a tree-like character with colorful leaves during autumn, amidst a park",
+      "A photo of a tree-like character with intricate roots sprawling across a lush green meadow",
+      "A photograph of a tree-like character under starlight, glowing softly in the moonlit night",
+      "A watercolor painting of a whimsical tree-like character with a face and limbs, nestled in a fantasy forest",
+      "An anime-style illustration of a tree-like character with eyes and a gentle smile, surrounded by magical creatures",
+      "A minimalist sketch of a tree-like character, depicted with clean, flowing lines as it bends with the wind",
+      "A tree-like character with branches holding up small lanterns, each glowing with fireflies, set in an enchanted evening scenario",
+      "A tree-like character transforming seasonally from spring blossoms to winter snow in a timelapse style visualization, embodying the essence of change"
+    ]
+  },
+  "35": {
+    "prompts": [
+      "vintage computer",
+      "A photograph of a vintage computer displayed in a museum",
+      "A photo of a vintage computer set up on an old wooden desk with books around it",
+      "A detailed photograph of a vintage computer in an abandoned office, dust covering its surface",
+      "A photo of a vintage computer with floppy disks scattered next to it",
+      "A cartoon-style illustration of a vintage computer with exaggerated colorful components",
+      "A retro-style painting of a vintage computer in a 1980s styled room",
+      "An anime-style drawing of a vintage computer as a sentient being in a digital world",
+      "A vintage computer with its screen displaying a portal to a neon cyberpunk cityscape",
+      "A vintage computer floating in space, transmitting data streams to distant galaxies"
+    ]
+  },
+  "36": {
+    "prompts": [
+      "ceramic bowl",
+      "A photograph of a ceramic bowl filled with vibrant citrus fruits on a rustic wooden table",
+      "A photo of a ceramic bowl sitting on a rain-soaked windowsill",
+      "A high-resolution photo of a ceramic bowl holding freshly picked wildflowers in a sunny meadow",
+      "A photorealistic image of a ceramic bowl containing steaming soup on a chilly day",
+      "A watercolor painting of an antique ceramic bowl on a lace tablecloth",
+      "An anime-style illustration of a ceramic bowl filled with glowing magical orbs",
+      "A stylized digital art of a ceramic bowl shattered into pieces, each shard reflecting a different scene",
+      "A ceramic bowl slowly spinning in space, with each rotation revealing a different ancient civilization inside",
+      "A giant ceramic bowl in an enchanted forest, doubling as a home to a family of mythical creatures"
+    ]
+  },
+  "37": {
+    "prompts": [
+      "airplane",
+      "A photograph of an airplane ascending through cloudy skies",
+      "A photo of an airplane parked on a busy airport tarmac at sunset",
+      "A photograph of an airplane soaring over a lush green mountain range",
+      "A photo of an airplane in mid-flight with city skyline in the background",
+      "A watercolor painting of a vintage airplane against a sky blue backdrop",
+      "An anime-style illustration of an airplane zooming past with speed lines",
+      "A retro-style poster of an airplane with bold, streamlined designs from the 1960s",
+      "An airplane transforming into a giant bird as it flies over the ocean",
+      "An airplane with transparent wings, revealing a miniature city inside bustling with activity"
+    ]
+  },
+  "38": {
+    "prompts": [
+      "donut",
+      "A photo of a donut topped with colorful sprinkles on a white plate",
+      "A photograph of a donut half-dipped in dark chocolate, resting on a rustic wooden table",
+      "A photo of a freshly glazed donut in a cozy bakery display",
+      "A photograph of a donut with pink icing next to a cup of steaming coffee on a café counter",
+      "A watercolor painting of a donut with pastel-colored frosting, in a whimsical style",
+      "An anime-style drawing of a character holding a giant, sparkling donut",
+      "A minimalist sketch of a donut, focusing on the texture of the icing and sprinkles",
+      "A donut floating in space, orbiting around a planet made of coffee",
+      "A magical donut with wings, flying through a sky filled with fluffy clouds shaped like various sweets"
+    ]
+  },
+  "39": {
+    "prompts": [
+      "guitar",
+      "A photograph of a guitar leaning against a wooden stool in a cozy, dimly lit room",
+      "A photo of a guitar placed on a sandy beach with the sunset in the background",
+      "A photograph of a guitar hanging on a brick wall adorned with vintage posters",
+      "A photo of a guitar resting beside an open fireplace in a rustic cabin",
+      "A watercolor painting of a guitar surrounded by scattered music sheets and a violin",
+      "An anime-style illustration of a guitar with sparkling, colorful musical notes floating around it",
+      "A minimalist sketch of a guitar with sharp, clean lines against a plain white background",
+      "A guitar transforming into a tree with music notes as leaves, set in a mystical forest",
+      "A guitar floating in space, casting musical waves that form constellations in the starry sky"
+    ]
+  },
+  "40": {
+    "prompts": [
+      "Rolls-Royce hood ornament",
+      "A photo of a Rolls-Royce hood ornament shining under the streetlights at night",
+      "A photograph of a Rolls-Royce hood ornament with raindrops beading on its polished surface",
+      "A detailed photo of a Rolls-Royce hood ornament against a backdrop of a grand mansion",
+      "A Rolls-Royce hood ornament captured in the early morning light on a foggy day",
+      "A watercolor painting of a Rolls-Royce hood ornament, with soft pastel colors emphasizing its sleek design",
+      "An ink sketch of a Rolls-Royce hood ornament, focusing on intricate shadows and highlights",
+      "A digital illustration in a pop art style featuring a colorful Rolls-Royce hood ornament set against a vibrant background",
+      "A Rolls-Royce hood ornament transformed into a sleek spaceship leading a caravan of vintage cars across a galaxy",
+      "A Rolls-Royce hood ornament growing from the ground in a mystical forest, glowing with an ethereal light"
+    ]
+  },
+  "41": {
+    "prompts": [
+      "t-shirt",
+      "A photograph of a t-shirt laid out on a sunny rock by a hiking trail",
+      "A photo of a t-shirt hanging on a clothesline in a suburban backyard",
+      "A photo of a t-shirt draped over a chair in a cozy reading nook",
+      "A photograph of a t-shirt on a mannequin in a bustling street market",
+      "A watercolor painting of a t-shirt with a complex, abstract design",
+      "An anime-style illustration of a colorful t-shirt on a character at a music festival",
+      "A retro-style graphic of a vintage band t-shirt from the 1980s",
+      "A t-shirt transforming into a butterfly, its fabric wings fluttering in a meadow",
+      "A t-shirt caught in a breeze, floating high above a cityscape as if exploring the urban heights"
+    ]
+  },
+  "42": {
+    "prompts": [
+      "hut",
+      "A photo of a wooden hut nestled among snow-covered pines",
+      "A photograph of a stilt hut perched over a tranquil tropical lagoon",
+      "A photo of a rustic hut with a thatched roof in a lush green field",
+      "A photograph of a small hut at the edge of a desert, under a blazing sunset",
+      "A watercolor painting of a colorful hut on a beach, with waves crashing nearby",
+      "An ink sketch of an ancient hut hidden deep in a misty forest",
+      "A digital illustration of a futuristic hut on an alien planet, glowing under two moons",
+      "A hut transforming into a bird, its wooden planks sprouting feathers as it takes flight",
+      "An underwater hut made of coral and sea glass, with fish swimming through its open windows"
+    ]
+  },
+  "43": {
+    "prompts": [
+      "pineapple",
+      "A photograph of a pineapple lying on a sunlit tropical beach",
+      "A photo of a pineapple on a wooden kitchen table surrounded by various fruits",
+      "A detailed photograph of a pineapple being harvested in a lush field",
+      "A photo capturing a pineapple displayed in a bustling market stall",
+      "A watercolor painting of a pineapple half-sliced, showcasing its vibrant interior",
+      "A minimalist digital illustration of a pineapple with geometric patterns",
+      "An anime-style drawing of a pineapple character with cute eyes and a cheerful smile",
+      "A pineapple transforming into a house with tiny windows and doors in a fantasy world",
+      "A surreal image of a pineapple floating in the sky, casting shadows over a serene ocean"
+    ]
+  },
+  "44": {
+    "prompts": [
+      "yellow taxi",
+      "A photograph of a yellow taxi parked in front of a bustling cityscape at night",
+      "A photo of a yellow taxi caught in a rain shower, headlights reflecting on wet streets",
+      "A photo of a yellow taxi driving past a historic monument during daylight",
+      "A photograph of a yellow taxi waiting at a traffic light with pedestrians crossing",
+      "A digital painting of a yellow taxi transforming into a robot in a sci-fi setting",
+      "A watercolor of a yellow taxi on a quaint cobblestone street in a European village",
+      "A retro-style illustration of a yellow taxi from the 1950s with classic rounded edges",
+      "A yellow taxi flying above the city skyline with balloon-like tires",
+      "A yellow taxi navigating through a surreal landscape made of musical instruments"
+    ]
+  },
+  "45": {
+    "prompts": [
+      "wooden house",
+      "A photograph of a wooden house nestled among autumn-colored trees",
+      "A photo of a small wooden house by a frozen lake in winter",
+      "A photograph of a wooden house with a cozy front porch during a sunny day",
+      "A photo of an old wooden house with ivy climbing its walls",
+      "A watercolor painting of a wooden house surrounded by wildflowers",
+      "A minimalist ink sketch of a wooden house on a hillside",
+      "An anime-style illustration of a magical wooden house in an enchanted forest",
+      "A wooden house transforming into a treehouse with branches growing through the walls",
+      "A wooden house floating on a cloud, tethered to the ground by a long, winding staircase"
+    ]
+  },
+  "46": {
+    "prompts": [
+      "teddy bear",
+      "A photograph of a teddy bear sitting on a wooden bench in the park",
+      "A photo of a teddy bear tucked into a child's bed, surrounded by storybooks",
+      "A photograph of a teddy bear placed among autumn leaves",
+      "A photo of a teddy bear at a child's birthday party table",
+      "A watercolor painting of a teddy bear with a colorful bow tie",
+      "An anime-style illustration of a teddy bear holding a heart-shaped balloon",
+      "A retro-style drawing of a teddy bear riding a tiny tricycle",
+      "A teddy bear casting shadows on the wall, each shadow transforming into a different wild animal",
+      "A teddy bear navigating a tiny sailboat through a sea of blue satin sheets"
+    ]
+  },
+  "47": {
+    "prompts": [
+      "UFO",
+      "A photograph of a UFO hovering over a bustling city at night",
+      "A photo of a UFO descending in a remote, misty forest",
+      "A detailed photograph of a UFO captured during a dramatic sunset",
+      "A photo of a UFO casting shadows on ancient pyramids",
+      "A digital painting of a UFO illuminated by neon lights in a cyberpunk cityscape",
+      "A watercolor of a UFO amidst a flock of startled birds",
+      "An ink sketch of a UFO landing on a tranquil lake",
+      "A UFO creating intricate crop circles in a golden wheat field as farmers watch in awe",
+      "A UFO radiating beams of light that transform the desert landscape into a lush, alien garden"
+    ]
+  },
+  "48": {
+    "prompts": [
+      "egg",
+      "A photograph of an egg broken on a rustic wooden table",
+      "A photo of an egg nestled in a cozy bird's nest",
+      "A detailed photograph of an egg catching the morning sunlight on a windowsill",
+      "A photo of an egg balanced on a stone in a serene garden",
+      "A watercolor painting of an egg in a nest surrounded by spring flowers",
+      "An anime-style drawing of a magical egg glowing with an inner light",
+      "A minimalist sketch of an egg with soft, subtle shadows",
+      "An egg floating in space, casting a shadow over a distant planet",
+      "An egg cracking open to release a tiny, radiant dragon"
+    ]
+  },
+  "49": {
+    "prompts": [
+      "vintage television",
+      "A photo of a vintage television on a classic wooden stand in a cozy living room",
+      "A photograph of a vintage television set in a retro-style diner with neon lights",
+      "A photo of a vintage television in an antique shop surrounded by various old objects",
+      "A photograph of a vintage television outdoors, part of a quirky garden installation",
+      "A digital painting of a vintage television with a vibrant, neon abstract background",
+      "An ink sketch of a vintage television with old-fashioned decorative elements",
+      "A cartoon of a vintage television broadcasting an old black and white movie",
+      "A vintage television floating in space, displaying scenes of different galaxies",
+      "A vintage television growing on a tree like a fruit, with birds perched on top watching"
+    ]
+  },
+  "50": {
+    "prompts": [
+      "rubber duck",
+      "A photograph of a rubber duck floating in a serene pond",
+      "A photo of a rubber duck amongst colorful bath toys",
+      "A detailed photograph of a rubber duck under a gently running tap",
+      "A photo of a rubber duck sitting on a sunny poolside",
+      "An anime-style illustration of a rubber duck on a magical pool",
+      "A minimalist sketch of a rubber duck, captured with bold, simple strokes",
+      "A retro-style painting of a rubber duck in a vintage bathtub",
+      "A rubber duck leading a parade of mythical water creatures",
+      "A rubber duck floating in space, orbiting a miniature planet"
+    ]
+  },
+  "51": {
+    "prompts": [
+      "stop sign",
+      "A photograph of a stop sign covered in snow with a blurred snowy landscape in the background",
+      "A photo of a stop sign at a busy city intersection during peak traffic hours",
+      "A picture of a stop sign on a desert road with a clear blue sky and distant mountains",
+      "A photograph of a stop sign at a crossroad in a lush green forest",
+      "A watercolor painting of a stop sign with a field of wildflowers around it",
+      "An anime-style illustration of a stop sign with glowing red letters at twilight",
+      "A minimalist black and white sketch of a stop sign in an urban setting with abstract buildings in the background",
+      "A stop sign standing at the edge of the world, overlooking an endless cosmic galaxy, shimmering stars surrounding it",
+      "A fantastical depiction of a stop sign transforming into a tree with leaves made of various street signs"
+    ]
+  },
+  "52": {
+    "prompts": [
+      "teapot",
+      "A photograph of a teapot steaming on a cozy kitchen table",
+      "A photo of a teapot on an old wooden shelf surrounded by antique books",
+      "A detailed photograph of a teapot in a sunlit garden, flowers blooming around",
+      "A photo of a teapot in a rustic cabin, a fire crackling in the background",
+      "A watercolor painting of a whimsical teapot floating among clouds",
+      "An anime-style drawing of a teapot transforming into a magical creature",
+      "A minimalist sketch of a teapot with sleek, modern lines set against a stark, white background",
+      "A teapot brewing a storm inside, with miniature lightning and clouds swirling under its lid",
+      "A teapot as a house, with tiny people living inside and windows glowing warmly at dusk"
+    ]
+  },
+  "53": {
+    "prompts": [
+      "cactus",
+      "A photograph of a cactus thriving under the harsh sunlight in the desert",
+      "A photo of a cactus garden showcasing various species and sizes",
+      "A detailed photograph of a flowering cactus with vibrant pink blooms",
+      "A photorealistic image of a cactus casting a long shadow at sunset",
+      "A watercolor painting of a cactus in a small, colorful ceramic pot",
+      "An abstract digital art piece featuring a cactus with geometric patterns",
+      "A minimalist ink sketch of a tall, slender cactus against a plain background",
+      "A cactus growing on a small planet, orbiting in a miniature solar system",
+      "A fantasy scene of a cactus forest glowing with bioluminescent flowers under a moonlit sky"
+    ]
+  },
+  "54": {
+    "prompts": [
+      "Poke Ball",
+      "A photo of a Poke Ball resting on a grassy field under a bright sun",
+      "A photograph of a Poke Ball on a busy city sidewalk, people walking by",
+      "A photo of a Poke Ball half-buried in sandy beach at dusk",
+      "A photograph of a Poke Ball on a wooden desk surrounded by Pokémon trading cards",
+      "A watercolor painting of a Poke Ball, with vivid splashes of red and white",
+      "An anime-style drawing of a Poke Ball being thrown by a trainer's hand",
+      "A retro-style illustration of a Poke Ball on a vintage Pokémon poster",
+      "A Poke Ball transforming into a colorful orb of light in a mystical forest",
+      "A gigantic Poke Ball floating in the sky over a futuristic city"
+    ]
+  },
+  "55": {
+    "prompts": [
+      "headphones",
+      "A photograph of headphones lying on a wooden desk next to an open laptop",
+      "A photo of headphones hanging on a hook in a modern, sleek recording studio",
+      "A detailed photograph of headphones resting on a stack of vinyl records",
+      "A photo of headphones draped over a cozy, plush armchair in a sunlit room",
+      "A minimalist drawing of headphones with simple, clean lines in black and white",
+      "A digital painting of colorful headphones floating in a zero-gravity space environment",
+      "A cartoon-style illustration of headphones with musical notes emanating from them",
+      "Headphones growing out of a tree like fruits, with music notes fluttering around as leaves",
+      "Headphones as portals to different musical worlds, each earpiece opening to a different genre landscape"
+    ]
+  },
+  "56": {
+    "prompts": [
+      "clock",
+      "A photograph of a clock hanging on the weathered wall of an old train station",
+      "A photo of a clock set against the backdrop of a busy modern office",
+      "A detailed photograph of an antique clock displayed in a museum",
+      "A photo of a clock integrated into the architecture of a grand cathedral",
+      "A digital painting of a clock melting over surreal, dreamlike landscapes",
+      "A watercolor painting of a clock entwined with vibrant spring flowers",
+      "An ink sketch of a clock with its gears exposed, in a steampunk style",
+      "A clock whose hands move backwards, each tick restoring an ancient ruin back to its original glory",
+      "A gigantic clock submerged under the ocean, with marine life interacting with its hands and numerals"
+    ]
+  },
+  "57": {
+    "prompts": [
+      "leather handbag",
+      "A photograph of a leather handbag on a polished mahogany desk",
+      "A photo of a leather handbag left on a rustic wooden bench in a park",
+      "A detailed photograph of an elegant leather handbag in the passenger seat of a vintage car",
+      "A photo capturing a leather handbag hanging on the shoulder of a woman walking through a bustling marketplace",
+      "An anime-style illustration of a magical leather handbag glowing with mystical runes",
+      "A watercolor painting of a leather handbag placed beside a vase of bright peonies",
+      "A minimalist sketch of a leather handbag, emphasized with bold, abstract lines against a stark background",
+      "A leather handbag that transforms into a miniature shelter, complete with tiny furniture and ambient lighting",
+      "A whimsical scene where a leather handbag serves as a boat floating gently down a serene river, surrounded by autumn leaves"
+    ]
+  },
+  "58": {
+    "prompts": [
+      "sunglasses",
+      "A photo of sunglasses resting on a beach towel under the bright sun",
+      "A photograph of sunglasses hanging on the rearview mirror of a vintage car",
+      "A photo of sunglasses lying next to a summer hat on a park bench",
+      "A photograph of sunglasses on a café table surrounded by a cityscape",
+      "A digital painting of sunglasses reflecting a neon-lit cityscape at night",
+      "An anime-style illustration of sunglasses floating above a skyscraper, reflecting the sun",
+      "A minimalist sketch of sunglasses with sharp, angular lines against a plain white background",
+      "Sunglasses transforming into a portal showing visions of different seasons",
+      "Sunglasses emitting beams of light that paint colors in the sky"
+    ]
+  },
+  "59": {
+    "prompts": [
+      "Eevee figurine",
+      "A photograph of an Eevee figurine placed on a grassy field",
+      "A photo of an Eevee figurine next to a collection of Pokémon trading cards",
+      "A photograph of an Eevee figurine on a windowsill basking in the sunset",
+      "A photo of an Eevee figurine surrounded by colorful autumn leaves",
+      "An anime-style illustration of an Eevee figurine with sparkling eyes",
+      "A minimalist sketch of an Eevee figurine, focusing on its fluffy features",
+      "A retro-style digital painting of an Eevee figurine on an old gaming console",
+      "An Eevee figurine transforming into a real Eevee under a magical, starry sky",
+      "An Eevee figurine leading a parade of miniature Pokémon through a miniature cityscape"
+    ]
+  },
+  "60": {
+    "prompts": [
+      "snare drum",
+      "A photograph of a snare drum on a dark, empty stage illuminated by a single spotlight",
+      "A photo of a snare drum being played in a high school band during a vibrant parade",
+      "A detailed photograph of a snare drum set against the backdrop of a graffiti-covered wall",
+      "A photo of a snare drum resting beside old vinyl records in a cozy attic music room",
+      "A watercolor painting of a snare drum surrounded by scattered sheet music and autumn leaves",
+      "An anime-style drawing of a snare drum with musical notes floating around it, exuding magical vibes",
+      "A minimalist sketch of a snare drum, captured with bold, black strokes against a stark white background",
+      "A snare drum growing out of a tree trunk as if it is a natural part of the forest",
+      "A snare drum at the center of an ancient coliseum, each beat echoing historical battles"
+    ]
+  },
+  "61": {
+    "prompts": [
+      "roll of film",
+      "A photograph of a roll of film next to an old camera on a wooden table",
+      "A photo of a roll of film illuminated by a single light in a dark room",
+      "A detailed photograph of a roll of film with visible sprocket holes and a strip of negatives",
+      "A photo of a roll of film lying on a stack of vintage photographs",
+      "A watercolor painting of a roll of film unraveled across a painter’s canvas",
+      "An ink sketch of a roll of film intertwined with a ribbon in a classic style",
+      "A retro-style illustration of a roll of film beside an old projector and cinema tickets",
+      "A roll of film forming a loop, floating through space with stars and galaxies visible in its transparent frames",
+      "A magical roll of film where each frame shows a moving scene from different historical events"
+    ]
+  },
+  "62": {
+    "prompts": [
+      "boat",
+      "A photograph of a boat anchored near a rocky coastline under a clear blue sky",
+      "A photo of a boat gliding through a misty lake at sunrise",
+      "A photograph of a colorful boat surrounded by floating market stalls",
+      "A detailed photo of a boat adorned with lanterns during a nighttime festival",
+      "A watercolor painting of a small boat bobbing on serene, turquoise waters",
+      "An ink sketch of a rustic boat tied to an old wooden dock",
+      "A digital illustration of a futuristic boat speeding through neon-lit waterways",
+      "A boat floating in the air, carried by a cluster of vibrant balloons against a sunset backdrop",
+      "A depiction of a tiny boat navigating the rings of Saturn, surrounded by glittering space dust"
+    ]
+  },
+  "63": {
+    "prompts": [
+      "cocktail",
+      "A photograph of a cocktail with a vibrant umbrella on a sunny beachside bar",
+      "A photo of a cocktail being poured dramatically at a high-end nightclub",
+      "A detailed photograph of a cocktail garnished with fresh mint and a twist of lime",
+      "A photorealistic image of a cocktail on a rooftop bar with city lights in the background",
+      "An art deco style illustration of a cocktail at a 1920s themed party",
+      "A watercolor painting of a cocktail surrounded by tropical flowers",
+      "A minimalist digital drawing of a cocktail with bold, geometric shapes",
+      "A cocktail that changes its color and ingredients as classical music plays in the background",
+      "A magical cocktail that glows with an ethereal light, floating above an enchanted forest clearing"
+    ]
+  },
+  "64": {
+    "prompts": [
+      "robot",
+      "A photograph of a robot helping an elderly woman cross the street",
+      "A photo of a robot conducting a symphony orchestra",
+      "A detailed photograph of a robot at a construction site, operating machinery",
+      "A photo of a robot sitting quietly in a library, reading books",
+      "A watercolor painting of a robot surrounded by children in a playground",
+      "An anime-style illustration of a robot heroically defending a city",
+      "A retro-style digital artwork of a robot in a 1950s diner serving milkshakes",
+      "A robot planting trees on a barren planet, bringing life to its surface",
+      "A robot and a dolphin dancing under the ocean, surrounded by swirling schools of fish"
+    ]
+  }
+}

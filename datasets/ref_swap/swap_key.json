@@ -1,0 +1,212 @@
+[
+ {
+  "sample_id": "person_2r_000",
+  "category": "person",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\person_2r_000_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\person_3r_032_r0_a.png",
+  "donor": "person_3r_032"
+ },
+ {
+  "sample_id": "person_2r_001",
+  "category": "person",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\person_2r_001_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\person_3r_037_r0_a.png",
+  "donor": "person_3r_037"
+ },
+ {
+  "sample_id": "person_2r_002",
+  "category": "person",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\person_2r_002_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\person_3r_044_r0_a.png",
+  "donor": "person_3r_044"
+ },
+ {
+  "sample_id": "person_2r_003",
+  "category": "person",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\person_2r_003_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\person_2r_016_r0_a.png",
+  "donor": "person_2r_016"
+ },
+ {
+  "sample_id": "person_2r_004",
+  "category": "person",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\person_2r_004_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\person_3r_046_r0_a.png",
+  "donor": "person_3r_046"
+ },
+ {
+  "sample_id": "person_2r_005",
+  "category": "person",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\person_2r_005_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\person_3r_028_r0_a.png",
+  "donor": "person_3r_028"
+ },
+ {
+  "sample_id": "person_2r_006",
+  "category": "person",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\person_2r_006_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\person_3r_040_r0_a.png",
+  "donor": "person_3r_040"
+ },
+ {
+  "sample_id": "person_2r_007",
+  "category": "person",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\person_2r_007_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\person_3r_043_r0_a.png",
+  "donor": "person_3r_043"
+ },
+ {
+  "sample_id": "person_2r_008",
+  "category": "person",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\person_2r_008_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\person_3r_028_r0_a.png",
+  "donor": "person_3r_028"
+ },
+ {
+  "sample_id": "person_2r_009",
+  "category": "person",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\person_2r_009_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\person_3r_030_r0_a.png",
+  "donor": "person_3r_030"
+ },
+ {
+  "sample_id": "person_2r_010",
+  "category": "person",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\person_2r_010_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\person_3r_041_r0_a.png",
+  "donor": "person_3r_041"
+ },
+ {
+  "sample_id": "object_2r_000",
+  "category": "object",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\object_2r_000_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\object_3r_049_r0_a.png",
+  "donor": "object_3r_049"
+ },
+ {
+  "sample_id": "object_2r_001",
+  "category": "object",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\object_2r_001_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\object_3r_049_r0_a.png",
+  "donor": "object_3r_049"
+ },
+ {
+  "sample_id": "object_2r_002",
+  "category": "object",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\object_2r_002_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\object_3r_025_r0_a.png",
+  "donor": "object_3r_025"
+ },
+ {
+  "sample_id": "object_2r_003",
+  "category": "object",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\object_2r_003_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\object_3r_037_r0_a.png",
+  "donor": "object_3r_037"
+ },
+ {
+  "sample_id": "object_2r_004",
+  "category": "object",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\object_2r_004_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\object_3r_034_r0_a.png",
+  "donor": "object_3r_034"
+ },
+ {
+  "sample_id": "object_2r_005",
+  "category": "object",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\object_2r_005_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\object_2r_004_r0_a.png",
+  "donor": "object_2r_004"
+ },
+ {
+  "sample_id": "object_2r_006",
+  "category": "object",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\object_2r_006_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\object_3r_027_r0_a.png",
+  "donor": "object_3r_027"
+ },
+ {
+  "sample_id": "object_2r_007",
+  "category": "object",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\object_2r_007_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\object_3r_048_r0_a.png",
+  "donor": "object_3r_048"
+ },
+ {
+  "sample_id": "object_2r_008",
+  "category": "object",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\object_2r_008_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\object_3r_042_r0_a.png",
+  "donor": "object_3r_042"
+ },
+ {
+  "sample_id": "object_2r_009",
+  "category": "object",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\object_2r_009_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\object_3r_046_r0_a.png",
+  "donor": "object_3r_046"
+ },
+ {
+  "sample_id": "object_2r_010",
+  "category": "object",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\object_2r_010_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\object_3r_043_r0_a.png",
+  "donor": "object_3r_043"
+ },
+ {
+  "sample_id": "mixed_2r_000",
+  "category": "mixed",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\mixed_2r_000_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\mixed_2r_013_r0_a.png",
+  "donor": "mixed_2r_013"
+ },
+ {
+  "sample_id": "mixed_2r_001",
+  "category": "mixed",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\mixed_2r_001_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\mixed_3r_025_r0_a.png",
+  "donor": "mixed_3r_025"
+ },
+ {
+  "sample_id": "mixed_2r_002",
+  "category": "mixed",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\mixed_2r_002_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\mixed_3r_038_r0_a.png",
+  "donor": "mixed_3r_038"
+ },
+ {
+  "sample_id": "mixed_2r_003",
+  "category": "mixed",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\mixed_2r_003_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\mixed_2r_022_r0_a.png",
+  "donor": "mixed_2r_022"
+ },
+ {
+  "sample_id": "mixed_2r_004",
+  "category": "mixed",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\mixed_2r_004_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\mixed_3r_031_r0_a.png",
+  "donor": "mixed_3r_031"
+ },
+ {
+  "sample_id": "mixed_2r_005",
+  "category": "mixed",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\mixed_2r_005_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\mixed_3r_027_r0_a.png",
+  "donor": "mixed_3r_027"
+ },
+ {
+  "sample_id": "mixed_2r_006",
+  "category": "mixed",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\mixed_2r_006_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\mixed_3r_047_r0_a.png",
+  "donor": "mixed_3r_047"
+ },
+ {
+  "sample_id": "mixed_2r_007",
+  "category": "mixed",
+  "ref_a": "datasets\\mixed_eval_v1\\refs\\mixed_2r_007_r0_a.png",
+  "ref_b": "datasets\\mixed_eval_v1\\refs\\mixed_2r_004_r0_a.png",
+  "donor": "mixed_2r_004"
+ }
+]

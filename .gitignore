@@ -1,0 +1,83 @@
+# Generated images and metric caches.  16 GB, reproducible from the scripts.
+outputs/
+user_study_results/
+
+# Model weights, fetched from HuggingFace / the model cards.
+models/
+*.safetensors
+*.ckpt
+*.bin
+
+# Reference images and benchmark assets, fetched from their sources.
+# Only the JSON manifests that define each benchmark are tracked.
+datasets/**
+!datasets/**/
+!datasets/**/*.json
+!datasets/*.json
+!datasets/README.md
+
+# Large loose artefacts
+inception-2015-12-05.pt
+rpg.pdf
+*.png
+!paper_latex/**/*.png
+!paper_latex/**/*.pdf
+paper_figures/
+parameter_tuning_grids/
+regional_ip_verification/
+user_study/**/*.png
+user_study/**/*.jpg
+user_study.html
+
+# Scratch: comparison strips and probe renders written to the repo root
+# during analysis.  Named with a leading underscore by convention.
+_*.png
+_*.txt
+_*.json
+_fcswap_work/
+_medium_final/
+
+# Run logs
+logs_*.txt
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# LaTeX build products
+paper_latex/*.aux
+paper_latex/*.log
+paper_latex/*.out
+paper_latex/*.bbl
+paper_latex/*.blg
+paper_latex/*.synctex.gz
+paper_latex/*.fdb_latexmk
+paper_latex/*.fls
+
+# Vendored third-party checkouts have their own history
+third_party/
+
+# An unrelated project living inside this working tree (9 GB).
+ltaug/
+
+# Per-run result directories written by the probe and test scripts.
+*_results/
+*_results_v2/
+*_test/
+*_test_results/
+session_recovery/
+paper_results/
+paper_results_v2/
+method_a_results/
+parameter_tuning_results/
+quick_test_results/
+quick_validation_results*/
+experiment_results/
+
+# Advisor report deck and its figures
+report/node_modules/
+
+# Withheld until the user study has been run.
+user_study/

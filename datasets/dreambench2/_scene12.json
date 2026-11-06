@@ -1,0 +1,256 @@
+{
+  "samples": [
+    {
+      "sample_id": "db2_HH_000",
+      "full_prompt": "A photograph of a man and a girl sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a man in a sunlit park BREAK A photograph of a girl in a sunlit park",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\13.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "girl"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "13",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_001",
+      "full_prompt": "A photo of a man next to a girl on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a man on a wooden table outdoors BREAK A photo of a girl on a wooden table outdoors",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\13.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "girl"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "13",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HH_002",
+      "full_prompt": "A scene showing a man and a girl together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A scene showing a man on a cobblestone street BREAK A scene showing a girl on a cobblestone street",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\13.jpg"
+      ],
+      "concept_names": [
+        "man",
+        "girl"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HH",
+        "concept_a_id": "10",
+        "concept_b_id": "13",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_000",
+      "full_prompt": "A photograph of a basketball player and a lion sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a basketball player in a sunlit park BREAK A photograph of a lion in a sunlit park",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\23.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "lion"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "23",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_001",
+      "full_prompt": "A photo of a basketball player next to a lion on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a basketball player on a wooden table outdoors BREAK A photo of a lion on a wooden table outdoors",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\23.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "lion"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "23",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HA_002",
+      "full_prompt": "A scene showing a basketball player and a lion together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A scene showing a basketball player on a cobblestone street BREAK A scene showing a lion on a cobblestone street",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\23.jpg"
+      ],
+      "concept_names": [
+        "basketball player",
+        "lion"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HA",
+        "concept_a_id": "18",
+        "concept_b_id": "23",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_000",
+      "full_prompt": "A photograph of a girl and a guitar sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a girl in a sunlit park BREAK A photograph of a guitar in a sunlit park",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\39.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "guitar"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "39",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_001",
+      "full_prompt": "A photo of a girl next to a guitar on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a girl on a wooden table outdoors BREAK A photo of a guitar on a wooden table outdoors",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\39.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "guitar"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "39",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_HO_002",
+      "full_prompt": "A scene showing a girl and a guitar together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A scene showing a girl on a cobblestone street BREAK A scene showing a guitar on a cobblestone street",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\39.jpg"
+      ],
+      "concept_names": [
+        "girl",
+        "guitar"
+      ],
+      "metadata": {
+        "category": "mixed",
+        "pair_type": "HO",
+        "concept_a_id": "19",
+        "concept_b_id": "39",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_000",
+      "full_prompt": "A photograph of a flamingo and a bouquet of flowers sitting together in a sunlit park",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photograph of a flamingo in a sunlit park BREAK A photograph of a bouquet of flowers in a sunlit park",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\33.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "bouquet of flowers"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "33",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_001",
+      "full_prompt": "A photo of a flamingo next to a bouquet of flowers on a wooden table outdoors",
+      "split_ratio": "1,1",
+      "regional_prompts": "A photo of a flamingo on a wooden table outdoors BREAK A photo of a bouquet of flowers on a wooden table outdoors",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\33.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "bouquet of flowers"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "33",
+        "source": "dreambench_plus"
+      }
+    },
+    {
+      "sample_id": "db2_AO_002",
+      "full_prompt": "A scene showing a flamingo and a bouquet of flowers together on a cobblestone street",
+      "split_ratio": "1,1",
+      "regional_prompts": "A scene showing a flamingo on a cobblestone street BREAK A scene showing a bouquet of flowers on a cobblestone street",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\animal\\28.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\object\\33.jpg"
+      ],
+      "concept_names": [
+        "flamingo",
+        "bouquet of flowers"
+      ],
+      "metadata": {
+        "category": "object",
+        "pair_type": "AO",
+        "concept_a_id": "28",
+        "concept_b_id": "33",
+        "source": "dreambench_plus"
+      }
+    }
+  ]
+}

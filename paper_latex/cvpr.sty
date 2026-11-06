@@ -1,0 +1,42 @@
+% Minimal CVPR style stub — compatible layout for local compilation
+% (Replace with official cvpr.sty from cvpr.thecvf.com before submission)
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{cvpr}[2024/01/01 CVPR style stub]
+
+\RequirePackage{geometry}
+\geometry{
+  letterpaper,
+  top=1in,
+  bottom=1in,
+  left=0.875in,
+  right=0.875in,
+  columnsep=0.3125in
+}
+
+% --- CVPR-specific commands ---
+\newif\ifcvprfinal\cvprfinalfalse
+\newcommand{\cvprfinalcopy}{\cvprfinaltrue}
+\def\theCVPRPaper{????}
+
+% --- Common abbreviation macros ---
+\RequirePackage{xspace}
+\newcommand\eg{\emph{e.g}\onedot}
+\newcommand\ie{\emph{i.e}\onedot}
+\newcommand\Eg{\emph{E.g}\onedot}
+\newcommand\Ie{\emph{I.e}\onedot}
+\newcommand\cf{\emph{cf}\onedot}
+\newcommand\etc{\emph{etc}\onedot}
+\newcommand\vs{\emph{vs}\onedot}
+\newcommand\wrt{w.r.t\onedot}
+\newcommand\etal{\emph{et al}\onedot}
+
+\def\onedot{.\xspace}
+
+% Float spacing
+\setlength{\textfloatsep}{10pt plus 2pt minus 2pt}
+\setlength{\floatsep}{8pt plus 2pt minus 2pt}
+\setlength{\intextsep}{8pt plus 2pt minus 2pt}
+\setlength{\abovecaptionskip}{6pt}
+\setlength{\belowcaptionskip}{0pt}
+
+\endinput

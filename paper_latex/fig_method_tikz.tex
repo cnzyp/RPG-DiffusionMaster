@@ -1,0 +1,135 @@
+%% One of the two drawn figures.  Colours and node styles are in
+%% fig_tikz_defs.tex, input from the preamble of both builds.
+%%
+%% Laid out along the denoising timeline, because the contribution is a
+%% timestep-level split: identity is written early inside per-region
+%% sub-canvases, and the regional decomposition is released at tau.
+%%
+%% Planning is drawn out rather than shown as one box, after RPG's Figure 3:
+%% the prompt's key phrases, the split ratio the planner emits, and the
+%% per-region assignment are all visible, because the reference assignment is
+%% the step that distinguishes this planner's output from a text-only one.
+%% One colour per concept runs the whole width -- prompt phrase, region row,
+%% sub-canvas, output label -- so a reader can follow one concept across the
+%% figure without reading a single caption.
+%%
+%% The thumbnails are real renders.  There is deliberately no "the seam closes
+%% at tau" before/after: measured over all 150 samples the release changes the
+%% boundary step by at most 5%, which is not visible.
+%%
+%% Arrows attach to node anchors rather than to hardcoded coordinates, so a
+%% box that grows with its text cannot silently overlap its neighbour.
+
+\begin{tikzpicture}[x=1cm,y=1cm]
+
+  % ---- stage bands, behind everything --------------------------------------
+  \fill[bandA,band] (-0.14,-0.18) rectangle (6.52,3.60);
+  \fill[bandB,band] (6.68,-0.18) rectangle (13.36,3.60);
+  \fill[bandA,band] (-0.14,-3.30) rectangle (13.36,-0.42);
+
+  % ======================================================== stage 1 =========
+  \node[stage,anchor=north west] at (0.00,3.46) {Stage 1\ \ Scene planning};
+
+  \node[blk,anchor=north west,text width=5.9cm,align=left,fill=white]
+    (pr) at (0.00,3.06)
+    {\emph{``\textcolor{fgBlue}{an elderly woman in a blue hoodie},
+      {\scriptsize BREAK} \textcolor{fgGreen}{a potted plant on a stand}''}};
+
+  \node[blkp,anchor=north west] (mllm) at (0.00,2.18)
+    {MLLM planner\,\frozen};
+  \node[slbl,anchor=west,align=left] at (1.92,2.02)
+    {task instruction $+$ in-context\\examples $+$ chain of thought};
+
+  % what the planner emits, drawn out -- this is the step a text-only planner
+  % does not perform, so it is shown rather than summarised
+  \node[blk,anchor=north west,text width=5.75cm,align=left,fill=white,
+        inner sep=4pt,font=\tiny] (out) at (0.00,1.36)
+    {split ratio \ \texttt{1,1}\\[1.5pt]
+     \textcolor{fgBlue}{region 1 \ \ $p_1$: ``an elderly woman\ldots'' \ \
+      ref $r_1$}\\[1.5pt]
+     \textcolor{fgGreen}{region 2 \ \ $p_2$: ``a potted plant\ldots'' \ \ \
+      ref $r_2$}};
+
+  \draw[ar] (pr.south -| 0.72,0) -- (mllm.north -| 0.72,0);
+  \draw[ar] (mllm.south -| 0.72,0) -- (out.north -| 0.72,0);
+
+  % ======================================================== stage 2 =========
+  \node[stage,anchor=north west] at (6.82,3.46)
+    {Stage 2\ \ Reference encoding};
+
+  % the references are consumed here, not in planning, so they are drawn here
+  \node[thumb,draw=fgBlue,line width=0.6pt] (ra) at (7.44,2.56)
+    {\includegraphics[width=0.60cm]{paper_figures/fg_ref_a.png}};
+  \node[thumb,draw=fgGreen,line width=0.6pt] (rb) at (8.18,2.56)
+    {\includegraphics[width=0.60cm]{paper_figures/fg_ref_b.png}};
+  \node[slbl,anchor=north] at (7.81,2.18) {references $r_1$, $r_2$};
+
+  \node[blko] (ipa) at (10.18,2.56) {IP-Adapter Plus\,\frozen};
+  \node[lbl,anchor=west] (toks) at (11.68,2.56) {tokens $\mathbf{e}_i$};
+  \draw[ar] (rb.east) -- (ipa.west);
+  \draw[ar] (ipa.east) -- (toks.west);
+
+  \node[slbl,anchor=north west,align=left,text width=6.3cm] at (6.84,1.70)
+    {Each reference is encoded once, by the frozen encoder.  The adapter is
+     never masked, attenuated or rescaled: Section~\ref{sec:why_gating_fails}
+     shows that doing any of those is what stops identity arriving.};
+
+  % ======================================================== stage 3 =========
+  \node[stage,anchor=north west] at (0.00,-0.56)
+    {Stage 3\ \ Sampling, split at $\tau$};
+
+  % early
+  \node[blkb] (u1) at (1.30,-1.36) {$\Omega_1$: U-Net\,\frozen $+\,\mathbf{e}_1$};
+  \node[blkg] (u2) at (1.30,-2.30) {$\Omega_2$: U-Net\,\frozen $+\,\mathbf{e}_2$};
+  \node[thumb,draw=fgBlue] (c1) at (3.28,-1.36)
+    {\includegraphics[width=0.52cm]{paper_figures/fg_region1.png}};
+  \node[thumb,draw=fgGreen] (c2) at (3.28,-2.30)
+    {\includegraphics[width=0.52cm]{paper_figures/fg_region2.png}};
+  \draw[ar] (u1.east) -- node[slbl,above,inner sep=1pt]{$\varepsilon_1$} (c1.west);
+  \draw[ar] (u2.east) -- node[slbl,above,inner sep=1pt]{$\varepsilon_2$} (c2.west);
+
+  \node[circle,draw=fgGrey,fill=white,inner sep=0pt,minimum size=10pt,
+        font=\scriptsize,line width=0.5pt] (op) at (4.52,-1.83) {$\oplus$};
+  \draw[ar] (c1.east) to[out=0,in=130] (op);
+  \draw[ar] (c2.east) to[out=0,in=230] (op);
+  \node[slbl,anchor=north,align=center] at (5.46,-1.76)
+    {feathered\\fusion (Eq.~5)};
+
+  \node[blk] (step) at (6.62,-1.83) {scheduler\\step};
+  \draw[ar] (op) -- (step.west);
+  \draw[ar,rounded corners=2pt] (step.north) -- ++(0,0.40) -| (u1.north);
+  \node[slbl] at (4.20,-0.94) {repeat until $t=\tau$};
+
+  \node[slbl,anchor=north west,align=left,text=black] at (0.00,-0.90)
+    {\textbf{early} \ $t>\tau$};
+
+  % the switch
+  \draw[fgRed,dashed,line width=0.55pt] (7.46,-3.22) -- (7.46,-0.60);
+
+  % late
+  \node[slbl,anchor=north west,align=left,text=black] at (7.62,-0.90)
+    {\textbf{late} \ $t\le\tau$};
+  \node[blkr] (u3) at (9.22,-1.83)
+    {U-Net\,\frozen, full canvas\\$+\,p,\ \{\mathbf{e}_i\}$};
+  \draw[ar] (step.east) -- (u3.west);
+
+  \node[thumb] (fin) at (11.52,-1.83)
+    {\includegraphics[width=0.92cm]{paper_figures/fg_ours.png}};
+  \draw[arh] (u3.east) -- (fin.west);
+  \node[slbl,anchor=north,align=center] at (11.52,-2.38)
+    {\textcolor{fgBlue}{region 1} and \textcolor{fgGreen}{region 2},\\each its
+     own reference};
+
+  \draw[rule,line width=0.4pt] (12.36,-2.52) -- (12.36,-1.16);
+  \node[thumb,draw=fgGrey!45] (rpg) at (12.92,-1.83)
+    {\includegraphics[width=0.58cm]{paper_figures/fg_rpgonly.png}};
+  \node[slbl,anchor=north,align=center] at (12.92,-2.20) {text only:\\neither};
+
+  % timeline
+  \draw[arh] (0.00,-3.52) -- (13.30,-3.52);
+  \node[slbl,anchor=north west] at (0.00,-3.60) {$t=T$ \ (noise)};
+  \node[slbl,anchor=north east] at (13.30,-3.60) {$t=0$ \ (image)};
+  \draw[fgRed,line width=0.55pt] (7.46,-3.66) -- (7.46,-3.38);
+  \node[slbl,anchor=north,text=fgRed] at (7.46,-3.66) {$\tau$ \ (default $0.7$)};
+
+\end{tikzpicture}

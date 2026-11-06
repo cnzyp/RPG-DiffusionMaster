@@ -1,0 +1,487 @@
+{
+  "name": "scene_bench_v1",
+  "num_samples": 34,
+  "note": "people-focused complex-scene personalization; refs are photo-real human faces",
+  "samples": [
+    {
+      "sample_id": "scene_000_park_bench",
+      "scene_prompt": "a person wearing casual clothes sitting on a park bench, autumn trees with orange leaves, sunny day, full body, looking at camera, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\mixed_3r_038_r0_a.png"
+        }
+      ],
+      "n_people": 1,
+      "scene_type": "park_bench",
+      "seed": 42
+    },
+    {
+      "sample_id": "scene_001_kitchen",
+      "scene_prompt": "a person standing in a bright modern kitchen holding a coffee mug, warm morning light, upper body, looking at camera, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_3r_036_r0_a.png"
+        }
+      ],
+      "n_people": 1,
+      "scene_type": "kitchen",
+      "seed": 43
+    },
+    {
+      "sample_id": "scene_002_library",
+      "scene_prompt": "a person reading a book at a wooden desk in a cozy library, bookshelves, warm lamp light, upper body, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_3r_034_r0_a.png"
+        }
+      ],
+      "n_people": 1,
+      "scene_type": "library",
+      "seed": 44
+    },
+    {
+      "sample_id": "scene_003_city_street",
+      "scene_prompt": "a person walking on a city street with storefronts and soft daylight, full body, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_3r_045_r0_a.png"
+        }
+      ],
+      "n_people": 1,
+      "scene_type": "city_street",
+      "seed": 45
+    },
+    {
+      "sample_id": "scene_004_living_room",
+      "scene_prompt": "a person sitting on a sofa in a cozy living room, house plants, large window with soft light, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\mixed_3r_034_r2_a.png"
+        }
+      ],
+      "n_people": 1,
+      "scene_type": "living_room",
+      "seed": 46
+    },
+    {
+      "sample_id": "scene_005_garden",
+      "scene_prompt": "a person standing in a blooming garden with flowers, sunny day, full body, looking at camera, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_2r_013_r0_a.png"
+        }
+      ],
+      "n_people": 1,
+      "scene_type": "garden",
+      "seed": 47
+    },
+    {
+      "sample_id": "scene_006_office_desk",
+      "scene_prompt": "a person sitting at a desk in a modern office with glass windows, daytime, upper body, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_3r_040_r0_a.png"
+        }
+      ],
+      "n_people": 1,
+      "scene_type": "office_desk",
+      "seed": 48
+    },
+    {
+      "sample_id": "scene_007_beach",
+      "scene_prompt": "a person standing on a sandy beach at sunset, ocean waves behind, full body, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_2r_010_r0_a.png"
+        }
+      ],
+      "n_people": 1,
+      "scene_type": "beach",
+      "seed": 49
+    },
+    {
+      "sample_id": "scene_008_park_bench",
+      "scene_prompt": "a person wearing casual clothes sitting on a park bench, autumn trees with orange leaves, sunny day, full body, looking at camera, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\mixed_3r_030_r0_a.png"
+        }
+      ],
+      "n_people": 1,
+      "scene_type": "park_bench",
+      "seed": 50
+    },
+    {
+      "sample_id": "scene_009_kitchen",
+      "scene_prompt": "a person standing in a bright modern kitchen holding a coffee mug, warm morning light, upper body, looking at camera, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_3r_042_r0_a.png"
+        }
+      ],
+      "n_people": 1,
+      "scene_type": "kitchen",
+      "seed": 51
+    },
+    {
+      "sample_id": "scene_010_library",
+      "scene_prompt": "a person reading a book at a wooden desk in a cozy library, bookshelves, warm lamp light, upper body, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_2r_018_r0_a.png"
+        }
+      ],
+      "n_people": 1,
+      "scene_type": "library",
+      "seed": 52
+    },
+    {
+      "sample_id": "scene_011_city_street",
+      "scene_prompt": "a person walking on a city street with storefronts and soft daylight, full body, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\mixed_2r_001_r0_a.png"
+        }
+      ],
+      "n_people": 1,
+      "scene_type": "city_street",
+      "seed": 53
+    },
+    {
+      "sample_id": "scene_012_living_room",
+      "scene_prompt": "a person sitting on a sofa in a cozy living room, house plants, large window with soft light, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\mixed_2r_018_r0_a.png"
+        }
+      ],
+      "n_people": 1,
+      "scene_type": "living_room",
+      "seed": 54
+    },
+    {
+      "sample_id": "scene_013_garden",
+      "scene_prompt": "a person standing in a blooming garden with flowers, sunny day, full body, looking at camera, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\mixed_3r_035_r0_a.png"
+        }
+      ],
+      "n_people": 1,
+      "scene_type": "garden",
+      "seed": 55
+    },
+    {
+      "sample_id": "scene_014_office_desk",
+      "scene_prompt": "a person sitting at a desk in a modern office with glass windows, daytime, upper body, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\mixed_2r_010_r0_a.png"
+        }
+      ],
+      "n_people": 1,
+      "scene_type": "office_desk",
+      "seed": 56
+    },
+    {
+      "sample_id": "scene_015_beach",
+      "scene_prompt": "a person standing on a sandy beach at sunset, ocean waves behind, full body, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\mixed_2r_013_r0_a.png"
+        }
+      ],
+      "n_people": 1,
+      "scene_type": "beach",
+      "seed": 57
+    },
+    {
+      "sample_id": "scene_016_cafe_two",
+      "scene_prompt": "two people sitting together at a wooden table in a cozy cafe, coffee cups, large window with warm light, both looking at camera, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_2r_007_r0_a.png"
+        },
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_3r_026_r0_a.png"
+        }
+      ],
+      "n_people": 2,
+      "scene_type": "cafe_two",
+      "seed": 58
+    },
+    {
+      "sample_id": "scene_017_park_two",
+      "scene_prompt": "two people standing together in a park, green trees, sunny day, full body, looking at camera, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_2r_008_r0_a.png"
+        },
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\mixed_2r_015_r0_a.png"
+        }
+      ],
+      "n_people": 2,
+      "scene_type": "park_two",
+      "seed": 59
+    },
+    {
+      "sample_id": "scene_018_sofa_two",
+      "scene_prompt": "two people sitting on a sofa in a living room, talking, warm light, plants, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_2r_000_r0_a.png"
+        },
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\mixed_2r_002_r0_a.png"
+        }
+      ],
+      "n_people": 2,
+      "scene_type": "sofa_two",
+      "seed": 60
+    },
+    {
+      "sample_id": "scene_019_restaurant_two",
+      "scene_prompt": "two people sitting at a restaurant table with plates of food, evening warm light, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\mixed_2r_024_r0_a.png"
+        },
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_3r_035_r0_a.png"
+        }
+      ],
+      "n_people": 2,
+      "scene_type": "restaurant_two",
+      "seed": 61
+    },
+    {
+      "sample_id": "scene_020_office_two",
+      "scene_prompt": "two people standing in a modern office with glass walls, daytime, upper body, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_2r_014_r0_a.png"
+        },
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_2r_003_r1_a.png"
+        }
+      ],
+      "n_people": 2,
+      "scene_type": "office_two",
+      "seed": 62
+    },
+    {
+      "sample_id": "scene_021_kitchen_two",
+      "scene_prompt": "two people cooking together in a bright kitchen, warm light, upper body, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_3r_043_r1_a.png"
+        },
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\mixed_2r_008_r0_a.png"
+        }
+      ],
+      "n_people": 2,
+      "scene_type": "kitchen_two",
+      "seed": 63
+    },
+    {
+      "sample_id": "scene_022_cafe_two",
+      "scene_prompt": "two people sitting together at a wooden table in a cozy cafe, coffee cups, large window with warm light, both looking at camera, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_3r_038_r0_a.png"
+        },
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\mixed_3r_041_r1_a.png"
+        }
+      ],
+      "n_people": 2,
+      "scene_type": "cafe_two",
+      "seed": 64
+    },
+    {
+      "sample_id": "scene_023_park_two",
+      "scene_prompt": "two people standing together in a park, green trees, sunny day, full body, looking at camera, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_3r_048_r0_a.png"
+        },
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_3r_027_r0_a.png"
+        }
+      ],
+      "n_people": 2,
+      "scene_type": "park_two",
+      "seed": 65
+    },
+    {
+      "sample_id": "scene_024_sofa_two",
+      "scene_prompt": "two people sitting on a sofa in a living room, talking, warm light, plants, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_2r_016_r0_a.png"
+        },
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\mixed_3r_025_r0_a.png"
+        }
+      ],
+      "n_people": 2,
+      "scene_type": "sofa_two",
+      "seed": 66
+    },
+    {
+      "sample_id": "scene_025_restaurant_two",
+      "scene_prompt": "two people sitting at a restaurant table with plates of food, evening warm light, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_2r_022_r0_a.png"
+        },
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\mixed_3r_045_r0_a.png"
+        }
+      ],
+      "n_people": 2,
+      "scene_type": "restaurant_two",
+      "seed": 67
+    },
+    {
+      "sample_id": "scene_026_office_two",
+      "scene_prompt": "two people standing in a modern office with glass walls, daytime, upper body, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_3r_049_r2_a.png"
+        },
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\mixed_3r_036_r0_a.png"
+        }
+      ],
+      "n_people": 2,
+      "scene_type": "office_two",
+      "seed": 68
+    },
+    {
+      "sample_id": "scene_027_kitchen_two",
+      "scene_prompt": "two people cooking together in a bright kitchen, warm light, upper body, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_3r_047_r0_a.png"
+        },
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\mixed_2r_000_r0_a.png"
+        }
+      ],
+      "n_people": 2,
+      "scene_type": "kitchen_two",
+      "seed": 69
+    },
+    {
+      "sample_id": "scene_028_dinner_three",
+      "scene_prompt": "three people sitting around a dining table for a home dinner, warm light, plates and glasses, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_3r_041_r0_a.png"
+        },
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\mixed_2r_004_r0_a.png"
+        },
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\mixed_3r_027_r2_a.png"
+        }
+      ],
+      "n_people": 3,
+      "scene_type": "dinner_three",
+      "seed": 70
+    },
+    {
+      "sample_id": "scene_029_park_three",
+      "scene_prompt": "three people standing together outdoors in a sunny park, green trees, full body, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_3r_046_r0_a.png"
+        },
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\mixed_3r_040_r2_a.png"
+        },
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_2r_021_r0_a.png"
+        }
+      ],
+      "n_people": 3,
+      "scene_type": "park_three",
+      "seed": 71
+    },
+    {
+      "sample_id": "scene_030_sofa_three",
+      "scene_prompt": "three people sitting together on a large sofa in a living room, warm light, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_3r_025_r0_a.png"
+        },
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\mixed_2r_021_r1_a.png"
+        },
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_2r_006_r0_a.png"
+        }
+      ],
+      "n_people": 3,
+      "scene_type": "sofa_three",
+      "seed": 72
+    },
+    {
+      "sample_id": "scene_031_dinner_three",
+      "scene_prompt": "three people sitting around a dining table for a home dinner, warm light, plates and glasses, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_3r_030_r0_a.png"
+        },
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\mixed_3r_031_r2_a.png"
+        },
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_3r_039_r0_a.png"
+        }
+      ],
+      "n_people": 3,
+      "scene_type": "dinner_three",
+      "seed": 73
+    },
+    {
+      "sample_id": "scene_032_park_three",
+      "scene_prompt": "three people standing together outdoors in a sunny park, green trees, full body, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\mixed_3r_033_r1_a.png"
+        },
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_3r_044_r0_a.png"
+        },
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_2r_001_r0_a.png"
+        }
+      ],
+      "n_people": 3,
+      "scene_type": "park_three",
+      "seed": 74
+    },
+    {
+      "sample_id": "scene_033_sofa_three",
+      "scene_prompt": "three people sitting together on a large sofa in a living room, warm light, photorealistic, highly detailed",
+      "subjects": [
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\mixed_3r_042_r0_a.png"
+        },
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\mixed_3r_032_r0_a.png"
+        },
+        {
+          "ref": "datasets/mixed_eval_v1/refs\\person_2r_009_r0_a.png"
+        }
+      ],
+      "n_people": 3,
+      "scene_type": "sofa_three",
+      "seed": 75
+    }
+  ]
+}

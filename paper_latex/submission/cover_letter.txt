@@ -1,0 +1,120 @@
+6 November 2026
+
+To the Editors
+Pattern Recognition
+
+Dear Editors,
+
+Please consider the enclosed manuscript, "The Injection Site Determines What
+Identity Survives in Training-Free Multi-Concept Personalization," for publication in Pattern Recognition.
+
+Training-free methods for generating an image containing several specific,
+user-supplied concepts all impose a spatial constraint somewhere in the
+diffusion process, and they differ in where.  That choice is almost never
+isolated from the others made alongside it, so the literature reports
+architectures rather than mechanisms.  This manuscript isolates it: the
+backbone, the adapter, the injection scale, the layout planner and the seed
+are held fixed, and only the injection site varies.  The sites form a ladder,
+and what each rung costs is measured rather than argued.
+
+Three results seem to us worth the journal's attention.
+
+  1. Masking an image adapter inside cross-attention -- the most widely used
+     construction in this setting -- recovers 1.7% of the identity the same
+     adapter delivers from the sampling loop, an amount indistinguishable
+     from zero, and no injection strength repairs it.  We show this is not a
+     tuning failure but a consequence of what a convolutional backbone
+     entangles.
+
+  2. Similarity to a reference cannot distinguish a weak conditioning signal
+     from a dead one, and we give a control that can: swap a region's
+     reference for another instance of the same category and ask whether the
+     output follows.  A reference-free baseline sits at exactly zero by
+     construction.  Under this test one widely used configuration rewrites
+     the image substantially while moving toward its newly assigned
+     reference by nothing (p = 0.79).
+
+  3. Identity gain and face area correlate at r = 0.949 across seven methods,
+     which means published identity scores in this area are partly a
+     measurement of framing.  We report both quantities throughout and give
+     a framing-independent alternative.
+
+The endpoint of the ladder is a complete method that, on a frozen backbone and
+at 0.83x the cost per image, leads a baseline trained on a subject-annotated
+corpus on identity and on concept isolation, ties it on placement, and trails
+it on text alignment by 0.004.  We release the Mixed-Eval-v1 benchmark (150
+two- and three-region samples) and the full evaluation harness.
+
+The work is methodological and empirical in the way Pattern Recognition
+publishes: a controlled comparison, a measurement instrument for a property
+the existing metrics conflate, and negative results reported with the size of
+each cost attached.
+
+Pattern Recognition asks three questions of every cover letter.
+
+Was the study compared to the state of the art?  Yes.  Six methods are run
+under one protocol, on the same hardware, prompts and seeds: RPG, IP-Adapter,
+IP-Adapter-FaceID, Conceptrol, an attention-gated regional adapter, and
+MS-Diffusion.  Five articles presenting the state of the art on this topic:
+
+  1. Wang et al., MS-Diffusion: Multi-subject Zero-shot Image Personalization
+     with Layout Guidance, ICLR 2025.
+
+  2. He et al., Conceptrol: Concept Control of Zero-shot Personalized Image
+     Generation, 2025.
+
+  3. Yu et al., AnyMS: Bottom-up Attention Decoupling for Layout-guided and
+     Training-free Multi-subject Generation, 2025.
+
+  4. Li et al., PhotoMaker: Customizing Realistic Human Photos via Stacked ID
+     Embedding, CVPR 2024.
+
+  5. Wang et al., InstantID: Zero-shot Identity-Preserving Generation in
+     Seconds, 2024.
+
+The first two are run as baselines from the authors' own code.  AnyMS has no
+public implementation -- checked on its arXiv page and by search -- so it is
+discussed rather than run; it matters because it is built on the same SDXL
+and IP-Adapter pairing to which our negative result is scoped.  PhotoMaker
+and InstantID are single-subject and identity-specific, so they bound the
+problem rather than solve it, and the manuscript says where.
+
+Which public datasets exist for this problem, and which were used?
+DreamBench++ (Peng et al., ICLR 2025) is the public benchmark for
+personalized generation, and we use it: Supplementary S6 evaluates on
+DreamBench-2, 150 two-concept samples built from DreamBench++ references over
+30 concept pairs.  DreamBooth's set is single-subject and cannot express a
+multi-region task.  Because no public benchmark pairs several specific
+subjects with a layout, we construct and release two: Mixed-Eval-v1 (150 two-
+and three-region samples across all categories) and Scaling-Bench (90
+samples, N = 4, 5 and 6).
+
+Which measures does the validation framework use, and which did we use?  The
+standard set is DINO and CLIP-I for subject fidelity, CLIP-T for prompt
+adherence, FID or KID for realism, and ArcFace cosine similarity for faces.
+We report DINO-ID, CLIP-T, ArcFace, ArcFace-P, FID and KID.  We add three the
+standard set cannot express, and argue for each in the manuscript: a leakage
+margin, since similarity to the correct reference means nothing without the
+distance to the wrong one; region-level binding accuracy; and a
+reference-swap response, because similarity cannot tell a weak conditioning
+signal from a dead one.  FID and KID are reported for completeness and are
+explicitly not criteria here -- the reference set is single-subject
+photographs while every method is asked for a multi-subject scene, so both
+reward failing the task.
+
+This manuscript is original, has not been published previously, and is not
+under consideration elsewhere, in whole or in part.  The authors have no competing
+interests to declare, and received no specific funding for this work.
+
+Thank you for your consideration.
+
+Yours sincerely,
+
+Yaping Zhang, Mengqin Sun, Kaicheng Shi, Shaoying Yang
+School of Computer Science and Artificial Intelligence (Industrial Software)
+Guangdong University of Science and Technology
+No. 2 Dongyuan Avenue, Shipai Town, Dongguan 523000, Guangdong, China
+
+Corresponding authors:
+  Yaping Zhang   zypcsuysy@163.com
+  Mengqin Sun    918132108@qq.com

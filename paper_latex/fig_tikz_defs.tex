@@ -1,0 +1,63 @@
+% Colours and node styles shared by the drawn figures (fig_ladder_tikz,
+% fig_method_tikz).  Input from the preamble so both builds agree.
+%
+% The palette is deliberately narrow -- two hues carry the two regions, one
+% carries the adapter, one marks the injection sites -- and every stroke/fill
+% pair stays distinguishable in greyscale, since reviewers print in black and
+% white.  Nothing is distinguished by colour alone; every element is labelled.
+
+\definecolor{fgBlue}{HTML}{2F6FB0}
+\definecolor{fgGreen}{HTML}{3AA66A}
+\definecolor{fgOrange}{HTML}{D9862B}
+\definecolor{fgPurple}{HTML}{7A5AA6}
+\definecolor{fgRed}{HTML}{B94040}
+\definecolor{fgGrey}{HTML}{6B6B6B}
+\definecolor{bgBlue}{HTML}{EAF1F8}
+\definecolor{bgGreen}{HTML}{E9F5EE}
+\definecolor{bgOrange}{HTML}{FBF0DD}
+\definecolor{bgPurple}{HTML}{F0EBF6}
+\definecolor{bgGrey}{HTML}{F4F4F4}
+% Stage bands sit behind everything and must stay very light, or they compete
+% with the boxes on top of them.
+\definecolor{bandA}{HTML}{F7F9FC}
+\definecolor{bandB}{HTML}{FAF7F4}
+\definecolor{rule}{HTML}{D8DCE2}
+
+\tikzset{
+  blk/.style     = {draw=fgGrey!80, fill=white, rounded corners=1.6pt,
+                    align=center, inner sep=2.6pt, font=\scriptsize,
+                    line width=0.5pt},
+  blkb/.style    = {blk, draw=fgBlue,   fill=bgBlue},
+  blkg/.style    = {blk, draw=fgGreen,  fill=bgGreen},
+  blko/.style    = {blk, draw=fgOrange, fill=bgOrange},
+  blkp/.style    = {blk, draw=fgPurple, fill=bgPurple},
+  blkr/.style    = {blk, draw=fgRed,    fill=white},
+  ar/.style      = {-{Stealth[length=3.4pt,width=2.6pt]}, draw=fgGrey,
+                    line width=0.45pt},
+  arh/.style     = {ar, draw=black, line width=0.6pt},
+  % A numbered injection-site marker.
+  site/.style    = {circle, draw=fgRed, fill=white, text=fgRed, inner sep=0pt,
+                    minimum size=8pt, font=\scriptsize\bfseries,
+                    line width=0.5pt},
+  lbl/.style     = {font=\scriptsize, text=black, align=center, inner sep=1pt},
+  slbl/.style    = {font=\tiny, text=fgGrey, align=center, inner sep=1pt},
+  stage/.style   = {font=\scriptsize\bfseries, text=black, align=left,
+                    inner sep=0pt},
+  band/.style    = {rounded corners=2.5pt, draw=rule, line width=0.4pt},
+  % A thumbnail of a real render, so the diagram is anchored to what the
+  % method actually produces rather than to coloured rectangles.
+  thumb/.style   = {inner sep=0pt, outer sep=0pt, draw=fgGrey!60,
+                    line width=0.4pt},
+}
+
+% Frozen marker.  Every module in this method is frozen -- no diffusion model,
+% adapter or text encoder is fine-tuned -- which is the point, so it is worth
+% a glyph rather than a sentence.  Drawn rather than taken from a symbol font
+% so it survives any font setup.
+\newcommand{\frozen}[1][0.9]{%
+  \tikz[baseline=-0.55ex,scale=#1]{%
+    \foreach \a in {0,60,120}{%
+      \draw[fgBlue,line width=0.35pt] (\a:2.1pt) -- (\a+180:2.1pt);}
+    \foreach \a in {0,60,120,180,240,300}{%
+      \draw[fgBlue,line width=0.35pt] (\a:2.1pt) -- ++(\a+140:0.8pt);
+      \draw[fgBlue,line width=0.35pt] (\a:2.1pt) -- ++(\a-140:0.8pt);}}}

@@ -1,0 +1,484 @@
+{
+  "samples": [
+    {
+      "sample_id": "hhp_000",
+      "full_prompt": "A close-up photograph of a man on the left and a woman on the right, sitting together in a sunlit park, head and shoulders, shallow depth of field",
+      "split_ratio": "1,1",
+      "regional_prompts": "A close-up photograph of a man in a sunlit park, head and shoulders, shallow depth of field BREAK A close-up photograph of a woman in a sunlit park, head and shoulders, shallow depth of field",
+      "concept_names": [
+        "man",
+        "woman"
+      ],
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\15.jpg"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HHP",
+        "concept_a_id": "10",
+        "concept_b_id": "15"
+      }
+    },
+    {
+      "sample_id": "hhp_001",
+      "full_prompt": "A close-up photograph of a man on the left and a woman on the right, together on a cobblestone street, head and shoulders, shallow depth of field",
+      "split_ratio": "1,1",
+      "regional_prompts": "A close-up photograph of a man on a cobblestone street, head and shoulders, shallow depth of field BREAK A close-up photograph of a woman on a cobblestone street, head and shoulders, shallow depth of field",
+      "concept_names": [
+        "man",
+        "woman"
+      ],
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\15.jpg"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HHP",
+        "concept_a_id": "10",
+        "concept_b_id": "15"
+      }
+    },
+    {
+      "sample_id": "hhp_002",
+      "full_prompt": "A close-up photograph of a man on the left and a woman on the right, resting in a cozy living room, head and shoulders, shallow depth of field",
+      "split_ratio": "1,1",
+      "regional_prompts": "A close-up photograph of a man resting in a cozy living room, head and shoulders, shallow depth of field BREAK A close-up photograph of a woman resting in a cozy living room, head and shoulders, shallow depth of field",
+      "concept_names": [
+        "man",
+        "woman"
+      ],
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\15.jpg"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HHP",
+        "concept_a_id": "10",
+        "concept_b_id": "15"
+      }
+    },
+    {
+      "sample_id": "hhp_003",
+      "full_prompt": "A close-up photograph of a man on the left and a girl on the right, sitting together in a sunlit park, head and shoulders, shallow depth of field",
+      "split_ratio": "1,1",
+      "regional_prompts": "A close-up photograph of a man in a sunlit park, head and shoulders, shallow depth of field BREAK A close-up photograph of a girl in a sunlit park, head and shoulders, shallow depth of field",
+      "concept_names": [
+        "man",
+        "girl"
+      ],
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HHP",
+        "concept_a_id": "10",
+        "concept_b_id": "19"
+      }
+    },
+    {
+      "sample_id": "hhp_004",
+      "full_prompt": "A close-up photograph of a man on the left and a girl on the right, together on a cobblestone street, head and shoulders, shallow depth of field",
+      "split_ratio": "1,1",
+      "regional_prompts": "A close-up photograph of a man on a cobblestone street, head and shoulders, shallow depth of field BREAK A close-up photograph of a girl on a cobblestone street, head and shoulders, shallow depth of field",
+      "concept_names": [
+        "man",
+        "girl"
+      ],
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HHP",
+        "concept_a_id": "10",
+        "concept_b_id": "19"
+      }
+    },
+    {
+      "sample_id": "hhp_005",
+      "full_prompt": "A close-up photograph of a man on the left and a girl on the right, resting in a cozy living room, head and shoulders, shallow depth of field",
+      "split_ratio": "1,1",
+      "regional_prompts": "A close-up photograph of a man resting in a cozy living room, head and shoulders, shallow depth of field BREAK A close-up photograph of a girl resting in a cozy living room, head and shoulders, shallow depth of field",
+      "concept_names": [
+        "man",
+        "girl"
+      ],
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\10.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HHP",
+        "concept_a_id": "10",
+        "concept_b_id": "19"
+      }
+    },
+    {
+      "sample_id": "hhp_006",
+      "full_prompt": "A close-up photograph of an elderly man on the left and a woman on the right, sitting together in a sunlit park, head and shoulders, shallow depth of field",
+      "split_ratio": "1,1",
+      "regional_prompts": "A close-up photograph of an elderly man in a sunlit park, head and shoulders, shallow depth of field BREAK A close-up photograph of a woman in a sunlit park, head and shoulders, shallow depth of field",
+      "concept_names": [
+        "elderly man",
+        "woman"
+      ],
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\07.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\15.jpg"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HHP",
+        "concept_a_id": "07",
+        "concept_b_id": "15"
+      }
+    },
+    {
+      "sample_id": "hhp_007",
+      "full_prompt": "A close-up photograph of an elderly man on the left and a woman on the right, together on a cobblestone street, head and shoulders, shallow depth of field",
+      "split_ratio": "1,1",
+      "regional_prompts": "A close-up photograph of an elderly man on a cobblestone street, head and shoulders, shallow depth of field BREAK A close-up photograph of a woman on a cobblestone street, head and shoulders, shallow depth of field",
+      "concept_names": [
+        "elderly man",
+        "woman"
+      ],
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\07.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\15.jpg"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HHP",
+        "concept_a_id": "07",
+        "concept_b_id": "15"
+      }
+    },
+    {
+      "sample_id": "hhp_008",
+      "full_prompt": "A close-up photograph of an elderly man on the left and a woman on the right, resting in a cozy living room, head and shoulders, shallow depth of field",
+      "split_ratio": "1,1",
+      "regional_prompts": "A close-up photograph of an elderly man resting in a cozy living room, head and shoulders, shallow depth of field BREAK A close-up photograph of a woman resting in a cozy living room, head and shoulders, shallow depth of field",
+      "concept_names": [
+        "elderly man",
+        "woman"
+      ],
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\07.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\15.jpg"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HHP",
+        "concept_a_id": "07",
+        "concept_b_id": "15"
+      }
+    },
+    {
+      "sample_id": "hhp_009",
+      "full_prompt": "A close-up photograph of an elderly man on the left and a girl on the right, sitting together in a sunlit park, head and shoulders, shallow depth of field",
+      "split_ratio": "1,1",
+      "regional_prompts": "A close-up photograph of an elderly man in a sunlit park, head and shoulders, shallow depth of field BREAK A close-up photograph of a girl in a sunlit park, head and shoulders, shallow depth of field",
+      "concept_names": [
+        "elderly man",
+        "girl"
+      ],
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\07.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HHP",
+        "concept_a_id": "07",
+        "concept_b_id": "19"
+      }
+    },
+    {
+      "sample_id": "hhp_010",
+      "full_prompt": "A close-up photograph of an elderly man on the left and a girl on the right, together on a cobblestone street, head and shoulders, shallow depth of field",
+      "split_ratio": "1,1",
+      "regional_prompts": "A close-up photograph of an elderly man on a cobblestone street, head and shoulders, shallow depth of field BREAK A close-up photograph of a girl on a cobblestone street, head and shoulders, shallow depth of field",
+      "concept_names": [
+        "elderly man",
+        "girl"
+      ],
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\07.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HHP",
+        "concept_a_id": "07",
+        "concept_b_id": "19"
+      }
+    },
+    {
+      "sample_id": "hhp_011",
+      "full_prompt": "A close-up photograph of an elderly man on the left and a girl on the right, resting in a cozy living room, head and shoulders, shallow depth of field",
+      "split_ratio": "1,1",
+      "regional_prompts": "A close-up photograph of an elderly man resting in a cozy living room, head and shoulders, shallow depth of field BREAK A close-up photograph of a girl resting in a cozy living room, head and shoulders, shallow depth of field",
+      "concept_names": [
+        "elderly man",
+        "girl"
+      ],
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\07.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HHP",
+        "concept_a_id": "07",
+        "concept_b_id": "19"
+      }
+    },
+    {
+      "sample_id": "hhp_012",
+      "full_prompt": "A close-up photograph of a man on the left and a woman on the right, sitting together in a sunlit park, head and shoulders, shallow depth of field",
+      "split_ratio": "1,1",
+      "regional_prompts": "A close-up photograph of a man in a sunlit park, head and shoulders, shallow depth of field BREAK A close-up photograph of a woman in a sunlit park, head and shoulders, shallow depth of field",
+      "concept_names": [
+        "man",
+        "woman"
+      ],
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\02.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\04.jpg"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HHP",
+        "concept_a_id": "02",
+        "concept_b_id": "04"
+      }
+    },
+    {
+      "sample_id": "hhp_013",
+      "full_prompt": "A close-up photograph of a man on the left and a woman on the right, together on a cobblestone street, head and shoulders, shallow depth of field",
+      "split_ratio": "1,1",
+      "regional_prompts": "A close-up photograph of a man on a cobblestone street, head and shoulders, shallow depth of field BREAK A close-up photograph of a woman on a cobblestone street, head and shoulders, shallow depth of field",
+      "concept_names": [
+        "man",
+        "woman"
+      ],
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\02.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\04.jpg"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HHP",
+        "concept_a_id": "02",
+        "concept_b_id": "04"
+      }
+    },
+    {
+      "sample_id": "hhp_014",
+      "full_prompt": "A close-up photograph of a man on the left and a woman on the right, resting in a cozy living room, head and shoulders, shallow depth of field",
+      "split_ratio": "1,1",
+      "regional_prompts": "A close-up photograph of a man resting in a cozy living room, head and shoulders, shallow depth of field BREAK A close-up photograph of a woman resting in a cozy living room, head and shoulders, shallow depth of field",
+      "concept_names": [
+        "man",
+        "woman"
+      ],
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\02.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\04.jpg"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HHP",
+        "concept_a_id": "02",
+        "concept_b_id": "04"
+      }
+    },
+    {
+      "sample_id": "hhp_015",
+      "full_prompt": "A close-up photograph of a basketball player on the left and a woman on the right, sitting together in a sunlit park, head and shoulders, shallow depth of field",
+      "split_ratio": "1,1",
+      "regional_prompts": "A close-up photograph of a basketball player in a sunlit park, head and shoulders, shallow depth of field BREAK A close-up photograph of a woman in a sunlit park, head and shoulders, shallow depth of field",
+      "concept_names": [
+        "basketball player",
+        "woman"
+      ],
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\15.jpg"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HHP",
+        "concept_a_id": "18",
+        "concept_b_id": "15"
+      }
+    },
+    {
+      "sample_id": "hhp_016",
+      "full_prompt": "A close-up photograph of a basketball player on the left and a woman on the right, together on a cobblestone street, head and shoulders, shallow depth of field",
+      "split_ratio": "1,1",
+      "regional_prompts": "A close-up photograph of a basketball player on a cobblestone street, head and shoulders, shallow depth of field BREAK A close-up photograph of a woman on a cobblestone street, head and shoulders, shallow depth of field",
+      "concept_names": [
+        "basketball player",
+        "woman"
+      ],
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\15.jpg"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HHP",
+        "concept_a_id": "18",
+        "concept_b_id": "15"
+      }
+    },
+    {
+      "sample_id": "hhp_017",
+      "full_prompt": "A close-up photograph of a basketball player on the left and a woman on the right, resting in a cozy living room, head and shoulders, shallow depth of field",
+      "split_ratio": "1,1",
+      "regional_prompts": "A close-up photograph of a basketball player resting in a cozy living room, head and shoulders, shallow depth of field BREAK A close-up photograph of a woman resting in a cozy living room, head and shoulders, shallow depth of field",
+      "concept_names": [
+        "basketball player",
+        "woman"
+      ],
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\18.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\15.jpg"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HHP",
+        "concept_a_id": "18",
+        "concept_b_id": "15"
+      }
+    },
+    {
+      "sample_id": "hhp_018",
+      "full_prompt": "A close-up photograph of a man on the left and a girl on the right, sitting together in a sunlit park, head and shoulders, shallow depth of field",
+      "split_ratio": "1,1",
+      "regional_prompts": "A close-up photograph of a man in a sunlit park, head and shoulders, shallow depth of field BREAK A close-up photograph of a girl in a sunlit park, head and shoulders, shallow depth of field",
+      "concept_names": [
+        "man",
+        "girl"
+      ],
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\01.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HHP",
+        "concept_a_id": "01",
+        "concept_b_id": "19"
+      }
+    },
+    {
+      "sample_id": "hhp_019",
+      "full_prompt": "A close-up photograph of a man on the left and a girl on the right, together on a cobblestone street, head and shoulders, shallow depth of field",
+      "split_ratio": "1,1",
+      "regional_prompts": "A close-up photograph of a man on a cobblestone street, head and shoulders, shallow depth of field BREAK A close-up photograph of a girl on a cobblestone street, head and shoulders, shallow depth of field",
+      "concept_names": [
+        "man",
+        "girl"
+      ],
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\01.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HHP",
+        "concept_a_id": "01",
+        "concept_b_id": "19"
+      }
+    },
+    {
+      "sample_id": "hhp_020",
+      "full_prompt": "A close-up photograph of a man on the left and a girl on the right, resting in a cozy living room, head and shoulders, shallow depth of field",
+      "split_ratio": "1,1",
+      "regional_prompts": "A close-up photograph of a man resting in a cozy living room, head and shoulders, shallow depth of field BREAK A close-up photograph of a girl resting in a cozy living room, head and shoulders, shallow depth of field",
+      "concept_names": [
+        "man",
+        "girl"
+      ],
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\01.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HHP",
+        "concept_a_id": "01",
+        "concept_b_id": "19"
+      }
+    },
+    {
+      "sample_id": "hhp_021",
+      "full_prompt": "A close-up photograph of a man on the left and a girl on the right, sitting together in a sunlit park, head and shoulders, shallow depth of field",
+      "split_ratio": "1,1",
+      "regional_prompts": "A close-up photograph of a man in a sunlit park, head and shoulders, shallow depth of field BREAK A close-up photograph of a girl in a sunlit park, head and shoulders, shallow depth of field",
+      "concept_names": [
+        "man",
+        "girl"
+      ],
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\02.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HHP",
+        "concept_a_id": "02",
+        "concept_b_id": "19"
+      }
+    },
+    {
+      "sample_id": "hhp_022",
+      "full_prompt": "A close-up photograph of a man on the left and a girl on the right, together on a cobblestone street, head and shoulders, shallow depth of field",
+      "split_ratio": "1,1",
+      "regional_prompts": "A close-up photograph of a man on a cobblestone street, head and shoulders, shallow depth of field BREAK A close-up photograph of a girl on a cobblestone street, head and shoulders, shallow depth of field",
+      "concept_names": [
+        "man",
+        "girl"
+      ],
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\02.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HHP",
+        "concept_a_id": "02",
+        "concept_b_id": "19"
+      }
+    },
+    {
+      "sample_id": "hhp_023",
+      "full_prompt": "A close-up photograph of a man on the left and a girl on the right, resting in a cozy living room, head and shoulders, shallow depth of field",
+      "split_ratio": "1,1",
+      "regional_prompts": "A close-up photograph of a man resting in a cozy living room, head and shoulders, shallow depth of field BREAK A close-up photograph of a girl resting in a cozy living room, head and shoulders, shallow depth of field",
+      "concept_names": [
+        "man",
+        "girl"
+      ],
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\02.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\dreambench_plus\\raw\\data\\images\\live_subject\\human\\19.jpg"
+      ],
+      "metadata": {
+        "category": "person",
+        "pair_type": "HHP",
+        "concept_a_id": "02",
+        "concept_b_id": "19"
+      }
+    }
+  ]
+}

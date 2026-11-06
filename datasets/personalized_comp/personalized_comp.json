@@ -1,0 +1,1068 @@
+{
+  "dataset": "Personalized-Comp",
+  "version": "1.0",
+  "size": 50,
+  "samples": [
+    {
+      "sample_id": "two_subject_0012",
+      "full_prompt": "A green building beside a purple person",
+      "regional_prompts": "A green building BREAK a purple person",
+      "split_ratio": "1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\building\\building_2.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\person\\person_2.jpg"
+      ],
+      "metadata": {
+        "attribute_binding": [
+          {
+            "object": "building",
+            "attribute": "green"
+          },
+          {
+            "object": "person",
+            "attribute": "purple"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "three_subject_0005",
+      "full_prompt": "A cat on the left, a person in the middle, and a car on the right",
+      "regional_prompts": "A cat on the left BREAK a person in the middle BREAK a car on the right",
+      "split_ratio": "1,1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\cat\\cat_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\person\\person_3.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\car\\car_1.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "cat",
+            "relation": "left of",
+            "object": "person"
+          },
+          {
+            "subject": "car",
+            "relation": "right of",
+            "object": "person"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0003",
+      "full_prompt": "A scene with a car in the foreground and a person in the background",
+      "regional_prompts": "A car in the foreground BREAK a person in the background",
+      "split_ratio": "2,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\car\\car_2.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\person\\person_2.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "car",
+            "relation": "in front of",
+            "object": "person"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0008",
+      "full_prompt": "A scene with a person in the foreground and a dog in the background",
+      "regional_prompts": "A person in the foreground BREAK a dog in the background",
+      "split_ratio": "2,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\person\\person_3.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\dog\\dog_1.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "person",
+            "relation": "in front of",
+            "object": "dog"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0026",
+      "full_prompt": "A blue dog beside a blue building",
+      "regional_prompts": "A blue dog BREAK a blue building",
+      "split_ratio": "1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\dog\\dog_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\building\\building_2.jpg"
+      ],
+      "metadata": {
+        "attribute_binding": [
+          {
+            "object": "dog",
+            "attribute": "blue"
+          },
+          {
+            "object": "building",
+            "attribute": "blue"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "three_subject_0007",
+      "full_prompt": "A car on the left, a person in the middle, and a cat on the right",
+      "regional_prompts": "A car on the left BREAK a person in the middle BREAK a cat on the right",
+      "split_ratio": "1,1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\car\\car_2.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\person\\person_3.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\cat\\cat_2.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "car",
+            "relation": "left of",
+            "object": "person"
+          },
+          {
+            "subject": "cat",
+            "relation": "right of",
+            "object": "person"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "three_subject_0004",
+      "full_prompt": "A cat on the left, a car in the middle, and a dog on the right",
+      "regional_prompts": "A cat on the left BREAK a car in the middle BREAK a dog on the right",
+      "split_ratio": "1,1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\cat\\cat_2.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\car\\car_2.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\dog\\dog_2.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "cat",
+            "relation": "left of",
+            "object": "car"
+          },
+          {
+            "subject": "dog",
+            "relation": "right of",
+            "object": "car"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "three_subject_0010",
+      "full_prompt": "A cat on the left, a building in the middle, and a dog on the right",
+      "regional_prompts": "A cat on the left BREAK a building in the middle BREAK a dog on the right",
+      "split_ratio": "1,1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\cat\\cat_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\building\\building_2.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\dog\\dog_2.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "cat",
+            "relation": "left of",
+            "object": "building"
+          },
+          {
+            "subject": "dog",
+            "relation": "right of",
+            "object": "building"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0031",
+      "full_prompt": "A scene with a building in the foreground and a dog in the background",
+      "regional_prompts": "A building in the foreground BREAK a dog in the background",
+      "split_ratio": "2,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\building\\building_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\dog\\dog_2.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "building",
+            "relation": "in front of",
+            "object": "dog"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0016",
+      "full_prompt": "A scene with a building in the foreground and a car in the background",
+      "regional_prompts": "A building in the foreground BREAK a car in the background",
+      "split_ratio": "2,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\building\\building_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\car\\car_1.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "building",
+            "relation": "in front of",
+            "object": "car"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0004",
+      "full_prompt": "A red dog beside a orange building",
+      "regional_prompts": "A red dog BREAK a orange building",
+      "split_ratio": "1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\dog\\dog_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\building\\building_1.jpg"
+      ],
+      "metadata": {
+        "attribute_binding": [
+          {
+            "object": "dog",
+            "attribute": "red"
+          },
+          {
+            "object": "building",
+            "attribute": "orange"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0009",
+      "full_prompt": "A dog on the left and a cat on the right",
+      "regional_prompts": "A dog on the left BREAK a cat on the right",
+      "split_ratio": "1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\dog\\dog_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\cat\\cat_1.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "dog",
+            "relation": "left of",
+            "object": "cat"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "three_subject_0012",
+      "full_prompt": "A dog on the left, a car in the middle, and a cat on the right",
+      "regional_prompts": "A dog on the left BREAK a car in the middle BREAK a cat on the right",
+      "split_ratio": "1,1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\dog\\dog_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\car\\car_2.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\cat\\cat_1.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "dog",
+            "relation": "left of",
+            "object": "car"
+          },
+          {
+            "subject": "cat",
+            "relation": "right of",
+            "object": "car"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0002",
+      "full_prompt": "A dog on the left and a cat on the right",
+      "regional_prompts": "A dog on the left BREAK a cat on the right",
+      "split_ratio": "1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\dog\\dog_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\cat\\cat_2.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "dog",
+            "relation": "left of",
+            "object": "cat"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0028",
+      "full_prompt": "A green dog beside a blue person",
+      "regional_prompts": "A green dog BREAK a blue person",
+      "split_ratio": "1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\dog\\dog_2.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\person\\person_3.jpg"
+      ],
+      "metadata": {
+        "attribute_binding": [
+          {
+            "object": "dog",
+            "attribute": "green"
+          },
+          {
+            "object": "person",
+            "attribute": "blue"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "three_subject_0011",
+      "full_prompt": "A car on the left, a dog in the middle, and a cat on the right",
+      "regional_prompts": "A car on the left BREAK a dog in the middle BREAK a cat on the right",
+      "split_ratio": "1,1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\car\\car_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\dog\\dog_2.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\cat\\cat_1.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "car",
+            "relation": "left of",
+            "object": "dog"
+          },
+          {
+            "subject": "cat",
+            "relation": "right of",
+            "object": "dog"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "three_subject_0009",
+      "full_prompt": "A person on the left, a building in the middle, and a car on the right",
+      "regional_prompts": "A person on the left BREAK a building in the middle BREAK a car on the right",
+      "split_ratio": "1,1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\person\\person_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\building\\building_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\car\\car_2.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "person",
+            "relation": "left of",
+            "object": "building"
+          },
+          {
+            "subject": "car",
+            "relation": "right of",
+            "object": "building"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0027",
+      "full_prompt": "A scene with a building in the foreground and a dog in the background",
+      "regional_prompts": "A building in the foreground BREAK a dog in the background",
+      "split_ratio": "2,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\building\\building_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\dog\\dog_2.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "building",
+            "relation": "in front of",
+            "object": "dog"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0029",
+      "full_prompt": "A person on the left and a cat on the right",
+      "regional_prompts": "A person on the left BREAK a cat on the right",
+      "split_ratio": "1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\person\\person_3.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\cat\\cat_1.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "person",
+            "relation": "left of",
+            "object": "cat"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0014",
+      "full_prompt": "A building on the left and a cat on the right",
+      "regional_prompts": "A building on the left BREAK a cat on the right",
+      "split_ratio": "1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\building\\building_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\cat\\cat_1.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "building",
+            "relation": "left of",
+            "object": "cat"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0020",
+      "full_prompt": "A car on the left and a cat on the right",
+      "regional_prompts": "A car on the left BREAK a cat on the right",
+      "split_ratio": "1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\car\\car_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\cat\\cat_1.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "car",
+            "relation": "left of",
+            "object": "cat"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0018",
+      "full_prompt": "A scene with a person in the foreground and a building in the background",
+      "regional_prompts": "A person in the foreground BREAK a building in the background",
+      "split_ratio": "2,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\person\\person_2.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\building\\building_2.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "person",
+            "relation": "in front of",
+            "object": "building"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0007",
+      "full_prompt": "A scene with a person in the foreground and a dog in the background",
+      "regional_prompts": "A person in the foreground BREAK a dog in the background",
+      "split_ratio": "2,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\person\\person_2.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\dog\\dog_1.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "person",
+            "relation": "in front of",
+            "object": "dog"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0005",
+      "full_prompt": "A scene with a person in the foreground and a dog in the background",
+      "regional_prompts": "A person in the foreground BREAK a dog in the background",
+      "split_ratio": "2,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\person\\person_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\dog\\dog_2.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "person",
+            "relation": "in front of",
+            "object": "dog"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0017",
+      "full_prompt": "A person on the left and a cat on the right",
+      "regional_prompts": "A person on the left BREAK a cat on the right",
+      "split_ratio": "1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\person\\person_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\cat\\cat_2.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "person",
+            "relation": "left of",
+            "object": "cat"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0011",
+      "full_prompt": "A dog on the left and a car on the right",
+      "regional_prompts": "A dog on the left BREAK a car on the right",
+      "split_ratio": "1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\dog\\dog_2.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\car\\car_2.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "dog",
+            "relation": "left of",
+            "object": "car"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0019",
+      "full_prompt": "A scene with a person in the foreground and a building in the background",
+      "regional_prompts": "A person in the foreground BREAK a building in the background",
+      "split_ratio": "2,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\person\\person_3.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\building\\building_1.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "person",
+            "relation": "in front of",
+            "object": "building"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "three_subject_0001",
+      "full_prompt": "A person on the left, a dog in the middle, and a cat on the right",
+      "regional_prompts": "A person on the left BREAK a dog in the middle BREAK a cat on the right",
+      "split_ratio": "1,1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\person\\person_3.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\dog\\dog_2.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\cat\\cat_2.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "person",
+            "relation": "left of",
+            "object": "dog"
+          },
+          {
+            "subject": "cat",
+            "relation": "right of",
+            "object": "dog"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0010",
+      "full_prompt": "A car on the left and a dog on the right",
+      "regional_prompts": "A car on the left BREAK a dog on the right",
+      "split_ratio": "1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\car\\car_2.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\dog\\dog_1.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "car",
+            "relation": "left of",
+            "object": "dog"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0000",
+      "full_prompt": "A building on the left and a dog on the right",
+      "regional_prompts": "A building on the left BREAK a dog on the right",
+      "split_ratio": "1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\building\\building_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\dog\\dog_2.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "building",
+            "relation": "left of",
+            "object": "dog"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0006",
+      "full_prompt": "A yellow car beside a green person",
+      "regional_prompts": "A yellow car BREAK a green person",
+      "split_ratio": "1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\car\\car_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\person\\person_3.jpg"
+      ],
+      "metadata": {
+        "attribute_binding": [
+          {
+            "object": "car",
+            "attribute": "yellow"
+          },
+          {
+            "object": "person",
+            "attribute": "green"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0024",
+      "full_prompt": "A cat on the left and a person on the right",
+      "regional_prompts": "A cat on the left BREAK a person on the right",
+      "split_ratio": "1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\cat\\cat_2.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\person\\person_1.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "cat",
+            "relation": "left of",
+            "object": "person"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0034",
+      "full_prompt": "A car on the left and a person on the right",
+      "regional_prompts": "A car on the left BREAK a person on the right",
+      "split_ratio": "1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\car\\car_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\person\\person_2.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "car",
+            "relation": "left of",
+            "object": "person"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0013",
+      "full_prompt": "A blue building beside a purple car",
+      "regional_prompts": "A blue building BREAK a purple car",
+      "split_ratio": "1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\building\\building_2.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\car\\car_1.jpg"
+      ],
+      "metadata": {
+        "attribute_binding": [
+          {
+            "object": "building",
+            "attribute": "blue"
+          },
+          {
+            "object": "car",
+            "attribute": "purple"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0023",
+      "full_prompt": "A building on the left and a car on the right",
+      "regional_prompts": "A building on the left BREAK a car on the right",
+      "split_ratio": "1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\building\\building_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\car\\car_1.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "building",
+            "relation": "left of",
+            "object": "car"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0025",
+      "full_prompt": "A car on the left and a cat on the right",
+      "regional_prompts": "A car on the left BREAK a cat on the right",
+      "split_ratio": "1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\car\\car_2.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\cat\\cat_2.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "car",
+            "relation": "left of",
+            "object": "cat"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "three_subject_0006",
+      "full_prompt": "A person on the left, a dog in the middle, and a cat on the right",
+      "regional_prompts": "A person on the left BREAK a dog in the middle BREAK a cat on the right",
+      "split_ratio": "1,1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\person\\person_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\dog\\dog_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\cat\\cat_1.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "person",
+            "relation": "left of",
+            "object": "dog"
+          },
+          {
+            "subject": "cat",
+            "relation": "right of",
+            "object": "dog"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "three_subject_0002",
+      "full_prompt": "A building on the left, a cat in the middle, and a person on the right",
+      "regional_prompts": "A building on the left BREAK a cat in the middle BREAK a person on the right",
+      "split_ratio": "1,1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\building\\building_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\cat\\cat_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\person\\person_1.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "building",
+            "relation": "left of",
+            "object": "cat"
+          },
+          {
+            "subject": "person",
+            "relation": "right of",
+            "object": "cat"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0021",
+      "full_prompt": "A scene with a cat in the foreground and a car in the background",
+      "regional_prompts": "A cat in the foreground BREAK a car in the background",
+      "split_ratio": "2,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\cat\\cat_2.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\car\\car_2.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "cat",
+            "relation": "in front of",
+            "object": "car"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "three_subject_0003",
+      "full_prompt": "A dog on the left, a person in the middle, and a building on the right",
+      "regional_prompts": "A dog on the left BREAK a person in the middle BREAK a building on the right",
+      "split_ratio": "1,1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\dog\\dog_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\person\\person_2.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\building\\building_2.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "dog",
+            "relation": "left of",
+            "object": "person"
+          },
+          {
+            "subject": "building",
+            "relation": "right of",
+            "object": "person"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "three_subject_0008",
+      "full_prompt": "A cat on the left, a building in the middle, and a car on the right",
+      "regional_prompts": "A cat on the left BREAK a building in the middle BREAK a car on the right",
+      "split_ratio": "1,1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\cat\\cat_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\building\\building_2.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\car\\car_2.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "cat",
+            "relation": "left of",
+            "object": "building"
+          },
+          {
+            "subject": "car",
+            "relation": "right of",
+            "object": "building"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0033",
+      "full_prompt": "A car on the left and a building on the right",
+      "regional_prompts": "A car on the left BREAK a building on the right",
+      "split_ratio": "1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\car\\car_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\building\\building_1.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "car",
+            "relation": "left of",
+            "object": "building"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0015",
+      "full_prompt": "A scene with a car in the foreground and a cat in the background",
+      "regional_prompts": "A car in the foreground BREAK a cat in the background",
+      "split_ratio": "2,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\car\\car_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\cat\\cat_2.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "car",
+            "relation": "in front of",
+            "object": "cat"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0001",
+      "full_prompt": "A red car beside a green cat",
+      "regional_prompts": "A red car BREAK a green cat",
+      "split_ratio": "1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\car\\car_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\cat\\cat_2.jpg"
+      ],
+      "metadata": {
+        "attribute_binding": [
+          {
+            "object": "car",
+            "attribute": "red"
+          },
+          {
+            "object": "cat",
+            "attribute": "green"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "three_subject_0014",
+      "full_prompt": "A car on the left, a dog in the middle, and a building on the right",
+      "regional_prompts": "A car on the left BREAK a dog in the middle BREAK a building on the right",
+      "split_ratio": "1,1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\car\\car_2.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\dog\\dog_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\building\\building_2.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "car",
+            "relation": "left of",
+            "object": "dog"
+          },
+          {
+            "subject": "building",
+            "relation": "right of",
+            "object": "dog"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "three_subject_0000",
+      "full_prompt": "A cat on the left, a car in the middle, and a building on the right",
+      "regional_prompts": "A cat on the left BREAK a car in the middle BREAK a building on the right",
+      "split_ratio": "1,1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\cat\\cat_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\car\\car_2.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\building\\building_1.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "cat",
+            "relation": "left of",
+            "object": "car"
+          },
+          {
+            "subject": "building",
+            "relation": "right of",
+            "object": "car"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0032",
+      "full_prompt": "A scene with a dog in the foreground and a car in the background",
+      "regional_prompts": "A dog in the foreground BREAK a car in the background",
+      "split_ratio": "2,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\dog\\dog_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\car\\car_1.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "dog",
+            "relation": "in front of",
+            "object": "car"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0022",
+      "full_prompt": "A scene with a person in the foreground and a cat in the background",
+      "regional_prompts": "A person in the foreground BREAK a cat in the background",
+      "split_ratio": "2,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\person\\person_3.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\cat\\cat_2.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "person",
+            "relation": "in front of",
+            "object": "cat"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "three_subject_0013",
+      "full_prompt": "A dog on the left, a cat in the middle, and a building on the right",
+      "regional_prompts": "A dog on the left BREAK a cat in the middle BREAK a building on the right",
+      "split_ratio": "1,1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\dog\\dog_2.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\cat\\cat_2.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\building\\building_2.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "dog",
+            "relation": "left of",
+            "object": "cat"
+          },
+          {
+            "subject": "building",
+            "relation": "right of",
+            "object": "cat"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "two_subject_0030",
+      "full_prompt": "A cat on the left and a car on the right",
+      "regional_prompts": "A cat on the left BREAK a car on the right",
+      "split_ratio": "1,1",
+      "reference_image_paths": [
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\cat\\cat_1.jpg",
+        "E:\\DM\\1\\RPG-DiffusionMaster\\datasets\\personalized_comp\\reference_images\\car\\car_2.jpg"
+      ],
+      "metadata": {
+        "spatial_relations": [
+          {
+            "subject": "cat",
+            "relation": "left of",
+            "object": "car"
+          }
+        ]
+      }
+    }
+  ]
+}

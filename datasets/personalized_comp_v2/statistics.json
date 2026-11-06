@@ -1,0 +1,17 @@
+{
+  "total_samples": 300,
+  "two_region_samples": 180,
+  "three_region_samples": 120,
+  "unique_subjects": 40,
+  "subject_categories": {
+    "live_subject": 23,
+    "object": 14,
+    "style": 3
+  },
+  "split_ratios": {
+    "1,1": 52,
+    "1,2": 63,
+    "2,1": 65,
+    "1,1,1": 120
+  }
+}

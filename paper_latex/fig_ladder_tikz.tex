@@ -1,0 +1,125 @@
+%% One of the two drawn figures.  Colours and node styles are in
+%% fig_tikz_defs.tex, input from the preamble of both builds.
+%%
+%% The four sites sit on ONE denoising step, which is the figure's argument:
+%% they are alternatives at a single point in the computation, not four
+%% different pipelines.  Drawing them as four separate diagrams would lose it.
+%%
+%% Site 4 deliberately has no bar.  The bars are a share of the identity gain
+%% the sampling loop delivers; site 4 is scored by ArcFace on detected faces,
+%% a different quantity, so a bar would put it on an axis it is not on.
+%%
+%% Alignment is held by construction rather than by hand: every column has an
+%% x constant and a width, every row a y constant, and every box is centred on
+%% its grid point at its column's width.  Changing a label cannot therefore
+%% pull a box out of line with the one above it -- PROVIDED the width still
+%% exceeds the label, which is why the widths below carry their contents'
+%% measured size.  The whole drawing is 12.0cm against a 12.14cm text block.
+
+\begin{tikzpicture}[x=1cm,y=1cm]
+
+  % ---- the grid -----------------------------------------------------------
+  % widths are >= the measured width of the longest label in the column
+  \def\xIn{0.90}    \def\wIn{1.55}     % inputs          (references: 1.19)
+  \def\xEnc{3.03}   \def\wEnc{1.90}    % encoders        (text encoder: 1.58)
+  \def\xTok{5.30}   \def\wTok{1.80}    % token streams   (image tokens: 1.61)
+  \def\xNet{7.65}   \def\wNet{2.05}    % the U-Net       (cross-attn box: 1.82)
+  \def\xEps{9.30}                      % the noise prediction
+  \def\xFus{10.85}  \def\wFus{1.70}    % the two fusion sites (set two-line)
+  \def\yTxt{2.02}   \def\yImg{0.92}    % the two conditioning streams
+  \def\yNet{1.47}
+
+  \def\bX{3.70}     % bars start here
+  \def\bW{6.95}     % length of a 100% bar
+  \def\bR{11.50}    % right edge of the panel's rules
+
+  % ---- stage bands --------------------------------------------------------
+  \fill[bandA,band] (-0.14,0.20) rectangle (11.86,3.06);
+  \fill[bandB,band] (-0.14,-3.84) rectangle (11.86,-0.14);
+
+  % ========================================================= one step ======
+  \node[stage,anchor=north west] at (0.00,2.94)
+    {One denoising step\ \ \textnormal{\scriptsize four places the reference
+     can enter}};
+
+  \node[blk,minimum width=\wIn cm,minimum height=0.46cm]  (pr) at (\xIn,\yTxt) {prompt};
+  \node[blk,minimum width=\wIn cm,minimum height=0.46cm]  (rf) at (\xIn,\yImg) {references};
+  \node[blkp,minimum width=\wEnc cm,minimum height=0.46cm](te) at (\xEnc,\yTxt) {text encoder\,\frozen};
+  \node[blko,minimum width=\wEnc cm,minimum height=0.46cm](ie) at (\xEnc,\yImg) {IP-Adapter\,\frozen};
+  \node[lbl,minimum width=\wTok cm] (tt) at (\xTok,\yTxt) {text tokens};
+  \node[lbl,minimum width=\wTok cm] (it) at (\xTok,\yImg) {image tokens $\mathbf{e}_i$};
+
+  \draw[ar] (pr) -- (te);   \draw[ar] (te) -- (tt);
+  \draw[ar] (rf) -- (ie);   \draw[ar] (ie) -- (it);
+
+  % the U-Net, with cross-attention called out inside it
+  \node[blk,minimum width=\wNet cm,minimum height=1.46cm,fill=bgGrey]
+    (unet) at (\xNet,\yNet) {};
+  \node[lbl,anchor=north] at (\xNet,2.14) {U-Net\,\frozen};
+  \node[blkb,minimum width=1.82cm,minimum height=0.40cm]
+    (xa) at (\xNet,1.26) {cross-attention};
+  \draw[ar] (tt) to[out=0,in=160] (xa.north west);
+  \draw[ar] (it) to[out=0,in=200] (xa.south west);
+
+  \node[lbl] (eps) at (\xEps,\yNet) {$\varepsilon_\theta$};
+  \draw[ar] (unet) -- (eps);
+
+  % two lines, so both boxes clear their text at one common width
+  \node[blkg,minimum width=\wFus cm,minimum height=0.46cm]
+    (fc) at (\xFus,\yTxt) {fuse over the\\full canvas};
+  \node[blkg,minimum width=\wFus cm,minimum height=0.46cm]
+    (sc) at (\xFus,\yImg) {fuse per\\sub-canvas};
+  \draw[ar] (eps) to[out=55,in=180]  (fc.west);
+  \draw[ar] (eps) to[out=-55,in=180] (sc.west);
+
+  % ---- the four sites, each badged on the thing it names ------------------
+  % one convention throughout: the badge sits just outside the north-west
+  % corner of its target, so a reader finds them without hunting.
+  \tikzset{badge/.style={site,xshift=-3.5pt,yshift=3.5pt}}
+  \node[badge] (s4) at (tt.north west) {4};
+  \node[badge] (s1) at (xa.north west) {1};
+  \node[badge] (s2) at (fc.north west) {2};
+  \node[badge] (s3) at (sc.north west) {3};
+
+  \node[slbl,anchor=south,text=fgRed] at (\xTok,2.36)
+    {into the class-noun token};
+  \node[slbl,anchor=north,text=fgRed] at (\xNet,0.64)
+    {mask the adapter here};
+
+  % ========================================================= the ladder ====
+  \node[stage,anchor=north west] at (0.00,-0.26)
+    {What each site recovers\ \ \textnormal{\scriptsize everything else held
+     fixed}};
+
+  % a scale, so the bars are read against something
+  \draw[rule,line width=0.4pt] (\bX,-2.62) -- (\bX+\bW,-2.62);
+  \foreach \p in {0,25,50,75,100}{
+    \draw[rule,line width=0.4pt] (\bX+\bW*\p/100,-2.62) -- ++(0,-0.07);
+    \node[slbl,anchor=north,text=fgGrey] at (\bX+\bW*\p/100,-2.70) {\p\%};}
+  \foreach \p in {25,50,75}{
+    \draw[rule,line width=0.3pt,dotted] (\bX+\bW*\p/100,-2.60) -- ++(0,1.56);}
+
+  \newcommand{\rung}[6]{%
+    \node[site,fill=white] at (0.34,#1) {#2};
+    \node[lbl,anchor=west] at (0.66,#1) {#3};
+    \fill[#6!20,draw=#6,line width=0.45pt]
+      (\bX,#1-0.125) rectangle (\bX+\bW*#4/100,#1+0.125);
+    \node[slbl,anchor=west,text=black] at (\bX+\bW*#4/100+0.14,#1) {#5};}
+
+  \rung{-0.96}{1}{attention, the planner's box}{1.7}{$1.7\%$\ \ ($p{=}0.35$)}{fgRed}
+  \rung{-1.38}{1}{attention, box $\cap$ semantic}{65}{$65\%$}{fgRed}
+  \rung{-1.80}{2}{noise fusion, full canvas}{68}{$68\%$}{fgGreen}
+  \rung{-2.22}{3}{noise fusion, sub-canvas}{100}{$\mathbf{100\%}$}{fgGreen}
+
+  \node[slbl,anchor=north east,text=fgGrey] at (\bX+\bW,-2.94)
+    {share of the identity gain the same adapter delivers from the sampling
+     loop};
+
+  % site 4 is not on that axis and is given its own line rather than a bar
+  \draw[rule,line width=0.4pt] (0.20,-3.24) -- (\bR,-3.24);
+  \node[site,fill=white] at (0.34,-3.52) {4};
+  \node[lbl,anchor=west,align=left] at (0.66,-3.52)
+    {\textbf{text stream} --- a different axis: ArcFace $+0.244$ against
+     $+0.254$ for site~3, at $62\%$ of the face area};
+
+\end{tikzpicture}

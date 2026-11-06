@@ -1,0 +1,547 @@
+{
+ "dataset": "ref_orig",
+ "version": "1.0",
+ "size": 30,
+ "samples": [
+  {
+   "sample_id": "person_2r_000",
+   "full_prompt": "A scene with: left a teenage girl, with long black hair, with short blonde hair, portrait photo; right a teenage girl, wearing a blue hoodie, with long black hair, portrait photo.",
+   "regional_prompts": "a teenage girl, with long black hair, with short blonde hair, portrait photo BREAK a teenage girl, wearing a blue hoodie, with long black hair, portrait photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_000_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_000_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_000_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_000_r1_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "person_2r_001",
+   "full_prompt": "A scene with: left a middle-aged man, with curly brown hair, wearing glasses, portrait photo; right a young woman, with long black hair, wearing a blue hoodie, portrait photo.",
+   "regional_prompts": "a middle-aged man, with curly brown hair, wearing glasses, portrait photo BREAK a young woman, with long black hair, wearing a blue hoodie, portrait photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_001_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_001_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_001_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_001_r1_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "person_2r_002",
+   "full_prompt": "A scene with: left an elderly woman, with short blonde hair, serious expression, portrait photo; right a young woman, with a red jacket, with long black hair, portrait photo.",
+   "regional_prompts": "an elderly woman, with short blonde hair, serious expression, portrait photo BREAK a young woman, with a red jacket, with long black hair, portrait photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_002_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_002_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_002_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_002_r1_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "person_2r_003",
+   "full_prompt": "A scene with: left a young man, with short blonde hair, wearing a blue hoodie, portrait photo; right a middle-aged man, smiling, with long black hair, portrait photo.",
+   "regional_prompts": "a young man, with short blonde hair, wearing a blue hoodie, portrait photo BREAK a middle-aged man, smiling, with long black hair, portrait photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_003_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_003_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_003_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_003_r1_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "person_2r_004",
+   "full_prompt": "A scene with: left an elderly woman, wearing a blue hoodie, smiling, portrait photo; right a young woman, with curly brown hair, wearing glasses, portrait photo.",
+   "regional_prompts": "an elderly woman, wearing a blue hoodie, smiling, portrait photo BREAK a young woman, with curly brown hair, wearing glasses, portrait photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_004_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_004_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_004_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_004_r1_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "person_2r_005",
+   "full_prompt": "A scene with: left an elderly woman, wearing glasses, with curly brown hair, portrait photo; right a middle-aged man, with a red jacket, smiling, portrait photo.",
+   "regional_prompts": "an elderly woman, wearing glasses, with curly brown hair, portrait photo BREAK a middle-aged man, with a red jacket, smiling, portrait photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_005_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_005_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_005_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_005_r1_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "person_2r_006",
+   "full_prompt": "A scene with: left a teenage boy, with long black hair, with short blonde hair, portrait photo; right an elderly woman, with long black hair, with curly brown hair, portrait photo.",
+   "regional_prompts": "a teenage boy, with long black hair, with short blonde hair, portrait photo BREAK an elderly woman, with long black hair, with curly brown hair, portrait photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_006_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_006_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_006_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_006_r1_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "person_2r_007",
+   "full_prompt": "A scene with: left a teenage boy, wearing a blue hoodie, smiling, portrait photo; right a young woman, serious expression, wearing a blue hoodie, portrait photo.",
+   "regional_prompts": "a teenage boy, wearing a blue hoodie, smiling, portrait photo BREAK a young woman, serious expression, wearing a blue hoodie, portrait photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_007_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_007_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_007_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_007_r1_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "person_2r_008",
+   "full_prompt": "A scene with: left a young woman, smiling, with short blonde hair, portrait photo; right a young man, wearing a blue hoodie, smiling, portrait photo.",
+   "regional_prompts": "a young woman, smiling, with short blonde hair, portrait photo BREAK a young man, wearing a blue hoodie, smiling, portrait photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_008_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_008_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_008_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_008_r1_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "person_2r_009",
+   "full_prompt": "A scene with: left a teenage girl, wearing glasses, wearing a blue hoodie, portrait photo; right a middle-aged man, with long black hair, with short blonde hair, portrait photo.",
+   "regional_prompts": "a teenage girl, wearing glasses, wearing a blue hoodie, portrait photo BREAK a middle-aged man, with long black hair, with short blonde hair, portrait photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_009_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_009_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_009_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_009_r1_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "person_2r_010",
+   "full_prompt": "A scene with: left a teenage girl, with a red jacket, smiling, portrait photo; right a teenage boy, with long black hair, smiling, portrait photo.",
+   "regional_prompts": "a teenage girl, with a red jacket, smiling, portrait photo BREAK a teenage boy, with long black hair, smiling, portrait photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_010_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_010_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_010_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_010_r1_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "object_2r_000",
+   "full_prompt": "A scene with: left a silver watch shot in daylight, product photo; right a wooden chair on a marble surface, product photo.",
+   "regional_prompts": "a silver watch shot in daylight, product photo BREAK a wooden chair on a marble surface, product photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_000_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_000_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_000_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_000_r1_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "object_2r_001",
+   "full_prompt": "A scene with: left a silver watch on a wooden table, product photo; right a wooden chair shot in daylight, product photo.",
+   "regional_prompts": "a silver watch on a wooden table, product photo BREAK a wooden chair shot in daylight, product photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_001_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_001_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_001_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_001_r1_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "object_2r_002",
+   "full_prompt": "A scene with: left a red apple on a white desk, product photo; right a silver watch under soft studio lighting, product photo.",
+   "regional_prompts": "a red apple on a white desk, product photo BREAK a silver watch under soft studio lighting, product photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_002_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_002_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_002_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_002_r1_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "object_2r_003",
+   "full_prompt": "A scene with: left a blue book shot in daylight, product photo; right a vintage camera on a marble surface, product photo.",
+   "regional_prompts": "a blue book shot in daylight, product photo BREAK a vintage camera on a marble surface, product photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_003_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_003_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_003_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_003_r1_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "object_2r_004",
+   "full_prompt": "A scene with: left a silver watch under soft studio lighting, product photo; right a leather wallet on a white desk, product photo.",
+   "regional_prompts": "a silver watch under soft studio lighting, product photo BREAK a leather wallet on a white desk, product photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_004_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_004_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_004_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_004_r1_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "object_2r_005",
+   "full_prompt": "A scene with: left a ceramic mug on a wooden table, product photo; right a potted plant on a white desk, product photo.",
+   "regional_prompts": "a ceramic mug on a wooden table, product photo BREAK a potted plant on a white desk, product photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_005_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_005_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_005_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_005_r1_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "object_2r_006",
+   "full_prompt": "A scene with: left a ceramic mug on a wooden table, product photo; right a vintage camera on a marble surface, product photo.",
+   "regional_prompts": "a ceramic mug on a wooden table, product photo BREAK a vintage camera on a marble surface, product photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_006_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_006_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_006_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_006_r1_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "object_2r_007",
+   "full_prompt": "A scene with: left a silver watch on a marble surface, product photo; right a leather wallet under soft studio lighting, product photo.",
+   "regional_prompts": "a silver watch on a marble surface, product photo BREAK a leather wallet under soft studio lighting, product photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_007_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_007_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_007_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_007_r1_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "object_2r_008",
+   "full_prompt": "A scene with: left a potted plant under soft studio lighting, product photo; right a ceramic mug on a wooden table, product photo.",
+   "regional_prompts": "a potted plant under soft studio lighting, product photo BREAK a ceramic mug on a wooden table, product photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_008_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_008_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_008_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_008_r1_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "object_2r_009",
+   "full_prompt": "A scene with: left a wooden chair shot in daylight, product photo; right a red apple under soft studio lighting, product photo.",
+   "regional_prompts": "a wooden chair shot in daylight, product photo BREAK a red apple under soft studio lighting, product photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_009_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_009_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_009_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_009_r1_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "object_2r_010",
+   "full_prompt": "A scene with: left a ceramic mug on a white desk, product photo; right a red apple on a black shelf, product photo.",
+   "regional_prompts": "a ceramic mug on a white desk, product photo BREAK a red apple on a black shelf, product photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_010_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_010_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_010_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_010_r1_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "mixed_2r_000",
+   "full_prompt": "A scene with: left a teenage boy, wearing a blue hoodie, smiling, portrait photo; right an elderly woman, with a red jacket, serious expression, portrait photo.",
+   "regional_prompts": "a teenage boy, wearing a blue hoodie, smiling, portrait photo BREAK an elderly woman, with a red jacket, serious expression, portrait photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_000_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_000_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_000_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_000_r1_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "mixed_2r_001",
+   "full_prompt": "A scene with: left an elderly woman, serious expression, with short blonde hair, portrait photo; right a teenage girl, smiling, wearing glasses, portrait photo.",
+   "regional_prompts": "an elderly woman, serious expression, with short blonde hair, portrait photo BREAK a teenage girl, smiling, wearing glasses, portrait photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_001_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_001_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_001_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_001_r1_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "mixed_2r_002",
+   "full_prompt": "A scene with: left an elderly woman, with curly brown hair, wearing a blue hoodie, portrait photo; right a potted plant under soft studio lighting, product photo.",
+   "regional_prompts": "an elderly woman, with curly brown hair, wearing a blue hoodie, portrait photo BREAK a potted plant under soft studio lighting, product photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_002_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_002_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_002_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_002_r1_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "mixed_2r_003",
+   "full_prompt": "A scene with: left a ceramic mug on a wooden table, product photo; right a red apple on a black shelf, product photo.",
+   "regional_prompts": "a ceramic mug on a wooden table, product photo BREAK a red apple on a black shelf, product photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_003_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_003_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_003_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_003_r1_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "mixed_2r_004",
+   "full_prompt": "A scene with: left a teenage boy, smiling, with curly brown hair, portrait photo; right a teenage boy, wearing glasses, smiling, portrait photo.",
+   "regional_prompts": "a teenage boy, smiling, with curly brown hair, portrait photo BREAK a teenage boy, wearing glasses, smiling, portrait photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_004_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_004_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_004_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_004_r1_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "mixed_2r_005",
+   "full_prompt": "A scene with: left a silver watch on a black shelf, product photo; right a young woman, serious expression, with short blonde hair, portrait photo.",
+   "regional_prompts": "a silver watch on a black shelf, product photo BREAK a young woman, serious expression, with short blonde hair, portrait photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_005_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_005_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_005_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_005_r1_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "mixed_2r_006",
+   "full_prompt": "A scene with: left a ceramic mug on a white desk, product photo; right a young woman, with short blonde hair, smiling, portrait photo.",
+   "regional_prompts": "a ceramic mug on a white desk, product photo BREAK a young woman, with short blonde hair, smiling, portrait photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_006_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_006_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_006_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_006_r1_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 2
+   }
+  },
+  {
+   "sample_id": "mixed_2r_007",
+   "full_prompt": "A scene with: left a middle-aged man, with a red jacket, smiling, portrait photo; right a middle-aged man, with a red jacket, with long black hair, portrait photo.",
+   "regional_prompts": "a middle-aged man, with a red jacket, smiling, portrait photo BREAK a middle-aged man, with a red jacket, with long black hair, portrait photo",
+   "split_ratio": "1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_007_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_007_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_007_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_007_r1_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 2
+   }
+  }
+ ]
+}

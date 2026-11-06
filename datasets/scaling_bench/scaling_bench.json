@@ -1,0 +1,2167 @@
+{
+ "dataset": "scaling_bench",
+ "version": "1.0",
+ "size": 90,
+ "samples": [
+  {
+   "sample_id": "person_4r_000",
+   "full_prompt": "A scene with: panel 1 a young woman, with long black hair; panel 2 an elderly woman, with long black hair; panel 3 a teenage boy, with long black hair; panel 4 a teenage girl, with curly brown hair.",
+   "regional_prompts": "a young woman, with long black hair BREAK an elderly woman, with long black hair BREAK a teenage boy, with long black hair BREAK a teenage girl, with curly brown hair",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_021_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_006_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_034_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_013_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_021_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_006_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_034_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_013_r1_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "object_4r_001",
+   "full_prompt": "A scene with: panel 1 a potted plant on a wooden table, product photo; panel 2 a leather wallet shot in daylight, product photo; panel 3 a vintage camera on a marble surface, product photo; panel 4 a potted plant shot in daylight, product photo.",
+   "regional_prompts": "a potted plant on a wooden table, product photo BREAK a leather wallet shot in daylight, product photo BREAK a vintage camera on a marble surface, product photo BREAK a potted plant shot in daylight, product photo",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_015_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_034_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_006_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_046_r2_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_015_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_034_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_006_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_046_r2_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "mixed_4r_002",
+   "full_prompt": "A scene with: panel 1 a middle-aged man, serious expression; panel 2 a teenage boy, wearing a blue hoodie; panel 3 a leather wallet shot in daylight, product photo; panel 4 a silver watch under soft studio lighting, product photo.",
+   "regional_prompts": "a middle-aged man, serious expression BREAK a teenage boy, wearing a blue hoodie BREAK a leather wallet shot in daylight, product photo BREAK a silver watch under soft studio lighting, product photo",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_036_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_000_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_014_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_036_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_036_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_000_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_014_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_036_r1_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "person_4r_003",
+   "full_prompt": "A scene with: panel 1 an elderly woman, with short blonde hair; panel 2 a young woman, serious expression; panel 3 a young man, with long black hair; panel 4 a teenage boy, serious expression.",
+   "regional_prompts": "an elderly woman, with short blonde hair BREAK a young woman, serious expression BREAK a young man, with long black hair BREAK a teenage boy, serious expression",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_041_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_007_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_044_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_028_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_041_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_007_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_044_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_028_r0_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "object_4r_004",
+   "full_prompt": "A scene with: panel 1 a leather wallet on a wooden table, product photo; panel 2 a ceramic mug shot in daylight, product photo; panel 3 a vintage camera under soft studio lighting, product photo; panel 4 a silver watch under soft studio lighting, product photo.",
+   "regional_prompts": "a leather wallet on a wooden table, product photo BREAK a ceramic mug shot in daylight, product photo BREAK a vintage camera under soft studio lighting, product photo BREAK a silver watch under soft studio lighting, product photo",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_044_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_027_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_045_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_030_r2_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_044_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_027_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_045_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_030_r2_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "mixed_4r_005",
+   "full_prompt": "A scene with: panel 1 a potted plant shot in daylight, product photo; panel 2 a wooden chair on a marble surface, product photo; panel 3 a potted plant on a white desk, product photo; panel 4 a leather wallet shot in daylight, product photo.",
+   "regional_prompts": "a potted plant shot in daylight, product photo BREAK a wooden chair on a marble surface, product photo BREAK a potted plant on a white desk, product photo BREAK a leather wallet shot in daylight, product photo",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_049_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_009_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_017_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_014_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_049_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_009_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_017_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_014_r1_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "person_4r_006",
+   "full_prompt": "A scene with: panel 1 an elderly woman, with a red jacket; panel 2 a young man, with long black hair; panel 3 a middle-aged man, with a red jacket; panel 4 a teenage girl, with long black hair.",
+   "regional_prompts": "an elderly woman, with a red jacket BREAK a young man, with long black hair BREAK a middle-aged man, with a red jacket BREAK a teenage girl, with long black hair",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_039_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_044_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_032_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_037_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_039_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_044_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_032_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_037_r1_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "object_4r_007",
+   "full_prompt": "A scene with: panel 1 a vintage camera under soft studio lighting, product photo; panel 2 a wooden chair on a black shelf, product photo; panel 3 a red apple under soft studio lighting, product photo; panel 4 a vintage camera on a black shelf, product photo.",
+   "regional_prompts": "a vintage camera under soft studio lighting, product photo BREAK a wooden chair on a black shelf, product photo BREAK a red apple under soft studio lighting, product photo BREAK a vintage camera on a black shelf, product photo",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_028_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_026_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_024_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_042_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_028_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_026_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_024_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_042_r0_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "mixed_4r_008",
+   "full_prompt": "A scene with: panel 1 a silver watch on a white desk, product photo; panel 2 a vintage camera on a white desk, product photo; panel 3 a leather wallet on a wooden table, product photo; panel 4 a vintage camera under soft studio lighting, product photo.",
+   "regional_prompts": "a silver watch on a white desk, product photo BREAK a vintage camera on a white desk, product photo BREAK a leather wallet on a wooden table, product photo BREAK a vintage camera under soft studio lighting, product photo",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_023_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_023_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_041_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_012_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_023_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_023_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_041_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_012_r1_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "person_4r_009",
+   "full_prompt": "A scene with: panel 1 a teenage girl, serious expression; panel 2 a young woman, with long black hair; panel 3 a young man, smiling; panel 4 a middle-aged man, wearing a blue hoodie.",
+   "regional_prompts": "a teenage girl, serious expression BREAK a young woman, with long black hair BREAK a young man, smiling BREAK a middle-aged man, wearing a blue hoodie",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_017_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_001_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_019_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_034_r2_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_017_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_001_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_019_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_034_r2_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "object_4r_010",
+   "full_prompt": "A scene with: panel 1 a blue book on a wooden table, product photo; panel 2 a red apple shot in daylight, product photo; panel 3 a leather wallet on a white desk, product photo; panel 4 a vintage camera on a black shelf, product photo.",
+   "regional_prompts": "a blue book on a wooden table, product photo BREAK a red apple shot in daylight, product photo BREAK a leather wallet on a white desk, product photo BREAK a vintage camera on a black shelf, product photo",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_047_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_016_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_004_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_026_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_047_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_016_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_004_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_026_r0_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "mixed_4r_011",
+   "full_prompt": "A scene with: panel 1 a blue book under soft studio lighting, product photo; panel 2 a young man, with curly brown hair; panel 3 a middle-aged man, serious expression; panel 4 a ceramic mug on a black shelf, product photo.",
+   "regional_prompts": "a blue book under soft studio lighting, product photo BREAK a young man, with curly brown hair BREAK a middle-aged man, serious expression BREAK a ceramic mug on a black shelf, product photo",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_029_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_041_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_036_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_013_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_029_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_041_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_036_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_013_r1_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "person_4r_012",
+   "full_prompt": "A scene with: panel 1 a young man, with short blonde hair; panel 2 an elderly woman, with long black hair; panel 3 a teenage girl, with long black hair; panel 4 a young woman, wearing glasses.",
+   "regional_prompts": "a young man, with short blonde hair BREAK an elderly woman, with long black hair BREAK a teenage girl, with long black hair BREAK a young woman, wearing glasses",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_003_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_006_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_000_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_016_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_003_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_006_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_000_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_016_r0_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "object_4r_013",
+   "full_prompt": "A scene with: panel 1 a blue book on a white desk, product photo; panel 2 a ceramic mug on a white desk, product photo; panel 3 a silver watch under soft studio lighting, product photo; panel 4 a blue book shot in daylight, product photo.",
+   "regional_prompts": "a blue book on a white desk, product photo BREAK a ceramic mug on a white desk, product photo BREAK a silver watch under soft studio lighting, product photo BREAK a blue book shot in daylight, product photo",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_044_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_010_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_004_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_012_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_044_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_010_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_004_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_012_r1_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "mixed_4r_014",
+   "full_prompt": "A scene with: panel 1 a teenage boy, with long black hair; panel 2 an elderly woman, with long black hair; panel 3 a middle-aged man, with a red jacket; panel 4 a teenage girl, smiling.",
+   "regional_prompts": "a teenage boy, with long black hair BREAK an elderly woman, with long black hair BREAK a middle-aged man, with a red jacket BREAK a teenage girl, smiling",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_013_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_028_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_007_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_001_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_013_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_028_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_007_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_001_r1_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "person_4r_015",
+   "full_prompt": "A scene with: panel 1 a teenage girl, wearing glasses; panel 2 a young woman, with long black hair; panel 3 an elderly woman, wearing glasses; panel 4 a teenage boy, smiling.",
+   "regional_prompts": "a teenage girl, wearing glasses BREAK a young woman, with long black hair BREAK an elderly woman, wearing glasses BREAK a teenage boy, smiling",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_009_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_036_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_037_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_025_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_009_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_036_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_037_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_025_r1_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "object_4r_016",
+   "full_prompt": "A scene with: panel 1 a ceramic mug on a wooden table, product photo; panel 2 a leather wallet under soft studio lighting, product photo; panel 3 a ceramic mug on a white desk, product photo; panel 4 a potted plant on a wooden table, product photo.",
+   "regional_prompts": "a ceramic mug on a wooden table, product photo BREAK a leather wallet under soft studio lighting, product photo BREAK a ceramic mug on a white desk, product photo BREAK a potted plant on a wooden table, product photo",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_008_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_007_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_010_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_015_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_008_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_007_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_010_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_015_r1_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "mixed_4r_017",
+   "full_prompt": "A scene with: panel 1 a wooden chair under soft studio lighting, product photo; panel 2 a blue book under soft studio lighting, product photo; panel 3 an elderly woman, wearing glasses; panel 4 a vintage camera on a wooden table, product photo.",
+   "regional_prompts": "a wooden chair under soft studio lighting, product photo BREAK a blue book under soft studio lighting, product photo BREAK an elderly woman, wearing glasses BREAK a vintage camera on a wooden table, product photo",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_029_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_029_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_045_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_048_r2_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_029_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_029_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_045_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_048_r2_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "person_4r_018",
+   "full_prompt": "A scene with: panel 1 a middle-aged man, serious expression; panel 2 a teenage boy, with a red jacket; panel 3 a young woman, smiling; panel 4 an elderly woman, with short blonde hair.",
+   "regional_prompts": "a middle-aged man, serious expression BREAK a teenage boy, with a red jacket BREAK a young woman, smiling BREAK an elderly woman, with short blonde hair",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_035_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_012_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_008_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_025_r2_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_035_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_012_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_008_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_025_r2_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "object_4r_019",
+   "full_prompt": "A scene with: panel 1 a ceramic mug shot in daylight, product photo; panel 2 a silver watch on a white desk, product photo; panel 3 a red apple shot in daylight, product photo; panel 4 a vintage camera on a black shelf, product photo.",
+   "regional_prompts": "a ceramic mug shot in daylight, product photo BREAK a silver watch on a white desk, product photo BREAK a red apple shot in daylight, product photo BREAK a vintage camera on a black shelf, product photo",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_027_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_045_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_039_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_016_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_027_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_045_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_039_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_016_r1_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "mixed_4r_020",
+   "full_prompt": "A scene with: panel 1 a middle-aged man, wearing glasses; panel 2 a potted plant on a white desk, product photo; panel 3 an elderly woman, with a red jacket; panel 4 a wooden chair under soft studio lighting, product photo.",
+   "regional_prompts": "a middle-aged man, wearing glasses BREAK a potted plant on a white desk, product photo BREAK an elderly woman, with a red jacket BREAK a wooden chair under soft studio lighting, product photo",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_038_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_017_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_000_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_029_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_038_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_017_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_000_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_029_r1_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "person_4r_021",
+   "full_prompt": "A scene with: panel 1 a teenage girl, wearing a blue hoodie; panel 2 a middle-aged man, with long black hair; panel 3 a young man, with long black hair; panel 4 a young woman, with curly brown hair.",
+   "regional_prompts": "a teenage girl, wearing a blue hoodie BREAK a middle-aged man, with long black hair BREAK a young man, with long black hair BREAK a young woman, with curly brown hair",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_026_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_009_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_039_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_004_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_026_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_009_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_039_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_004_r1_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "object_4r_022",
+   "full_prompt": "A scene with: panel 1 a vintage camera under soft studio lighting, product photo; panel 2 a red apple under soft studio lighting, product photo; panel 3 a wooden chair shot in daylight, product photo; panel 4 a potted plant under soft studio lighting, product photo.",
+   "regional_prompts": "a vintage camera under soft studio lighting, product photo BREAK a red apple under soft studio lighting, product photo BREAK a wooden chair shot in daylight, product photo BREAK a potted plant under soft studio lighting, product photo",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_048_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_009_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_009_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_008_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_048_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_009_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_009_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_008_r0_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "mixed_4r_023",
+   "full_prompt": "A scene with: panel 1 a young woman, with a red jacket; panel 2 a silver watch shot in daylight, product photo; panel 3 a young man, with curly brown hair; panel 4 a teenage boy, wearing a blue hoodie.",
+   "regional_prompts": "a young woman, with a red jacket BREAK a silver watch shot in daylight, product photo BREAK a young man, with curly brown hair BREAK a teenage boy, wearing a blue hoodie",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_024_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_011_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_024_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_000_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_024_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_011_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_024_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_000_r0_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "person_4r_024",
+   "full_prompt": "A scene with: panel 1 a young man, with short blonde hair; panel 2 an elderly woman, smiling; panel 3 a teenage boy, with long black hair; panel 4 a young woman, with long black hair.",
+   "regional_prompts": "a young man, with short blonde hair BREAK an elderly woman, smiling BREAK a teenage boy, with long black hair BREAK a young woman, with long black hair",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_027_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_035_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_047_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_036_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_027_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_035_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_047_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_036_r0_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "object_4r_025",
+   "full_prompt": "A scene with: panel 1 a potted plant shot in daylight, product photo; panel 2 a blue book shot in daylight, product photo; panel 3 a silver watch on a white desk, product photo; panel 4 a red apple shot in daylight, product photo.",
+   "regional_prompts": "a potted plant shot in daylight, product photo BREAK a blue book shot in daylight, product photo BREAK a silver watch on a white desk, product photo BREAK a red apple shot in daylight, product photo",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_031_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_036_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_045_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_047_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_031_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_036_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_045_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_047_r0_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "mixed_4r_026",
+   "full_prompt": "A scene with: panel 1 a teenage boy, with a red jacket; panel 2 a vintage camera on a wooden table, product photo; panel 3 an elderly woman, wearing a blue hoodie; panel 4 a silver watch shot in daylight, product photo.",
+   "regional_prompts": "a teenage boy, with a red jacket BREAK a vintage camera on a wooden table, product photo BREAK an elderly woman, wearing a blue hoodie BREAK a silver watch shot in daylight, product photo",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_033_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_048_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_025_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_011_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_033_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_048_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_025_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_011_r1_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "person_4r_027",
+   "full_prompt": "A scene with: panel 1 a teenage girl, serious expression; panel 2 a middle-aged man, with long black hair; panel 3 a teenage boy, serious expression; panel 4 a young man, with long black hair.",
+   "regional_prompts": "a teenage girl, serious expression BREAK a middle-aged man, with long black hair BREAK a teenage boy, serious expression BREAK a young man, with long black hair",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_029_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_029_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_041_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_039_r2_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_029_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_029_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_041_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_039_r2_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "object_4r_028",
+   "full_prompt": "A scene with: panel 1 a red apple under soft studio lighting, product photo; panel 2 a potted plant under soft studio lighting, product photo; panel 3 a potted plant shot in daylight, product photo; panel 4 a wooden chair shot in daylight, product photo.",
+   "regional_prompts": "a red apple under soft studio lighting, product photo BREAK a potted plant under soft studio lighting, product photo BREAK a potted plant shot in daylight, product photo BREAK a wooden chair shot in daylight, product photo",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_009_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_014_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_031_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_029_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_009_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_014_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_031_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_029_r0_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "mixed_4r_029",
+   "full_prompt": "A scene with: panel 1 a vintage camera on a wooden table, product photo; panel 2 a red apple on a black shelf, product photo; panel 3 a wooden chair on a black shelf, product photo; panel 4 a silver watch on a marble surface, product photo.",
+   "regional_prompts": "a vintage camera on a wooden table, product photo BREAK a red apple on a black shelf, product photo BREAK a wooden chair on a black shelf, product photo BREAK a silver watch on a marble surface, product photo",
+   "split_ratio": "1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_048_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_003_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_037_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_025_r2_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_048_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_003_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_037_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_025_r2_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 4
+   }
+  },
+  {
+   "sample_id": "person_5r_000",
+   "full_prompt": "A scene with: panel 1 an elderly woman; panel 2 a young woman; panel 3 a teenage boy; panel 4 a young man; panel 5 a teenage girl.",
+   "regional_prompts": "an elderly woman BREAK a young woman BREAK a teenage boy BREAK a young man BREAK a teenage girl",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_041_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_045_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_010_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_008_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_015_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_041_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_045_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_010_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_008_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_015_r0_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "object_5r_001",
+   "full_prompt": "A scene with: panel 1 a leather wallet shot in daylight; panel 2 a silver watch on a white desk; panel 3 a leather wallet on a marble surface; panel 4 a leather wallet on a white desk; panel 5 a leather wallet on a wooden table.",
+   "regional_prompts": "a leather wallet shot in daylight BREAK a silver watch on a white desk BREAK a leather wallet on a marble surface BREAK a leather wallet on a white desk BREAK a leather wallet on a wooden table",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_034_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_045_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_041_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_019_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_040_r2_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_034_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_045_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_041_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_019_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_040_r2_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "mixed_5r_002",
+   "full_prompt": "A scene with: panel 1 a potted plant on a marble surface; panel 2 a leather wallet shot in daylight; panel 3 a young woman; panel 4 a wooden chair shot in daylight; panel 5 a silver watch shot in daylight.",
+   "regional_prompts": "a potted plant on a marble surface BREAK a leather wallet shot in daylight BREAK a young woman BREAK a wooden chair shot in daylight BREAK a silver watch shot in daylight",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_044_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_014_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_006_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_033_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_026_r2_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_044_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_014_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_006_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_033_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_026_r2_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "person_5r_003",
+   "full_prompt": "A scene with: panel 1 a teenage girl; panel 2 a young woman; panel 3 a teenage boy; panel 4 a young man; panel 5 an elderly woman.",
+   "regional_prompts": "a teenage girl BREAK a young woman BREAK a teenage boy BREAK a young man BREAK an elderly woman",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_000_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_022_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_032_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_017_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_041_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_000_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_022_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_032_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_017_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_041_r1_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "object_5r_004",
+   "full_prompt": "A scene with: panel 1 a wooden chair on a white desk; panel 2 a potted plant under soft studio lighting; panel 3 a blue book shot in daylight; panel 4 a ceramic mug on a white desk; panel 5 a vintage camera under soft studio lighting.",
+   "regional_prompts": "a wooden chair on a white desk BREAK a potted plant under soft studio lighting BREAK a blue book shot in daylight BREAK a ceramic mug on a white desk BREAK a vintage camera under soft studio lighting",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_013_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_033_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_013_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_032_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_028_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_013_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_033_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_013_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_032_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_028_r1_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "mixed_5r_005",
+   "full_prompt": "A scene with: panel 1 a teenage boy; panel 2 a ceramic mug under soft studio lighting; panel 3 a blue book on a black shelf; panel 4 a silver watch on a marble surface; panel 5 a young woman.",
+   "regional_prompts": "a teenage boy BREAK a ceramic mug under soft studio lighting BREAK a blue book on a black shelf BREAK a silver watch on a marble surface BREAK a young woman",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_035_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_030_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_017_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_025_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_032_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_035_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_030_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_017_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_025_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_032_r0_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "person_5r_006",
+   "full_prompt": "A scene with: panel 1 an elderly woman; panel 2 a teenage girl; panel 3 a young woman; panel 4 a middle-aged man; panel 5 a teenage boy.",
+   "regional_prompts": "an elderly woman BREAK a teenage girl BREAK a young woman BREAK a middle-aged man BREAK a teenage boy",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_004_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_049_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_007_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_020_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_006_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_004_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_049_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_007_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_020_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_006_r0_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "object_5r_007",
+   "full_prompt": "A scene with: panel 1 a silver watch on a marble surface; panel 2 a silver watch under soft studio lighting; panel 3 a red apple under soft studio lighting; panel 4 a blue book on a white desk; panel 5 a wooden chair shot in daylight.",
+   "regional_prompts": "a silver watch on a marble surface BREAK a silver watch under soft studio lighting BREAK a red apple under soft studio lighting BREAK a blue book on a white desk BREAK a wooden chair shot in daylight",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_033_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_030_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_024_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_026_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_001_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_033_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_030_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_024_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_026_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_001_r1_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "mixed_5r_008",
+   "full_prompt": "A scene with: panel 1 a teenage boy; panel 2 a ceramic mug on a black shelf; panel 3 a teenage girl; panel 4 a silver watch on a marble surface; panel 5 a wooden chair under soft studio lighting.",
+   "regional_prompts": "a teenage boy BREAK a ceramic mug on a black shelf BREAK a teenage girl BREAK a silver watch on a marble surface BREAK a wooden chair under soft studio lighting",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_018_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_039_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_042_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_037_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_009_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_018_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_039_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_042_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_037_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_009_r1_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "person_5r_009",
+   "full_prompt": "A scene with: panel 1 a teenage girl; panel 2 a middle-aged man; panel 3 a young man; panel 4 a teenage boy; panel 5 a young woman.",
+   "regional_prompts": "a teenage girl BREAK a middle-aged man BREAK a young man BREAK a teenage boy BREAK a young woman",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_009_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_005_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_032_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_012_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_045_r2_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_009_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_005_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_032_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_012_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_045_r2_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "object_5r_010",
+   "full_prompt": "A scene with: panel 1 a blue book on a white desk; panel 2 a vintage camera on a black shelf; panel 3 a wooden chair on a black shelf; panel 4 a potted plant under soft studio lighting; panel 5 a blue book on a marble surface.",
+   "regional_prompts": "a blue book on a white desk BREAK a vintage camera on a black shelf BREAK a wooden chair on a black shelf BREAK a potted plant under soft studio lighting BREAK a blue book on a marble surface",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_027_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_042_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_018_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_008_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_036_r2_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_027_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_042_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_018_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_008_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_036_r2_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "mixed_5r_011",
+   "full_prompt": "A scene with: panel 1 a potted plant on a white desk; panel 2 a middle-aged man; panel 3 a teenage girl; panel 4 a ceramic mug shot in daylight; panel 5 a leather wallet shot in daylight.",
+   "regional_prompts": "a potted plant on a white desk BREAK a middle-aged man BREAK a teenage girl BREAK a ceramic mug shot in daylight BREAK a leather wallet shot in daylight",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_030_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_036_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_001_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_040_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_020_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_030_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_036_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_001_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_040_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_020_r1_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "person_5r_012",
+   "full_prompt": "A scene with: panel 1 a teenage boy; panel 2 a young woman; panel 3 an elderly woman; panel 4 a middle-aged man; panel 5 a teenage girl.",
+   "regional_prompts": "a teenage boy BREAK a young woman BREAK an elderly woman BREAK a middle-aged man BREAK a teenage girl",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_018_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_045_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_020_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_029_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_047_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_018_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_045_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_020_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_029_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_047_r0_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "object_5r_013",
+   "full_prompt": "A scene with: panel 1 a potted plant on a black shelf; panel 2 a silver watch on a wooden table; panel 3 a potted plant shot in daylight; panel 4 a leather wallet on a white desk; panel 5 a wooden chair on a marble surface.",
+   "regional_prompts": "a potted plant on a black shelf BREAK a silver watch on a wooden table BREAK a potted plant shot in daylight BREAK a leather wallet on a white desk BREAK a wooden chair on a marble surface",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_049_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_001_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_031_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_019_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_046_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_049_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_001_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_031_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_019_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_046_r0_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "mixed_5r_014",
+   "full_prompt": "A scene with: panel 1 a leather wallet on a marble surface; panel 2 a middle-aged man; panel 3 a young man; panel 4 a ceramic mug under soft studio lighting; panel 5 an elderly woman.",
+   "regional_prompts": "a leather wallet on a marble surface BREAK a middle-aged man BREAK a young man BREAK a ceramic mug under soft studio lighting BREAK an elderly woman",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_045_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_036_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_024_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_030_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_025_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_045_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_036_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_024_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_030_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_025_r0_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "person_5r_015",
+   "full_prompt": "A scene with: panel 1 an elderly woman; panel 2 a teenage boy; panel 3 a middle-aged man; panel 4 a young woman; panel 5 a teenage girl.",
+   "regional_prompts": "an elderly woman BREAK a teenage boy BREAK a middle-aged man BREAK a young woman BREAK a teenage girl",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_039_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_046_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_030_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_036_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_033_r2_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_039_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_046_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_030_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_036_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_033_r2_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "object_5r_016",
+   "full_prompt": "A scene with: panel 1 a red apple shot in daylight; panel 2 a silver watch on a marble surface; panel 3 a potted plant shot in daylight; panel 4 a leather wallet on a wooden table; panel 5 a ceramic mug on a wooden table.",
+   "regional_prompts": "a red apple shot in daylight BREAK a silver watch on a marble surface BREAK a potted plant shot in daylight BREAK a leather wallet on a wooden table BREAK a ceramic mug on a wooden table",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_017_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_033_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_031_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_044_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_006_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_017_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_033_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_031_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_044_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_006_r0_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "mixed_5r_017",
+   "full_prompt": "A scene with: panel 1 a middle-aged man; panel 2 a leather wallet on a wooden table; panel 3 an elderly woman; panel 4 a blue book on a black shelf; panel 5 a ceramic mug on a white desk.",
+   "regional_prompts": "a middle-aged man BREAK a leather wallet on a wooden table BREAK an elderly woman BREAK a blue book on a black shelf BREAK a ceramic mug on a white desk",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_031_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_027_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_028_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_017_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_006_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_031_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_027_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_028_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_017_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_006_r0_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "person_5r_018",
+   "full_prompt": "A scene with: panel 1 a teenage girl; panel 2 an elderly woman; panel 3 a young woman; panel 4 a teenage boy; panel 5 a young man.",
+   "regional_prompts": "a teenage girl BREAK an elderly woman BREAK a young woman BREAK a teenage boy BREAK a young man",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_018_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_004_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_036_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_023_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_046_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_018_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_004_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_036_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_023_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_046_r0_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "object_5r_019",
+   "full_prompt": "A scene with: panel 1 a ceramic mug on a wooden table; panel 2 a potted plant shot in daylight; panel 3 a ceramic mug shot in daylight; panel 4 a ceramic mug on a marble surface; panel 5 a potted plant on a white desk.",
+   "regional_prompts": "a ceramic mug on a wooden table BREAK a potted plant shot in daylight BREAK a ceramic mug shot in daylight BREAK a ceramic mug on a marble surface BREAK a potted plant on a white desk",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_006_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_023_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_027_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_048_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_025_r2_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_006_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_023_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_027_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_048_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_025_r2_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "mixed_5r_020",
+   "full_prompt": "A scene with: panel 1 a teenage boy; panel 2 a vintage camera under soft studio lighting; panel 3 a silver watch shot in daylight; panel 4 a wooden chair under soft studio lighting; panel 5 a leather wallet on a wooden table.",
+   "regional_prompts": "a teenage boy BREAK a vintage camera under soft studio lighting BREAK a silver watch shot in daylight BREAK a wooden chair under soft studio lighting BREAK a leather wallet on a wooden table",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_032_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_012_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_011_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_012_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_021_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_032_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_012_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_011_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_012_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_021_r0_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "person_5r_021",
+   "full_prompt": "A scene with: panel 1 an elderly woman; panel 2 a young woman; panel 3 a teenage girl; panel 4 a young man; panel 5 a teenage boy.",
+   "regional_prompts": "an elderly woman BREAK a young woman BREAK a teenage girl BREAK a young man BREAK a teenage boy",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_006_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_007_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_015_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_023_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_025_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_006_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_007_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_015_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_023_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_025_r1_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "object_5r_022",
+   "full_prompt": "A scene with: panel 1 a ceramic mug on a white desk; panel 2 a leather wallet on a wooden table; panel 3 a vintage camera under soft studio lighting; panel 4 a blue book shot in daylight; panel 5 a potted plant on a marble surface.",
+   "regional_prompts": "a ceramic mug on a white desk BREAK a leather wallet on a wooden table BREAK a vintage camera under soft studio lighting BREAK a blue book shot in daylight BREAK a potted plant on a marble surface",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_032_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_040_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_045_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_038_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_040_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_032_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_040_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_045_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_038_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_040_r0_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "mixed_5r_023",
+   "full_prompt": "A scene with: panel 1 a wooden chair under soft studio lighting; panel 2 a silver watch on a marble surface; panel 3 a wooden chair on a marble surface; panel 4 a wooden chair on a black shelf; panel 5 a teenage girl.",
+   "regional_prompts": "a wooden chair under soft studio lighting BREAK a silver watch on a marble surface BREAK a wooden chair on a marble surface BREAK a wooden chair on a black shelf BREAK a teenage girl",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_029_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_037_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_009_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_014_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_016_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_029_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_037_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_009_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_014_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_016_r0_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "person_5r_024",
+   "full_prompt": "A scene with: panel 1 an elderly woman; panel 2 a teenage boy; panel 3 a teenage girl; panel 4 a young woman; panel 5 a young man.",
+   "regional_prompts": "an elderly woman BREAK a teenage boy BREAK a teenage girl BREAK a young woman BREAK a young man",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_041_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_011_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_049_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_004_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_017_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_041_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_011_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_049_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_004_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_017_r0_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "object_5r_025",
+   "full_prompt": "A scene with: panel 1 a blue book shot in daylight; panel 2 a blue book on a white desk; panel 3 a silver watch under soft studio lighting; panel 4 a potted plant on a wooden table; panel 5 a leather wallet shot in daylight.",
+   "regional_prompts": "a blue book shot in daylight BREAK a blue book on a white desk BREAK a silver watch under soft studio lighting BREAK a potted plant on a wooden table BREAK a leather wallet shot in daylight",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_038_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_017_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_030_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_015_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_034_r2_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_038_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_017_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_030_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_015_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_034_r2_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "mixed_5r_026",
+   "full_prompt": "A scene with: panel 1 a teenage boy; panel 2 a potted plant on a white desk; panel 3 a silver watch under soft studio lighting; panel 4 a ceramic mug under soft studio lighting; panel 5 a young man.",
+   "regional_prompts": "a teenage boy BREAK a potted plant on a white desk BREAK a silver watch under soft studio lighting BREAK a ceramic mug under soft studio lighting BREAK a young man",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_018_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_017_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_043_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_030_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_042_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_018_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_017_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_043_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_030_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_042_r1_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "person_5r_027",
+   "full_prompt": "A scene with: panel 1 a middle-aged man; panel 2 a young man; panel 3 a teenage boy; panel 4 a teenage girl; panel 5 an elderly woman.",
+   "regional_prompts": "a middle-aged man BREAK a young man BREAK a teenage boy BREAK a teenage girl BREAK an elderly woman",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_046_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_030_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_032_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_021_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_040_r2_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_046_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_030_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_032_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_021_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_040_r2_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "object_5r_028",
+   "full_prompt": "A scene with: panel 1 a wooden chair on a marble surface; panel 2 a leather wallet on a marble surface; panel 3 a blue book shot in daylight; panel 4 a vintage camera shot in daylight; panel 5 a wooden chair on a white desk.",
+   "regional_prompts": "a wooden chair on a marble surface BREAK a leather wallet on a marble surface BREAK a blue book shot in daylight BREAK a vintage camera shot in daylight BREAK a wooden chair on a white desk",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_046_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_041_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_013_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_022_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_035_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_046_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_041_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_013_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_022_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_035_r1_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "mixed_5r_029",
+   "full_prompt": "A scene with: panel 1 a ceramic mug on a white desk; panel 2 a potted plant on a white desk; panel 3 a potted plant under soft studio lighting; panel 4 a leather wallet on a marble surface; panel 5 a leather wallet on a wooden table.",
+   "regional_prompts": "a ceramic mug on a white desk BREAK a potted plant on a white desk BREAK a potted plant under soft studio lighting BREAK a leather wallet on a marble surface BREAK a leather wallet on a wooden table",
+   "split_ratio": "1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_047_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_017_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_039_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_045_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_049_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_047_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_017_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_039_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_045_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_049_r0_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 5
+   }
+  },
+  {
+   "sample_id": "person_6r_000",
+   "full_prompt": "A scene with: panel 1 a teenage girl; panel 2 an elderly woman; panel 3 a young man; panel 4 a young woman; panel 5 a teenage boy; panel 6 a middle-aged man.",
+   "regional_prompts": "a teenage girl BREAK an elderly woman BREAK a young man BREAK a young woman BREAK a teenage boy BREAK a middle-aged man",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_030_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_041_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_043_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_016_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_046_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_030_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_030_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_041_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_043_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_016_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_046_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_030_r1_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "object_6r_001",
+   "full_prompt": "A scene with: panel 1 a vintage camera shot in daylight; panel 2 a wooden chair shot in daylight; panel 3 a silver watch under soft studio lighting; panel 4 a leather wallet on a white desk; panel 5 a silver watch on a wooden table; panel 6 a wooden chair on a white desk.",
+   "regional_prompts": "a vintage camera shot in daylight BREAK a wooden chair shot in daylight BREAK a silver watch under soft studio lighting BREAK a leather wallet on a white desk BREAK a silver watch on a wooden table BREAK a wooden chair on a white desk",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_022_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_001_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_029_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_019_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_001_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_024_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_022_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_001_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_029_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_019_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_001_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_024_r0_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "mixed_6r_002",
+   "full_prompt": "A scene with: panel 1 a blue book under soft studio lighting; panel 2 a ceramic mug on a white desk; panel 3 a potted plant shot in daylight; panel 4 a silver watch under soft studio lighting; panel 5 a vintage camera on a wooden table; panel 6 a vintage camera on a white desk.",
+   "regional_prompts": "a blue book under soft studio lighting BREAK a ceramic mug on a white desk BREAK a potted plant shot in daylight BREAK a silver watch under soft studio lighting BREAK a vintage camera on a wooden table BREAK a vintage camera on a white desk",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_029_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_047_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_037_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_043_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_048_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_023_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_029_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_047_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_037_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_043_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_048_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_023_r0_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "person_6r_003",
+   "full_prompt": "A scene with: panel 1 an elderly woman; panel 2 a teenage boy; panel 3 a young man; panel 4 a middle-aged man; panel 5 a teenage girl; panel 6 a young woman.",
+   "regional_prompts": "an elderly woman BREAK a teenage boy BREAK a young man BREAK a middle-aged man BREAK a teenage girl BREAK a young woman",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_020_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_015_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_049_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_003_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_019_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_036_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_020_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_015_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_049_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_003_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_019_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_036_r0_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "object_6r_004",
+   "full_prompt": "A scene with: panel 1 a wooden chair shot in daylight; panel 2 a ceramic mug on a wooden table; panel 3 a red apple under soft studio lighting; panel 4 a ceramic mug on a white desk; panel 5 a leather wallet on a wooden table; panel 6 a blue book on a wooden table.",
+   "regional_prompts": "a wooden chair shot in daylight BREAK a ceramic mug on a wooden table BREAK a red apple under soft studio lighting BREAK a ceramic mug on a white desk BREAK a leather wallet on a wooden table BREAK a blue book on a wooden table",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_009_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_006_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_009_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_032_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_044_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_020_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_009_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_006_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_009_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_032_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_044_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_020_r1_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "mixed_6r_005",
+   "full_prompt": "A scene with: panel 1 a vintage camera on a white desk; panel 2 a teenage boy; panel 3 a middle-aged man; panel 4 a vintage camera on a wooden table; panel 5 a leather wallet on a wooden table; panel 6 a silver watch shot in daylight.",
+   "regional_prompts": "a vintage camera on a white desk BREAK a teenage boy BREAK a middle-aged man BREAK a vintage camera on a wooden table BREAK a leather wallet on a wooden table BREAK a silver watch shot in daylight",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_023_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_034_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_021_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_048_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_027_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_011_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_023_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_034_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_021_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_048_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_027_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_011_r1_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "person_6r_006",
+   "full_prompt": "A scene with: panel 1 a young man; panel 2 a young woman; panel 3 a teenage girl; panel 4 a teenage boy; panel 5 an elderly woman; panel 6 a middle-aged man.",
+   "regional_prompts": "a young man BREAK a young woman BREAK a teenage girl BREAK a teenage boy BREAK an elderly woman BREAK a middle-aged man",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_043_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_038_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_024_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_023_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_041_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_032_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_043_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_038_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_024_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_023_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_041_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_032_r1_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "object_6r_007",
+   "full_prompt": "A scene with: panel 1 a leather wallet shot in daylight; panel 2 a wooden chair on a white desk; panel 3 a vintage camera on a wooden table; panel 4 a potted plant on a marble surface; panel 5 a blue book shot in daylight; panel 6 a vintage camera on a marble surface.",
+   "regional_prompts": "a leather wallet shot in daylight BREAK a wooden chair on a white desk BREAK a vintage camera on a wooden table BREAK a potted plant on a marble surface BREAK a blue book shot in daylight BREAK a vintage camera on a marble surface",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_041_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_013_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_035_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_040_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_003_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_003_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_041_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_013_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_035_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_040_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_003_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_003_r1_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "mixed_6r_008",
+   "full_prompt": "A scene with: panel 1 a leather wallet on a black shelf; panel 2 a ceramic mug on a white desk; panel 3 a blue book on a black shelf; panel 4 a vintage camera on a black shelf; panel 5 a young woman; panel 6 a potted plant on a black shelf.",
+   "regional_prompts": "a leather wallet on a black shelf BREAK a ceramic mug on a white desk BREAK a blue book on a black shelf BREAK a vintage camera on a black shelf BREAK a young woman BREAK a potted plant on a black shelf",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_040_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_006_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_017_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_022_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_032_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_043_r2_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_040_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_006_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_017_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_022_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_032_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_043_r2_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "person_6r_009",
+   "full_prompt": "A scene with: panel 1 an elderly woman; panel 2 a young man; panel 3 a teenage girl; panel 4 a middle-aged man; panel 5 a teenage boy; panel 6 a young woman.",
+   "regional_prompts": "an elderly woman BREAK a young man BREAK a teenage girl BREAK a middle-aged man BREAK a teenage boy BREAK a young woman",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_037_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_039_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_019_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_001_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_015_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_036_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_037_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_039_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_019_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_001_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_015_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_036_r0_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "object_6r_010",
+   "full_prompt": "A scene with: panel 1 a wooden chair on a white desk; panel 2 a red apple on a marble surface; panel 3 a silver watch shot in daylight; panel 4 a red apple on a black shelf; panel 5 a potted plant shot in daylight; panel 6 a ceramic mug on a wooden table.",
+   "regional_prompts": "a wooden chair on a white desk BREAK a red apple on a marble surface BREAK a silver watch shot in daylight BREAK a red apple on a black shelf BREAK a potted plant shot in daylight BREAK a ceramic mug on a wooden table",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_035_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_031_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_029_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_010_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_023_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_008_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_035_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_031_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_029_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_010_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_023_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_008_r1_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "mixed_6r_011",
+   "full_prompt": "A scene with: panel 1 a wooden chair on a marble surface; panel 2 a middle-aged man; panel 3 a red apple on a wooden table; panel 4 a leather wallet on a wooden table; panel 5 a blue book shot in daylight; panel 6 a leather wallet shot in daylight.",
+   "regional_prompts": "a wooden chair on a marble surface BREAK a middle-aged man BREAK a red apple on a wooden table BREAK a leather wallet on a wooden table BREAK a blue book shot in daylight BREAK a leather wallet shot in daylight",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_031_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_007_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_044_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_049_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_046_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_014_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_031_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_007_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_044_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_049_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_046_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_014_r1_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "person_6r_012",
+   "full_prompt": "A scene with: panel 1 a teenage girl; panel 2 a young woman; panel 3 an elderly woman; panel 4 a young man; panel 5 a teenage boy; panel 6 a middle-aged man.",
+   "regional_prompts": "a teenage girl BREAK a young woman BREAK an elderly woman BREAK a young man BREAK a teenage boy BREAK a middle-aged man",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_047_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_038_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_002_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_043_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_046_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_042_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_047_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_038_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_002_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_043_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_046_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_042_r1_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "object_6r_013",
+   "full_prompt": "A scene with: panel 1 a red apple shot in daylight; panel 2 a potted plant on a marble surface; panel 3 a silver watch on a marble surface; panel 4 a blue book on a marble surface; panel 5 a silver watch on a white desk; panel 6 a potted plant on a white desk.",
+   "regional_prompts": "a red apple shot in daylight BREAK a potted plant on a marble surface BREAK a silver watch on a marble surface BREAK a blue book on a marble surface BREAK a silver watch on a white desk BREAK a potted plant on a white desk",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_039_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_040_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_045_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_019_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_045_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_030_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_039_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_040_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_045_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_019_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_045_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_030_r0_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "mixed_6r_014",
+   "full_prompt": "A scene with: panel 1 a young woman; panel 2 a wooden chair on a black shelf; panel 3 a potted plant on a white desk; panel 4 a silver watch on a marble surface; panel 5 a wooden chair under soft studio lighting; panel 6 an elderly woman.",
+   "regional_prompts": "a young woman BREAK a wooden chair on a black shelf BREAK a potted plant on a white desk BREAK a silver watch on a marble surface BREAK a wooden chair under soft studio lighting BREAK an elderly woman",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_032_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_014_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_017_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_025_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_012_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_045_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_032_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_014_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_017_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_025_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_012_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_045_r0_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "person_6r_015",
+   "full_prompt": "A scene with: panel 1 a teenage boy; panel 2 a young man; panel 3 a teenage girl; panel 4 a middle-aged man; panel 5 a young woman; panel 6 an elderly woman.",
+   "regional_prompts": "a teenage boy BREAK a young man BREAK a teenage girl BREAK a middle-aged man BREAK a young woman BREAK an elderly woman",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_028_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_003_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_021_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_033_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_039_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_040_r2_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_028_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_003_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_021_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_033_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_039_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_040_r2_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "object_6r_016",
+   "full_prompt": "A scene with: panel 1 a blue book on a marble surface; panel 2 a potted plant on a marble surface; panel 3 a wooden chair on a white desk; panel 4 a ceramic mug under soft studio lighting; panel 5 a silver watch under soft studio lighting; panel 6 a wooden chair on a marble surface.",
+   "regional_prompts": "a blue book on a marble surface BREAK a potted plant on a marble surface BREAK a wooden chair on a white desk BREAK a ceramic mug under soft studio lighting BREAK a silver watch under soft studio lighting BREAK a wooden chair on a marble surface",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_036_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_040_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_035_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_049_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_029_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_000_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_036_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_040_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_035_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_049_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_029_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_000_r1_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "mixed_6r_017",
+   "full_prompt": "A scene with: panel 1 a ceramic mug on a black shelf; panel 2 a vintage camera on a black shelf; panel 3 a leather wallet on a wooden table; panel 4 a teenage boy; panel 5 a red apple on a black shelf; panel 6 an elderly woman.",
+   "regional_prompts": "a ceramic mug on a black shelf BREAK a vintage camera on a black shelf BREAK a leather wallet on a wooden table BREAK a teenage boy BREAK a red apple on a black shelf BREAK an elderly woman",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_013_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_022_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_027_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_038_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_048_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_046_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_013_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_022_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_027_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_038_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_048_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_046_r0_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "person_6r_018",
+   "full_prompt": "A scene with: panel 1 a teenage girl; panel 2 a young woman; panel 3 a teenage boy; panel 4 an elderly woman; panel 5 a middle-aged man; panel 6 a young man.",
+   "regional_prompts": "a teenage girl BREAK a young woman BREAK a teenage boy BREAK an elderly woman BREAK a middle-aged man BREAK a young man",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_000_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_022_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_046_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_047_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_009_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_045_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_000_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_022_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_046_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_047_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_009_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_045_r1_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "object_6r_019",
+   "full_prompt": "A scene with: panel 1 a potted plant shot in daylight; panel 2 a ceramic mug on a marble surface; panel 3 a potted plant on a black shelf; panel 4 a red apple shot in daylight; panel 5 a potted plant on a wooden table; panel 6 a red apple on a marble surface.",
+   "regional_prompts": "a potted plant shot in daylight BREAK a ceramic mug on a marble surface BREAK a potted plant on a black shelf BREAK a red apple shot in daylight BREAK a potted plant on a wooden table BREAK a red apple on a marble surface",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_046_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_048_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_049_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_035_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_015_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_015_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_046_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_048_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_049_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_035_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_015_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_015_r0_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "mixed_6r_020",
+   "full_prompt": "A scene with: panel 1 a teenage boy; panel 2 a silver watch on a black shelf; panel 3 a leather wallet shot in daylight; panel 4 a silver watch on a wooden table; panel 5 an elderly woman; panel 6 a leather wallet on a black shelf.",
+   "regional_prompts": "a teenage boy BREAK a silver watch on a black shelf BREAK a leather wallet shot in daylight BREAK a silver watch on a wooden table BREAK an elderly woman BREAK a leather wallet on a black shelf",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_018_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_005_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_014_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_026_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_028_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_015_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_018_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_005_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_014_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_026_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_028_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_015_r1_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "person_6r_021",
+   "full_prompt": "A scene with: panel 1 a young man; panel 2 a middle-aged man; panel 3 an elderly woman; panel 4 a teenage boy; panel 5 a young woman; panel 6 a teenage girl.",
+   "regional_prompts": "a young man BREAK a middle-aged man BREAK an elderly woman BREAK a teenage boy BREAK a young woman BREAK a teenage girl",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_031_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_029_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_040_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_047_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_022_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_019_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_3r_031_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_029_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_040_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_047_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_022_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_019_r0_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "object_6r_022",
+   "full_prompt": "A scene with: panel 1 a blue book on a wooden table; panel 2 a wooden chair under soft studio lighting; panel 3 a red apple on a black shelf; panel 4 a wooden chair shot in daylight; panel 5 a potted plant on a marble surface; panel 6 a vintage camera shot in daylight.",
+   "regional_prompts": "a blue book on a wooden table BREAK a wooden chair under soft studio lighting BREAK a red apple on a black shelf BREAK a wooden chair shot in daylight BREAK a potted plant on a marble surface BREAK a vintage camera shot in daylight",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_041_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_025_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_010_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_009_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_039_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_022_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_3r_041_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_025_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_010_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_009_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_039_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_022_r1_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "mixed_6r_023",
+   "full_prompt": "A scene with: panel 1 a leather wallet on a wooden table; panel 2 a red apple on a black shelf; panel 3 a silver watch shot in daylight; panel 4 a red apple on a wooden table; panel 5 a silver watch under soft studio lighting; panel 6 a potted plant on a white desk.",
+   "regional_prompts": "a leather wallet on a wooden table BREAK a red apple on a black shelf BREAK a silver watch shot in daylight BREAK a red apple on a wooden table BREAK a silver watch under soft studio lighting BREAK a potted plant on a white desk",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_021_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_048_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_026_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_044_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_036_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_017_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_021_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_048_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_026_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_044_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_036_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_017_r1_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "person_6r_024",
+   "full_prompt": "A scene with: panel 1 a young woman; panel 2 a teenage boy; panel 3 a teenage girl; panel 4 a middle-aged man; panel 5 a young man; panel 6 an elderly woman.",
+   "regional_prompts": "a young woman BREAK a teenage boy BREAK a teenage girl BREAK a middle-aged man BREAK a young man BREAK an elderly woman",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_016_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_010_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_026_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_040_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_027_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_041_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_016_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_010_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_026_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_040_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_027_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_041_r1_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "object_6r_025",
+   "full_prompt": "A scene with: panel 1 a red apple on a marble surface; panel 2 a potted plant on a marble surface; panel 3 a ceramic mug on a white desk; panel 4 a wooden chair on a white desk; panel 5 a wooden chair on a marble surface; panel 6 a silver watch on a marble surface.",
+   "regional_prompts": "a red apple on a marble surface BREAK a potted plant on a marble surface BREAK a ceramic mug on a white desk BREAK a wooden chair on a white desk BREAK a wooden chair on a marble surface BREAK a silver watch on a marble surface",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_015_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_040_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_012_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_024_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_000_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_043_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_015_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_040_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_012_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_024_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_000_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_043_r1_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "mixed_6r_026",
+   "full_prompt": "A scene with: panel 1 a teenage girl; panel 2 a teenage boy; panel 3 a wooden chair on a marble surface; panel 4 a blue book on a wooden table; panel 5 a potted plant on a black shelf; panel 6 a young woman.",
+   "regional_prompts": "a teenage girl BREAK a teenage boy BREAK a wooden chair on a marble surface BREAK a blue book on a wooden table BREAK a potted plant on a black shelf BREAK a young woman",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_016_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_013_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_031_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_010_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_046_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_024_r0_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_016_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_013_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_031_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_010_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_046_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_024_r0_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "person_6r_027",
+   "full_prompt": "A scene with: panel 1 a teenage girl; panel 2 a young woman; panel 3 a young man; panel 4 a teenage boy; panel 5 an elderly woman; panel 6 a middle-aged man.",
+   "regional_prompts": "a teenage girl BREAK a young woman BREAK a young man BREAK a teenage boy BREAK an elderly woman BREAK a middle-aged man",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_014_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_022_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_030_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_046_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_040_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_040_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\person_2r_014_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_2r_022_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_030_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_046_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_040_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\person_3r_040_r1_b.png"
+   ],
+   "metadata": {
+    "category": "person",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "object_6r_028",
+   "full_prompt": "A scene with: panel 1 a silver watch on a wooden table; panel 2 a ceramic mug on a marble surface; panel 3 a potted plant on a wooden table; panel 4 a red apple shot in daylight; panel 5 a silver watch on a black shelf; panel 6 a wooden chair on a white desk.",
+   "regional_prompts": "a silver watch on a wooden table BREAK a ceramic mug on a marble surface BREAK a potted plant on a wooden table BREAK a red apple shot in daylight BREAK a silver watch on a black shelf BREAK a wooden chair on a white desk",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_001_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_048_r2_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_027_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_017_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_032_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_035_r1_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\object_2r_001_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_048_r2_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_027_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_2r_017_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_032_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\object_3r_035_r1_b.png"
+   ],
+   "metadata": {
+    "category": "object",
+    "region_count": 6
+   }
+  },
+  {
+   "sample_id": "mixed_6r_029",
+   "full_prompt": "A scene with: panel 1 a leather wallet shot in daylight; panel 2 a middle-aged man; panel 3 a wooden chair on a marble surface; panel 4 a teenage boy; panel 5 a red apple on a black shelf; panel 6 a wooden chair on a black shelf.",
+   "regional_prompts": "a leather wallet shot in daylight BREAK a middle-aged man BREAK a wooden chair on a marble surface BREAK a teenage boy BREAK a red apple on a black shelf BREAK a wooden chair on a black shelf",
+   "split_ratio": "1,1,1,1,1,1",
+   "reference_image_paths": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_020_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_007_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_009_r0_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_034_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_003_r1_a.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_037_r2_a.png"
+   ],
+   "reference_image_paths_extra": [
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_020_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_007_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_009_r0_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_034_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_2r_003_r1_b.png",
+    "datasets\\mixed_eval_v1\\refs\\mixed_3r_037_r2_b.png"
+   ],
+   "metadata": {
+    "category": "mixed",
+    "region_count": 6
+   }
+  }
+ ]
+}
